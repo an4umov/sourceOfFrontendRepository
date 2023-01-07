@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LR.RU &ndash; Offer page</title>
+
+    <link rel="preload" href="font/opensans.woff2" as="font" crossorigin>
+    <link rel="preload" href="font/opensansbold.woff2" as="font" crossorigin>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page-body">
+    <div class="page-body__container">
+        
+        <header class="header">
+
+            <!-- header mobile -->
+            <div class="header-mobile">
+
+                <!-- logo mobile -->
+                <a href="index.html" class="header-mobile__logo">
+                    <img src="img/header-logo.svg" alt="">
+                </a>
+
+                <!-- search panel mobile -->
+                <div class="header-mobile__search-panel search-panel-mobile">
+
+                    <div class="search-panel-mobile__user-location">
+                        Мы доставляем в ваш город: <span>Москва</span>
+                    </div>
+
+                    <form class="search-panel-mobile__search search-mobile">
+                        <input class="search-mobile__input" type="text" placeholder="Поиск по артикулу или наименованию...">
+                        <button class="search-mobile__setting"></button>
+                        <button class="search-mobile__submit" type="submit"></button>
+                    </form>
+
+                </div>
+
+                <!-- right panel mobile -->
+                <div class="header-mobile__right-panel right-panel">
+
+                    <div class="right-panel__info">
+                        +7 495 649 60 60
+                    </div>
+
+                    <div class="right-panel__user user-mobile">
+
+                        <a href="#" class="user-mobile__favorites">
+                            <img src="img/favorites-icon.svg" alt="">
+                            <span>7</span>
+                        </a>
+    
+                        <a href="#" class="user-mobile__shopping-cart">
+                            <img src="img/shopping-cart-icon.svg" alt="">
+                            <span>12</span>
+                        </a>
+    
+                        <div class="user-mobile__wrapper user-wrapper">
+
+                            <div class="user-wrapper__hidden-btn">
+                                <a class="hidden-btn__icon" >
+                                  <span class="hb-line line-1"></span>
+                                  <span class="hb-line line-2"></span>
+                                  <span class="hb-line line-3"></span>
+                                </a>     
+                            </div>
+                            
+
+                            <!-- hidden menu -->
+                            <div class="user-wrapper__hidden-menu hidden-menu">
+
+                                <ul class="hidden-menu__links">
+                                    <li class="hidden-menu__link hidden-menu__link--enter"><a href="#">Вход</a></li>
+                                    <li class="hidden-menu__link"><a href="#">Faq</a></li>
+                                    <li class="hidden-menu__link"><a href="#">Контакты</a></li>
+                                </ul>
+
+                                <a href="#" class="hidden-menu__call-btn">
+                                    позвонить
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- header desktop -->
+            <div class="header-desktop">
+
+                <!-- logo desktop -->
+                <a href="index.html" class="header-desktop__logo">
+                    <img src="img/header-logo.svg" alt="">
+                </a>
+
+                <!-- search panel desktop -->
+                <div class="header-desktop__search-panel search-panel">
+
+                    <div class="search-panel__user-location">
+                        Мы доставляем в ваш город: <span>Москва</span>
+                    </div>
+
+                    <form class="search-panel__search search">
+                        <input class="search__input" type="text" placeholder="Поиск по артикулу или наименованию...">
+                        <button class="search__setting"></button>
+                        <button class="search__submit" type="submit"></button>
+                    </form>
+
+                </div>
+
+                <!-- user desktop -->
+                <div class="header-desktop__user user">
+
+                    <a class="user__favorites">
+                        <img src="img/favorites-icon.svg" alt="">
+                        <p>Избранное</p>
+                        <span>7</span>
+                    </a>
+
+                    <a class="user__shopping-cart">
+                        <img src="img/shopping-cart-icon.svg" alt="">
+                        <p>Корзина</p>
+                        <span>12</span>
+                    </a>
+
+                    <a class="user__enter">
+                        <img src="img/enter-icon.svg" alt="">
+                        <p>Вход</p>
+                        <!-- <span></span> -->
+                    </a>
+
+                </div>
+
+                <!-- contacts desktop -->
+                <div class="header-desktop__contacts contacts">
+
+                    <div class="contacts__links">
+
+                        <a href="#" class="contacts__link">FAQ</a>
+                        <a href="#" class="contacts__link">Контакты</a>
+
+                    </div>
+
+                    <div class="contacts__numbers">
+
+                        <a href="#" class="contacts__number">+7 (495) 649 60 60</a>
+                        <a href="#" class="contacts__number">+7 (495) 649 60 60</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- header modal Contact Us -->
+            <div class="header-contact-us">
+                <div class="header-contact-us__blur"></div>
+                <div class="header-contact-us__wrapper">
+                    <div class="header-contact-us__close"></div>
+
+                    <div class="header-contact-us__title">
+                        Связаться с нами
+                    </div>
+
+                    <div class="header-contact-us__subtitle">
+                        По телефону:
+                    </div>
+
+                    <ul class="header-contact-us__numbers">
+                        <li class="header-contact-us__number">
+                            <a href="tel:+74956496060">+7 495 649 60 60</a>
+                        </li>
+                        <li class="header-contact-us__number">
+                            <a href="tel:+74956496060">+7 495 649 60 60</a>
+                        </li>
+                    </ul>
+
+                    <div class="header-contact-us__subtitle">
+                        В мессенджерах:
+                    </div>
+
+                    <ul class="header-contact-us__app-links">
+                        <li class="header-contact-us__app-link header-contact-us__app-link--whatsapp">
+                            <a href=""></a>
+                        </li>
+                        <li class="header-contact-us__app-link header-contact-us__app-link--telegram">
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+
+
+        
+        <nav class="navigation">
+
+            <ul class="navigation__catalog-links">
+                <li class="navigation__catalog-link--groups">
+                    <a href="">Группы товаров</a>
+                </li>
+                <li class="navigation__catalog-link--car">
+                    <a href="">Модели авто</a>
+                </li>
+            </ul>
+
+            <div class="navigation__arrow-left"></div>
+            <div class="navigation__arrow-right"></div>
+
+            <ul class="navigation__nav-list">
+                <li class="navigation__nav-item">
+                    <a href="">Скидка дня</a>
+                    <span style="background-color: #E93333;">777</span>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="">Новые поступления</a>
+                    <span style="background-color: #01B047;">42</span>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="news.html">Новости</a>
+                    <span>7</span>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="">Блог</a>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="">Галлерея</a>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="offers-catalog.html">Каталог товаров</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <main class="page-body__main">
+
+            <!--Single-offer-vendor-page-->
+            <section class="single-offer-vendor-page">
+
+                <h1 class="single-offer-vendor-page__title">Решетка радиатора и эмблема Land Rover Defender Adventure Edition</h1>
+
+                <div class="single-offer-vendor-page__inner">    
+                    <div class="single-offer-vendor-page__slider vendor-slider">
+
+                        <div class="vendor-slider__active-slide activeSlide">
+                            <div class="activeSlide__slider">
+                                <!-- First slide -->
+                                <div class="activeSlide__slider-item">
+                                    <img src="img/offers/single-offer/slider/slider_img1.jpg" alt="">
+                                </div>
+                                <!-- Second slide -->
+                                <div class="activeSlide__slider-item">
+                                    <img src="img/offers/single-offer/slider/slider_img2.jpg" alt="">
+                                </div>
+                                <!-- Third slide -->
+                                <div class="activeSlide__slider-item">
+                                    <img src="img/offers/single-offer/slider/slider_img3.jpg" alt="">
+                                </div>
+                                <!-- Fourth slide -->
+                                <div class="activeSlide__slider-item">
+                                    <div class="activeSlide__slider-video">
+                                        <a class="activeSlide__video-link">
+                                            <img class="activeSlide__media" src="https://i.ytimg.com/vi/84DfZx2JVVY/maxresdefault.jpg" alt="">
+                                            <div class="activeSlide__button">
+                                                <svg width="68" height="50" viewBox="0 0 68 50">
+                                                    <path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+                                                    <path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+                                                </svg>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Fifth slide -->
+                                <div class="activeSlide__slider-item">
+                                    <img src="img/offers/single-offer/slider/slider_img4.jpg" alt="">
+                                </div>
+                                
+
+                            </div>
+
+                            <div class="activeSlide__active-thumbnail"></div>
+                            <div class="activeSlide__prev-slide"></div>
+                            <div class="activeSlide__next-slide"></div>
+                        </div>
+
+                        <div class="vendor-slider__inner">
+
+                            <div class="vendor-slider__thumbnails">
+                                <div class="vendor-slider__thumbnails-inner">
+                 
+
+                                </div>
+
+                                <div class="vendor-slider__control vendor-slider__control--prev"></div>
+                                <div class="vendor-slider__control vendor-slider__control--next"> </div>
+                            </div>
+
+                        </div>
+
+
+                        
+                    </div>
+
+                    <div class="single-offer-vendor-page__description single-vendor-description">
+
+                        <div class="single-vendor-description__vendor">
+                            Артикул: <span>LR069115</span>
+                        </div>
+
+                        <div class="single-vendor-description__text">
+                            Интересный текст-рыба с тематическим уклоном для описания решетки радиатора.
+                            Некоторые владельцы Land Rover Discovery задумываются об установке передних элементов с целью рестайлинга. Однако полная замена "передка" - достаточно дорогое удовольствие, так как подразумевает замену решетки радиатора, фар,  переднего бампера, рамы и кронштейнов крепления передних элементов, передних крыльев и некоторых крепежных элементов и электрических разъемов.
+                            Производить полный рестайлинг вряд ли целесообразно, так в этом случае, возможно, будет оптимальнее сменить сам автомобиль на следующую серию с доплатой (ее сумма будет порядка стоимости рестайлинга).
+                            Однако, для желающих "освежить" и сделать более современным вид есть более простой и бюджетный выход - стайлинговые решетки радиатора и крыльев.
+                            На фотографиях приведены примеры такой установки.
+                            Радиаторная решётка - элемент кузова автомобиля, защищающий и пропускающий воздух к радиатору двигателя. 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, illo saepe laudantium earum nostrum nesciunt natus. Excepturi fugiat ad consequatur minima, placeat praesentium! Odit asperiores libero dolores expedita ullam saepe mollitia magnam voluptate ducimus! Qui, quos voluptate temporibus atque dolore neque expedita beatae, exercitationem odit rem tenetur, veritatis deleniti earum.
+                        </div>
+
+                        <div class="single-vendor-description__panel">
+
+                            <a href="#" class="single-vendor-description__panel--ask"></a>
+                            <a href="#" class="single-vendor-description__panel--share"></a>
+                            <a class="single-vendor-description__panel--favorite"></a>
+
+                        </div>
+
+                    </div>
+               
+                </div>
+
+                <div class="single-offer-vendor-page__pdf-section single-vendor-pdf">
+
+                    <div class="single-vendor-pdf__block">
+                        <a href="">
+
+                            <div class="vendor-pdf-block__text">
+                                Инструкция по установке маслянного фильтра для двигателей 122 бензин
+                                и еще много букв для тестирования длинного текста.
+
+                            </div>
+
+                        </a>
+                    </div>
+
+                    <div class="single-vendor-pdf__block">
+                        <a href="">
+
+                            <div class="vendor-pdf-block__text">
+                                Размеры установочных маслонасосов
+
+                            </div>
+
+                        </a>
+                    </div>
+
+                    <div class="single-vendor-pdf__block">
+                        <a href="">
+
+                            <div class="vendor-pdf-block__text">
+                                Третий блок c PDF-файлом для тестирования.  👌🏻
+
+                            </div>
+
+                        </a>
+                    </div>
+
+                    
+
+                </div>
+
+                
+                <!-- Блок с информацией об отсутствии товарных предложений -->
+                <div class="no-offers-info-banner">
+                    <div class="no-offers-info-banner__title">
+                        к сожалению, сейчас нет ни одного предложения по данному товару
+                    </div>
+                    <div class="no-offers-info-banner__inner">
+                        <div class="no-offers-info-banner__image">
+                            <img src="img/no-offer-new-illustration.svg" alt="">
+                        </div>
+                        <div class="no-offers-info-banner__wrapper">
+                            <div class="no-offers-info-banner__info">
+                                Чтобы мы помогли подобрать аналоги, Вы можете
+                            </div>
+                            <a class="no-offers-info-banner__btn"> Отправить запрос </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+
+            <!-- footer preambula -->
+            <div class="footer__preambula">
+                <p>Преамбула футера с какой-то очень интересной информацией</p>
+            </div>
+
+            <!-- footer social -->
+            <ul class="footer__social-list">
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--utube" href="https://www.youtube.com/"></a>
+                </li>
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--vk" href="https://vk.com/"></a>
+                </li>
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--fbook" href="https://www.facebook.com/"></a>
+                </li>
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--insta" href="https://www.instagram.com/"></a>
+                </li>
+
+            </ul>
+
+            <!-- footer contain container -->
+            <div class="footer-contain">
+
+                <!-- footer contacts -->
+                <div class="footer__contacts footer-contacts">
+
+                    <img class="footer-contacts__logo" src="img/footer/footer-logo.png" alt="">
+                    <div class="footer-contacts__tel">
+                        <a class="footer-contacts__tel--icon-number" href="callto:+74956496060">+7 (495) 649 60 60</a>
+                        <a class="footer-contacts__tel--" href="callto:+74956496060">+7 (495) 649 60 60</a>
+                    </div>
+
+                </div>
+
+                <!-- footer panel -->
+                <div class="footer__panel footer-panel">
+
+                    <!-- footer panel list -->
+                    <ul class="footer-panel__list">
+
+                        <li class="footer-panel__item">
+                            <a class="footer-panel__item--contact" href="#">Контакты</a>
+                        </li>
+
+                        <li class="footer-panel__item">
+                            <a class="footer-panel__item--map" href="#">Схема проезда</a>
+                        </li>
+
+                        <li class="footer-panel__item">
+                            <a class="footer-panel__item--clock" href="#">Часы работы</a>
+                        </li>
+
+                    </ul>
+
+                    <!-- footer panel buttons -->
+                    <div class="footer-panel__buttons">
+                        
+                        <a class="footer-panel__button footer-panel__button--call" href="#">
+                            звонок
+                        </a>
+
+                        <a class="footer-panel__button footer-panel__button--chat" href="#">
+                            онлайн чат
+                        </a>
+
+                        <a class="footer-panel__button footer-panel__button--review" href="#">
+                            отзывы и пожелания
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- footer information block -->
+            <div class="footer__information">
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">какая-то информация о магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">какая-то информация об еще одном магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+            </div>
+
+            <div class="footer__information-separator"></div>
+
+            <!-- footer information block -->
+            <div class="footer__information">
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">какая-то очень длинная информация о магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">информация о магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+
+            </div>
+            
+            <!-- footer copyright -->
+            <div class="footer__copyright">
+                <p>© Copyright 2013-2021. All rights is reserved</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

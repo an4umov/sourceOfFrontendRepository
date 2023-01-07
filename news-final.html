@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LR.RU &ndash; News</title>
+
+    <link rel="preload" href="font/opensans.woff2" as="font" crossorigin>
+    <link rel="preload" href="font/opensansbold.woff2" as="font" crossorigin>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page-body">
+    <div class="page-body__container">
+   
+        <header class="header">
+
+            <!-- header mobile -->
+            <div class="header-mobile">
+
+                <!-- logo mobile -->
+                <a href="index.html" class="header-mobile__logo">
+                    <img src="img/header-logo.svg" alt="">
+                </a>
+
+                <!-- search panel mobile -->
+                <div class="header-mobile__search-panel search-panel-mobile">
+
+                    <div class="search-panel-mobile__user-location">
+                        Мы доставляем в ваш город: <span>Москва</span>
+                    </div>
+
+                    <form class="search-panel-mobile__search search-mobile">
+                        <input class="search-mobile__input" type="text" placeholder="Поиск по артикулу или наименованию...">
+                        <button class="search-mobile__setting"></button>
+                        <button class="search-mobile__submit" type="submit"></button>
+                    </form>
+
+                </div>
+
+                <!-- right panel mobile -->
+                <div class="header-mobile__right-panel right-panel">
+
+                    <div class="right-panel__info">
+                        +7 495 649 60 60
+                    </div>
+
+                    <div class="right-panel__user user-mobile">
+
+                        <a href="#" class="user-mobile__favorites">
+                            <img src="img/favorites-icon.svg" alt="">
+                            <span>7</span>
+                        </a>
+    
+                        <a href="#" class="user-mobile__shopping-cart">
+                            <img src="img/shopping-cart-icon.svg" alt="">
+                            <span>12</span>
+                        </a>
+    
+                        <div class="user-mobile__wrapper user-wrapper">
+
+                            <div class="user-wrapper__hidden-btn">
+                                <a class="hidden-btn__icon" >
+                                  <span class="hb-line line-1"></span>
+                                  <span class="hb-line line-2"></span>
+                                  <span class="hb-line line-3"></span>
+                                </a>     
+                            </div>
+                            
+
+                            <!-- hidden menu -->
+                            <div class="user-wrapper__hidden-menu hidden-menu">
+
+                                <ul class="hidden-menu__links">
+                                    <li class="hidden-menu__link hidden-menu__link--enter"><a href="#">Вход</a></li>
+                                    <li class="hidden-menu__link"><a href="#">Faq</a></li>
+                                    <li class="hidden-menu__link"><a href="#">Контакты</a></li>
+                                </ul>
+
+                                <a href="#" class="hidden-menu__call-btn">
+                                    позвонить
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- header desktop -->
+            <div class="header-desktop">
+
+                <!-- logo desktop -->
+                <a href="index.html" class="header-desktop__logo">
+                    <img src="img/header-logo.svg" alt="">
+                </a>
+
+                <!-- search panel desktop -->
+                <div class="header-desktop__search-panel search-panel">
+
+                    <div class="search-panel__user-location">
+                        Мы доставляем в ваш город: <span>Москва</span>
+                    </div>
+
+                    <form class="search-panel__search search">
+                        <input class="search__input" type="text" placeholder="Поиск по артикулу или наименованию...">
+                        <button class="search__setting"></button>
+                        <button class="search__submit" type="submit"></button>
+                    </form>
+
+                </div>
+
+                <!-- user desktop -->
+                <div class="header-desktop__user user">
+
+                    <a class="user__favorites">
+                        <img src="img/favorites-icon.svg" alt="">
+                        <p>Избранное</p>
+                        <span>7</span>
+                    </a>
+
+                    <a class="user__shopping-cart">
+                        <img src="img/shopping-cart-icon.svg" alt="">
+                        <p>Корзина</p>
+                        <span>12</span>
+                    </a>
+
+                    <a class="user__enter">
+                        <img src="img/enter-icon.svg" alt="">
+                        <p>Вход</p>
+                        <!-- <span></span> -->
+                    </a>
+
+                </div>
+
+                <!-- contacts desktop -->
+                <div class="header-desktop__contacts contacts">
+
+                    <div class="contacts__links">
+
+                        <a href="#" class="contacts__link">FAQ</a>
+                        <a href="#" class="contacts__link">Контакты</a>
+
+                    </div>
+
+                    <div class="contacts__numbers">
+
+                        <a href="#" class="contacts__number">+7 (495) 649 60 60</a>
+                        <a href="#" class="contacts__number">+7 (495) 649 60 60</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- header modal Contact Us -->
+            <div class="header-contact-us">
+                <div class="header-contact-us__blur"></div>
+                <div class="header-contact-us__wrapper">
+                    <div class="header-contact-us__close"></div>
+
+                    <div class="header-contact-us__title">
+                        Связаться с нами
+                    </div>
+
+                    <div class="header-contact-us__subtitle">
+                        По телефону:
+                    </div>
+
+                    <ul class="header-contact-us__numbers">
+                        <li class="header-contact-us__number">
+                            <a href="tel:+74956496060">+7 495 649 60 60</a>
+                        </li>
+                        <li class="header-contact-us__number">
+                            <a href="tel:+74956496060">+7 495 649 60 60</a>
+                        </li>
+                    </ul>
+
+                    <div class="header-contact-us__subtitle">
+                        В мессенджерах:
+                    </div>
+
+                    <ul class="header-contact-us__app-links">
+                        <li class="header-contact-us__app-link header-contact-us__app-link--whatsapp">
+                            <a href=""></a>
+                        </li>
+                        <li class="header-contact-us__app-link header-contact-us__app-link--telegram">
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+            
+        <nav class="navigation">
+            <ul class="navigation__catalog-links">
+                <li class="navigation__catalog-link--groups">
+                    <a href="">Группы товаров</a>
+                </li>
+                <li class="navigation__catalog-link--car">
+                    <a href="">Модели авто</a>
+                </li>
+            </ul>
+
+            <div class="navigation__arrow-left"></div>
+            <div class="navigation__arrow-right"></div>
+
+            <ul class="navigation__nav-list">
+                <li class="navigation__nav-item">
+                    <a href="">Скидка дня</a>
+                    <span style="background-color: #E93333;">777</span>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="">Новые поступления</a>
+                    <span style="background-color: #01B047;">42</span>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="news.html">Новости</a>
+                    <span>7</span>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="">Блог</a>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="">Галлерея</a>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="offers-catalog.html">Каталог товаров</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <main class="page-body__main">
+
+
+
+            <!-- Breadcrumbs -->
+            <ul class="breadcrumbs">
+                <li><a href="/"></a></li>
+                <li><a href="/models">Модели авто</a></li>
+                <li><a href="/dep/Land-Rover-Defender-1">Land Rover Defender I</a></li>
+                <li><a href="/dep/Land-Rover-Defender-1/news">Новости</a></li>
+            </ul>
+            <!-- Catalog departament -->
+            <section class="catalog__departament">
+                <!-- Catalog dep PICTURE -->
+                <div class="catalog__departament-picture">
+                    <img src="/img/post/dep/Def_Ex_XXX.png" alt="Land Rover Defender I">
+                </div>
+                <div class="catalog__departament-wrapper">
+                    <!-- Catalog dep TITLE -->
+                    <div class="catalog__departament-title">Land Rover Defender I</div>
+
+                    <!-- Catalog dep NAVIGATION -->
+                    <ul class="catalog__departament-navigation-list">
+                        <li class="catalog__departament-navigation-item" data-url="shop"><a
+                                class="catalog__departament-navigation-item-link"
+                                href="/dep/Land-Rover-Defender-1/shop">ТОВАРЫ РАЗДЕЛА</a></li>
+                        <li class="catalog__departament-navigation-item catalog__departament-navigation-item__active"
+                            data-url="news"><a class="catalog__departament-navigation-item-link"
+                                href="/dep/Land-Rover-Defender-1/news">Новости</a></li>
+                        <li class="catalog__departament-navigation-item" data-url="def-studia"><a
+                                class="catalog__departament-navigation-item-link"
+                                href="/dep/Land-Rover-Defender-1/def-studia">DEFENDER Студия</a></li>
+                        <li class="catalog__departament-navigation-item" data-url="tuning"><a
+                                class="catalog__departament-navigation-item-link"
+                                href="/dep/Land-Rover-Defender-1/tuning">Наши проекты!</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <article class="news-post">
+                <div class="news-post__short">
+                    <div class="news-post__short-picture"><img src="/img/post/C27A9F92-AF0F-4EE6-BE42-5C5C372E85FD.jpeg"
+                            alt=""></div>
+                    <div class="news-post__short-container">
+                        <div class="news-post__short-info">
+                            <div class="news-post__short-title"><a href="news/news-test">ascsadassd</a></div>
+                            <div class="news-post__short-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br>consequat.
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse<br>cillum dolore eu
+                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non<br>proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                        <div class="news-post__short-panel" style="">
+                            <div class="news-post__short-bar">
+                                <div class="news-post__short-date">Jul 14, 2022</div>
+                                <div class="news-post__short-btns"><a
+                                        class="news-post__short-btn news-post__short-btn--share" href="#">
+                                        <div class="news-post__short-btn--share-tip">Поделиться</div>
+                                    </a></div>
+                            </div><a class="news-post__short-open" href="#">Pазвернуть</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-post__full" style="display: none;">
+                    <div class="news-post__full-block-minimized-wrapper">
+                        <div class="news-post__full-block-minimized">
+                            <div class="news-post__full-regullar-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br>consequat.
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse<br>cillum dolore eu
+                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non<br>proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                        <div class="news-post__full-block-minimized">
+                            <div class="news-post__full-regullar-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br>consequat.
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse<br>cillum dolore eu
+                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non<br>proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-post__full-block-minimized-wrapper">
+                        <section class="unique-page-title" style="">
+                            <div class="unique-page-title__wrapper">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="news-post__full-block-minimized-wrapper">
+                        <div class="news-post__full-block-minimized">
+                            <div class="news-post__full-regullar-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                        <div class="news-post__full-block-minimized">
+                            <div class="news-post__full-slider loaded">
+                                <div class="news-post__full-slider-wrapper">
+                                    <div class="news-post__full-slides" style="left: 0px;"><span
+                                            class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/BC816761-F291-4C40-81CF-4AFD35E113F0.jpeg" alt=""
+                                                style="object-fit: cover;">
+                                        </span><span class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/articles-and-news/farkop-landrover/KNB500070.jpg" alt=""
+                                                style="object-fit: cover;">
+                                        </span><span class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/BC816761-F291-4C40-81CF-4AFD35E113F0.jpeg" alt=""
+                                                style="object-fit: cover;">
+                                        </span><span class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/articles-and-news/farkop-landrover/KNB500070.jpg" alt=""
+                                                style="object-fit: cover;">
+                                        </span></div>
+                                </div>
+                                <div class="news-post__full-slider-control"><a
+                                        class="news-post__full-slider-control-prev" href="#"></a><a
+                                        class="news-post__full-slider-control-next" href="#"></a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-post__full-panel">
+                        <div class="news-post__full-bar">
+                            <div class="news-post__full-date">Jul 14, 2022</div>
+                            <div class="news-post__full-btns">
+
+                                <a href="#" class="news-post__full-btn news-post__full-btn--share">
+                                    <div class="news-post__full-btn--share-tip">Поделиться</div>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#" class="news-post__full-close">Свернуть</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="news-post">
+                <div class="news-post__short">
+                    <div class="news-post__short-picture"><img
+                            src="/img/post/001news/49-salon-Defender-2020/Armrest-700-520-1.jpg" alt=""></div>
+                    <div class="news-post__short-container">
+                        <div class="news-post__short-info">
+                            <div class="news-post__short-title"><a href="news/salon-Defender-2020">Новые аксессуары
+                                    салона для Дефендер 2 </a></div>
+                            <div class="news-post__short-text">
+                                <p>Наш ассортимент аксессуаров для салона нового Дефендер 2 (модели после 2020 года
+                                    выпуска) постоянно расширяется. Сегодня мы хотим Вам предложить накладку на
+                                    подлокотник с отделкой "карбон". Центральный подлокотник -консоль между сиденьями
+                                    водителя и пассажира можно эффектно стилизовать, установив декоративную накладку.
+                                    Среди различных вариантов покрытия самым популярным является отделка "карбон" - она
+                                    хорошо сочетается со всеми цветами и фактурами покрытий салона и&nbsp; подчеркивает
+                                    "технологичность" интерьера нового Дефендера.</p>
+                                <p>Накладка легко устанавливается самостоятельно на самоклеящиеся элементы, которые
+                                    входят в комплект.</p>
+                            </div>
+                        </div>
+                        <div class="news-post__short-panel" style="">
+                            <div class="news-post__short-bar">
+                                <div class="news-post__short-date">Jun 11, 2022</div>
+                                <div class="news-post__short-btns"><a
+                                        class="news-post__short-btn news-post__short-btn--ask" href="#">
+                                        <div class="news-post__short-btn--ask-tip">Задать вопрос</div>
+                                    </a> <a class="news-post__short-btn news-post__short-btn--share" href="#">
+                                        <div class="news-post__short-btn--share-tip">Поделиться</div>
+                                    </a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-post__full" style="display: none;">
+                    <div class="news-post__full-panel">
+                        <div class="news-post__full-bar">
+                            <div class="news-post__full-date">Jun 11, 2022</div>
+                            <div class="news-post__full-btns">
+                                <a href="#" class="news-post__full-btn news-post__full-btn--ask">
+                                    <div class="news-post__full-btn--ask-tip">Задать вопрос</div>
+                                </a>
+                                <a href="#" class="news-post__full-btn news-post__full-btn--share">
+                                    <div class="news-post__full-btn--share-tip">Поделиться</div>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#" class="news-post__full-close">Свернуть</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="news-post">
+                <div class="news-post__short">
+                    <div class="news-post__short-picture"><img
+                            src="/img/post/001news/2-sand-track/sand-track-720-500.jpg" alt=""></div>
+                    <div class="news-post__short-container">
+                        <div class="news-post__short-info">
+                            <div class="news-post__short-title"><a href="news/sand-track">СЕНД-ТРАКИ HORSEWINCH -
+                                    РАСШИРЕНИЕ АССОРТИМЕНТА</a></div>
+                            <div class="news-post__short-text">
+                                <p><span lang="ru">Мы расширили ассортимент пластиковых сенд-траков. </span></p>
+                                <p><span lang="ru">Теперь в наличии как старые, многократно проверенные в боевых
+                                        условиях модели </span><span lang="x-none">MATRIX </span><span
+                                        lang="ru">и</span><span lang="x-none"> DRAGON-2, так и несколько новых моделей,
+                                        среди которых особенно интересны сенд-траки увеличенных размеров и повышенной
+                                        прочности: модель&nbsp;</span><span lang="x-none">TRUCK для тяжело нагруженных
+                                        автомобилей.</span></p>
+                            </div>
+                        </div>
+                        <div class="news-post__short-panel" style="">
+                            <div class="news-post__short-bar">
+                                <div class="news-post__short-date">May 6, 2021</div>
+                                <div class="news-post__short-btns"><a
+                                        class="news-post__short-btn news-post__short-btn--ask" href="#">
+                                        <div class="news-post__short-btn--ask-tip">Задать вопрос</div>
+                                    </a> <a class="news-post__short-btn news-post__short-btn--share" href="#">
+                                        <div class="news-post__short-btn--share-tip">Поделиться</div>
+                                    </a></div>
+                            </div><a class="news-post__short-open" href="#">Pазвернуть</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-post__full" style="display: none;">
+                    <div class="news-post__full-block-minimized-wrapper">
+                        <div class="news-post__full-block-minimized">
+                            <div class="news-post__full-slider loaded">
+                                <div class="news-post__full-slider-wrapper">
+                                    <div class="news-post__full-slides" style="left: 0px;"><span
+                                            class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/001news/2-sand-track/MATRIX-720x500-3.jpg" alt=""
+                                                style="object-fit: contain;">
+                                        </span><span class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/001news/2-sand-track/MATRIX-720x500-1.jpg" alt=""
+                                                style="object-fit: contain;">
+                                        </span><span class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/001news/2-sand-track/MATRIX-720x500-2.jpg" alt=""
+                                                style="object-fit: contain;">
+                                        </span><span class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/001news/2-sand-track/MATRIX-720x500-3.jpg" alt=""
+                                                style="object-fit: contain;">
+                                        </span><span class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/001news/2-sand-track/MATRIX-720x500-1.jpg" alt=""
+                                                style="object-fit: contain;">
+                                        </span></div>
+                                </div>
+                                <div class="news-post__full-slider-control"><a
+                                        class="news-post__full-slider-control-prev" href="#"></a><a
+                                        class="news-post__full-slider-control-next" href="#"></a></div>
+                            </div>
+                        </div>
+                        <div class="news-post__full-block-minimized">
+                            <div class="news-post__full-regullar-text">
+                                <p><strong>Matrix - ставшая уже классикой модель сенд траков Horsewinch</strong></p>
+                                <p>Horsewinch Matrix&nbsp; имеет &nbsp;раз&shy;ме&shy;ры 120 х 35 см, каж&shy;дый трапик
+                                    может вкладываться &nbsp;один в дру&shy;гой .«Бутерброд» из двух или более
+                                    сендтраков легко поместится в багажнике любого автомобиля, не обязательно
+                                    внедорожника.&nbsp;&nbsp;Каж&shy;дый трап&nbsp; ве&shy;сит 4&nbsp;кг. Их лег&shy;ко
+                                    пе&shy;рено&shy;сить и крепить в любом месте снаружи или внутри автомобиля.</p>
+                                <p>Horsewinch Matrix имеют cамые развитые по сравнению с «одноклассниками», шипы. Это
+                                    позволяет проезжать без проскальзывания даже на колесах, полностью покрытых
+                                    скользкой глиной. Шипы трака при этом выполняют очищающую функцию.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-post__full-block-minimized-wrapper">
+                        <div class="news-post__full-block-minimized">
+                            <div class="news-post__full-slider loaded">
+                                <div class="news-post__full-slider-wrapper">
+                                    <div class="news-post__full-slides" style="left: 0px;"><span
+                                            class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/001news/2-sand-track/truck1.jpg" alt=""
+                                                style="object-fit: contain;">
+                                        </span><span class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/001news/2-sand-track/A19L__1.jpg" alt=""
+                                                style="object-fit: contain;">
+                                        </span><span class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/001news/2-sand-track/truck1.jpg" alt=""
+                                                style="object-fit: contain;">
+                                        </span><span class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/001news/2-sand-track/A19L__1.jpg" alt=""
+                                                style="object-fit: contain;">
+                                        </span></div>
+                                </div>
+                                <div class="news-post__full-slider-control"><a
+                                        class="news-post__full-slider-control-prev" href="#"></a><a
+                                        class="news-post__full-slider-control-next" href="#"></a></div>
+                            </div>
+                        </div>
+                        <div class="news-post__full-block-minimized">
+                            <div class="news-post__full-regullar-text">
+                                <p><strong>Новинка - Пластиковые сэнд траки увеличенной грузоподъемности модель
+                                        Truck</strong></p>
+                                <p>Размер 150 х 44 x 6см.&nbsp; Комплект из двух штук.&nbsp;Один трап весит 5,45
+                                    кг.&nbsp;Все сенд-траки Horsewinch изготовлены из высококачественного полипропилена,
+                                    поэтому в них сочетается гибкость и прочность.</p>
+                                <p>Модель Truck разработана для габаритных и тяжелых внедорожников, а также
+                                    микроавтобусов и автомобилей с прицепами.&nbsp;&nbsp;С помощью этих сенд траков Вы
+                                    можете подкатить прицеп с лодкой или водным мотоциклом к самой кромке воды, не
+                                    опасаясь, что колеса утонут в песке или в грязи.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-post__full-block-minimized-wrapper">
+                        <div class="news-post__full-block-minimized">
+                            <div class="news-post__full-slider loaded">
+                                <div class="news-post__full-slider-wrapper">
+                                    <div class="news-post__full-slides" style="left: 0px;"><span
+                                            class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/001news/2-sand-track/A19M__5.jpg" alt=""
+                                                style="object-fit: contain;">
+                                        </span><span class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/001news/2-sand-track/Dragon2.jpg" alt=""
+                                                style="object-fit: contain;">
+                                        </span><span class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/001news/2-sand-track/A19M__5.jpg" alt=""
+                                                style="object-fit: contain;">
+                                        </span><span class="news-post__full-slide" style="width: 0px;"><img
+                                                src="/img/post/001news/2-sand-track/Dragon2.jpg" alt=""
+                                                style="object-fit: contain;">
+                                        </span></div>
+                                </div>
+                                <div class="news-post__full-slider-control"><a
+                                        class="news-post__full-slider-control-prev" href="#"></a><a
+                                        class="news-post__full-slider-control-next" href="#"></a></div>
+                            </div>
+                        </div>
+                        <div class="news-post__full-block-minimized">
+                            <div class="news-post__full-regullar-text">
+                                <p><strong>Модель Dragon-2 - складной облегченный сенд-трак</strong></p>
+                                <p>Эта модель представляет собой две половины размером 115х35x5 см. каждая, которые
+                                    могут использоваться как отдельные трапики, но также могут быть состегнуты
+                                    специальным пластиковым зажимом и превратится в один длинный трап (в этом случае для
+                                    полноценного использования понадобится 2 комплекта сенд-траков).&nbsp; Эта модель
+                                    выгодно отличается малой длиной, что позволяет разместить их в любом легковом
+                                    автомобиле или на багажнике квадроцикла. Они имеют менее агрессивный профиль,&nbsp;
+                                    что добавляет им компактности.&nbsp;Вес одного трапа 3,6 кг.</p>
+                                <p>Сэндтраки Horsewinch Dragon-2 – не займут много места в багажнике, но выручат в
+                                    критической ситуации.&nbsp;Достаточно вовремя подложить сенд траки&nbsp; – и Вы
+                                    получите надежную поверхность для преодоления «засады». Можно также их использовать
+                                    как лопату для снега, как подставку для домкрата, как скамеечку или лежак...&nbsp; и
+                                    еще массой разных способов.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-post__full-block-minimized-wrapper">
+                        <section class="unique-page-title" style="">
+                            <div class="unique-page-title__wrapper"></div>
+                        </section>
+                    </div>
+                    <div class="news-post__full-panel">
+                        <div class="news-post__full-bar">
+                            <div class="news-post__full-date">May 6, 2021</div>
+                            <div class="news-post__full-btns">
+                                <a href="#" class="news-post__full-btn news-post__full-btn--ask">
+                                    <div class="news-post__full-btn--ask-tip">Задать вопрос</div>
+                                </a>
+                                <a href="#" class="news-post__full-btn news-post__full-btn--share">
+                                    <div class="news-post__full-btn--share-tip">Поделиться</div>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#" class="news-post__full-close">Свернуть</a>
+                    </div>
+                </div>
+            </article>
+
+
+        </main>
+
+        <footer class="footer">
+
+            <!-- footer preambula -->
+            <div class="footer__preambula">
+                <p>Преамбула футера с какой-то очень интересной информацией</p>
+            </div>
+
+            <!-- footer social -->
+            <ul class="footer__social-list">
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--utube" href="https://www.youtube.com/"></a>
+                </li>
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--vk" href="https://vk.com/"></a>
+                </li>
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--fbook" href="https://www.facebook.com/"></a>
+                </li>
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--insta" href="https://www.instagram.com/"></a>
+                </li>
+
+            </ul>
+
+            <!-- footer contain container -->
+            <div class="footer-contain">
+
+                <!-- footer contacts -->
+                <div class="footer__contacts footer-contacts">
+
+                    <img class="footer-contacts__logo" src="img/footer/footer-logo.png" alt="">
+                    <div class="footer-contacts__tel">
+                        <a class="footer-contacts__tel--icon-number" href="callto:+74956496060">+7 (495) 649 60 60</a>
+                        <a class="footer-contacts__tel--" href="callto:+74956496060">+7 (495) 649 60 60</a>
+                    </div>
+
+                </div>
+
+                <!-- footer panel -->
+                <div class="footer__panel footer-panel">
+
+                    <!-- footer panel list -->
+                    <ul class="footer-panel__list">
+
+                        <li class="footer-panel__item">
+                            <a class="footer-panel__item--contact" href="#">Контакты</a>
+                        </li>
+
+                        <li class="footer-panel__item">
+                            <a class="footer-panel__item--map" href="#">Схема проезда</a>
+                        </li>
+
+                        <li class="footer-panel__item">
+                            <a class="footer-panel__item--clock" href="#">Часы работы</a>
+                        </li>
+
+                    </ul>
+
+                    <!-- footer panel buttons -->
+                    <div class="footer-panel__buttons">
+                        
+                        <a class="footer-panel__button footer-panel__button--call" href="#">
+                            звонок
+                        </a>
+
+                        <a class="footer-panel__button footer-panel__button--chat" href="#">
+                            онлайн чат
+                        </a>
+
+                        <a class="footer-panel__button footer-panel__button--review" href="#">
+                            отзывы и пожелания
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- footer information block -->
+            <div class="footer__information">
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">какая-то информация о магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">какая-то информация об еще одном магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+            </div>
+
+            <div class="footer__information-separator"></div>
+
+            <!-- footer information block -->
+            <div class="footer__information">
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">какая-то очень длинная информация о магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">информация о магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+
+            </div>
+            
+            <!-- footer copyright -->
+            <div class="footer__copyright">
+                <p>© Copyright 2013-2021. All rights is reserved</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="//www.youtube.com/player_api"></script>
+
+</body>
+</html>

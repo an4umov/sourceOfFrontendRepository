@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LR.RU &ndash; News</title>
+
+    <link rel="preload" href="http://final.lr.ru/font/opensans.woff2" as="font" crossorigin>
+    <link rel="preload" href="http://final.lr.ru/font/opensansbold.woff2" as="font" crossorigin>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page-body">
+    <div class="page-body__container">
+       
+        <header class="header">
+
+            <!-- header mobile -->
+            <div class="header-mobile">
+
+                <!-- logo mobile -->
+                <a href="index.html" class="header-mobile__logo">
+                    <img src="img/header-logo.svg" alt="">
+                </a>
+
+                <!-- search panel mobile -->
+                <div class="header-mobile__search-panel search-panel-mobile">
+
+                    <div class="search-panel-mobile__user-location">
+                        Мы доставляем в ваш город: <span>Москва</span>
+                    </div>
+
+                    <form class="search-panel-mobile__search search-mobile">
+                        <input class="search-mobile__input" type="text" placeholder="Поиск по артикулу или наименованию...">
+                        <button class="search-mobile__setting"></button>
+                        <button class="search-mobile__submit" type="submit"></button>
+                    </form>
+
+                </div>
+
+                <!-- right panel mobile -->
+                <div class="header-mobile__right-panel right-panel">
+
+                    <div class="right-panel__info">
+                        +7 495 649 60 60
+                    </div>
+
+                    <div class="right-panel__user user-mobile">
+
+                        <a href="#" class="user-mobile__favorites">
+                            <img src="img/favorites-icon.svg" alt="">
+                            <span>7</span>
+                        </a>
+    
+                        <a href="#" class="user-mobile__shopping-cart">
+                            <img src="img/shopping-cart-icon.svg" alt="">
+                            <span>12</span>
+                        </a>
+    
+                        <div class="user-mobile__wrapper user-wrapper">
+
+                            <div class="user-wrapper__hidden-btn">
+                                <a class="hidden-btn__icon" >
+                                  <span class="hb-line line-1"></span>
+                                  <span class="hb-line line-2"></span>
+                                  <span class="hb-line line-3"></span>
+                                </a>     
+                            </div>
+                            
+
+                            <!-- hidden menu -->
+                            <div class="user-wrapper__hidden-menu hidden-menu">
+
+                                <ul class="hidden-menu__links">
+                                    <li class="hidden-menu__link hidden-menu__link--enter"><a href="#">Вход</a></li>
+                                    <li class="hidden-menu__link"><a href="#">Faq</a></li>
+                                    <li class="hidden-menu__link"><a href="#">Контакты</a></li>
+                                </ul>
+
+                                <a href="#" class="hidden-menu__call-btn">
+                                    позвонить
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- header desktop -->
+            <div class="header-desktop">
+
+                <!-- logo desktop -->
+                <a href="index.html" class="header-desktop__logo">
+                    <img src="img/header-logo.svg" alt="">
+                </a>
+
+                <!-- search panel desktop -->
+                <div class="header-desktop__search-panel search-panel">
+
+                    <div class="search-panel__user-location">
+                        Мы доставляем в ваш город: <span>Москва</span>
+                    </div>
+
+                    <form class="search-panel__search search">
+                        <input class="search__input" type="text" placeholder="Поиск по артикулу или наименованию...">
+                        <button class="search__setting"></button>
+                        <button class="search__submit" type="submit"></button>
+                    </form>
+
+                </div>
+
+                <!-- user desktop -->
+                <div class="header-desktop__user user">
+
+                    <a class="user__favorites">
+                        <img src="img/favorites-icon.svg" alt="">
+                        <p>Избранное</p>
+                        <span>7</span>
+                    </a>
+
+                    <a class="user__shopping-cart">
+                        <img src="img/shopping-cart-icon.svg" alt="">
+                        <p>Корзина</p>
+                        <span>12</span>
+                    </a>
+
+                    <a class="user__enter">
+                        <img src="img/enter-icon.svg" alt="">
+                        <p>Вход</p>
+                        <!-- <span></span> -->
+                    </a>
+
+                </div>
+
+                <!-- contacts desktop -->
+                <div class="header-desktop__contacts contacts">
+
+                    <div class="contacts__links">
+
+                        <a href="#" class="contacts__link">FAQ</a>
+                        <a href="#" class="contacts__link">Контакты</a>
+
+                    </div>
+
+                    <div class="contacts__numbers">
+
+                        <a href="#" class="contacts__number">+7 (495) 649 60 60</a>
+                        <a href="#" class="contacts__number">+7 (495) 649 60 60</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- header modal Contact Us -->
+            <div class="header-contact-us">
+                <div class="header-contact-us__blur"></div>
+                <div class="header-contact-us__wrapper">
+                    <div class="header-contact-us__close"></div>
+
+                    <div class="header-contact-us__title">
+                        Связаться с нами
+                    </div>
+
+                    <div class="header-contact-us__subtitle">
+                        По телефону:
+                    </div>
+
+                    <ul class="header-contact-us__numbers">
+                        <li class="header-contact-us__number">
+                            <a href="tel:+74956496060">+7 495 649 60 60</a>
+                        </li>
+                        <li class="header-contact-us__number">
+                            <a href="tel:+74956496060">+7 495 649 60 60</a>
+                        </li>
+                    </ul>
+
+                    <div class="header-contact-us__subtitle">
+                        В мессенджерах:
+                    </div>
+
+                    <ul class="header-contact-us__app-links">
+                        <li class="header-contact-us__app-link header-contact-us__app-link--whatsapp">
+                            <a href=""></a>
+                        </li>
+                        <li class="header-contact-us__app-link header-contact-us__app-link--telegram">
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+
+        
+        <nav class="navigation">
+
+            <ul class="navigation__catalog-links">
+                <li class="navigation__catalog-link--groups">
+                    <a href="">Группы товаров</a>
+                </li>
+                <li class="navigation__catalog-link--car">
+                    <a href="">Модели авто</a>
+                </li>
+            </ul>
+
+            <div class="navigation__arrow-left"></div>
+            <div class="navigation__arrow-right"></div>
+
+            <ul class="navigation__nav-list">
+                <li class="navigation__nav-item">
+                    <a href="">Скидка дня</a>
+                    <span style="background-color: #E93333;">777</span>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="">Новые поступления</a>
+                    <span style="background-color: #01B047;">42</span>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="news.html">Новости</a>
+                    <span>7</span>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="">Блог</a>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="">Галлерея</a>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="offers-catalog.html">Каталог товаров</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <main class="page-body__main">
+            
+            <!--  Slider  -->
+            <section class="slider" data-timer="7000">
+                <div class="slider__wrap">
+
+                    <div class="slider__item fade">
+                        <picture>
+                            <source media="(min-width: 1140px)" srcset="img/sliderMainPage/main-slider-pic1-2000.jpg">
+                            <source media="(min-width: 768px)" srcset="img/sliderMainPage/main-slider-pic1-1140.jpg">
+                            <img src="img/sliderMainPage/main-slider-pic1-768.jpg" alt="">
+                        </picture>
+                    
+                    </div>
+
+                    <div class="slider__item fade">
+                        <picture>
+                            <source media="(min-width: 1140px)" srcset="img/sliderMainPage/main-slider-pic2-2000.jpg">
+                            <source media="(min-width: 768px)" srcset="img/sliderMainPage/main-slider-pic2-1140.jpg">
+                            <img src="img/sliderMainPage/main-slider-pic2-768.jpg" alt="">
+                        </picture>
+                    </div>
+
+
+                </div>
+
+                <div class="slider__dots">
+                    <div class="dot dot-active"></div>
+                    <div class="dot"></div>
+                
+                </div>
+            
+            </section>
+
+            <section class="single-news-post">
+                <article class="news-post">
+                    <div class="news-post__short">
+                        <div class="news-post__short-picture"><img
+                                src="http://final.lr.ru/img/post/articles-and-news/defender-rear-wheel-mount/VPLDR0130__99.png"
+                                alt=""></div>
+                        <div class="news-post__short-container">
+                            <div class="news-post__short-info">
+                                <div class="news-post__short-title" style="pointer-events: none;"><a
+                                        href="/news/sand-track">Пластиковые сэнд-траки HorseWinch - новый
+                                        ассортимент</a></div>
+                                <div class="news-post__short-text">
+                                    <p>Зарекомендовавшие себя сэнд-траки HorseWinch снова в наличии! Помимо нашумевших
+                                        моделей MATRIX и DRAGON-2, наш ассортимент пополнился новыми усиленными
+                                        сэнд-траками тип TRUCK.</p>
+                                    <a class="news-post__short-btn--buy" href="https://youtu.be/WQeDmqW29dI"
+                                        target="_blank">
+                                        Купить в интернет-магазине
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="news-post__short-panel" style="display: none;">
+                                <div class="news-post__short-bar">
+                                    <div class="news-post__short-date">Oct 1, 2019</div>
+                                    <div class="news-post__short-btns">
+                                        <a class="news-post__short-btn news-post__short-btn--ask" href="#">
+                                            <div class="news-post__short-btn--ask-tip">Задать вопрос</div>
+                                        </a>
+                                        <a class="news-post__short-btn news-post__short-btn--share" href="#">
+                                            <div class="news-post__short-btn--share-tip">Поделиться</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="news-post__short-open" href="#">Pазвернуть</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-post__full" style="display:block;">
+                        <div class="news-post__full-block-minimized-wrapper">
+                            <div class="news-post__full-block-minimized">
+                                <div class="news-post__full-regullar-text">
+                                    <div class="article-item__preview">
+                                        <p><strong>ТАМПА</strong>&nbsp;- За счет результативности в двух последних
+                                            розыгрышах Кубка Стэнли&nbsp;<a
+                                                href="https://www.nhl.com/ru/player/--8476453"
+                                                data-player-link="8476453">Никита Кучеров</a>&nbsp;встал в один ряд с
+                                            Уэйном Гретцки, Марком Мессье, Яри Курри и Марио Лемье.</p>
+                                        <p>Если этого мало, подумайте о ситуации, в которой он добился такого
+                                            результата, чего достиг как хоккеист и человек, какое влияние оказал на
+                                            остальных игроков "Тампа-Бэй Лайтнинг".</p>
+                                    </div>
+                                    <div class="article-item__body">
+                                        <p>"Вы говорите о трансформации нашей команды в последние два года, - сказал во
+                                            вторник тренер Джон Купер. - Я считаю, что огромную роль в ней сыграла
+                                            трансформация Никиты Кучерова".<br>&nbsp;<br>В первой игре финала Кубка
+                                            Стэнли против "Монреаль Канадиенс" Кучеров набрал три (2+1) очка. Матч
+                                            состоялся в понедельник в Тампе и завершился в пользу "Лайтнинг" со счетом
+                                            5:1. В нынешнем плей-офф на счету Кучерова 30 (7+23) баллов за
+                                            результативность в 19 поединках.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-post__full-block-minimized">
+                                <div class="news-post__full-slider loaded"  data-height-wide-desktop="400" data-height-desktop="380" data-height-tablet="350" data-height-mobile="200">
+                                    <div class="news-post__full-slider-wrapper">
+                                        <div class="news-post__full-slides">
+                                            <span class="news-post__full-slide">
+                                                <img src="img/news/single-news/single-news-pic-1.svg" alt="">
+                                            </span>
+                                            <span class="news-post__full-slide">
+                                                <img src="img/news/single-news/single-news-pic-2.svg" alt="">
+                                            </span>
+                                            <span class="news-post__full-slide">
+                                                <img src="img/news/single-news/single-news-pic-3.svg" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="news-post__full-slider-control"><a
+                                            class="news-post__full-slider-control-prev" href="#"></a><a
+                                            class="news-post__full-slider-control-next" href="#"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-post__full" style="display:block;">
+                        <div class="news-post__full-block-minimized-wrapper">
+                            <div class="news-post__full-block-minimized">
+                                <div class="news-post__full-regullar-text">
+                                    <p>Представьте себе такую картину: близится конец цикла разработки, ваша игра едва
+                                        ползает, но в профайлере вы не можете найти очевидных проблемных мест. Кто же
+                                        виноват? Паттерны произвольного доступа к памяти и постоянные промахи кеша.
+                                        Пытаясь повысить производительность, вы пробуете распараллелить части кода, но
+                                        это стоит героических усилий, и в конечном итоге из-за всей синхронизации,
+                                        которую пришлось добавить, ускорение едва заметно. К тому же код настолько
+                                        сложен, что исправление багов вызывает ещё больше проблем, и мысль о добавлении
+                                        новых возможностей сразу отбрасывается. Звучит знакомо?</p>
+                                </div>
+                            </div>
+                            <div class="news-post__full-block-minimized">
+                                <div class="news-post__full-regullar-text">
+                                    <p>Такое развитие событий довольно точно описывает почти каждую игру, в разработке
+                                        которой я участвовал на протяжении последних десяти лет. Причины заключаются не
+                                        в языках программирования и не в инструментах разработки, и даже не в отсутствии
+                                        дисциплины. По моему опыту, в большой степени в этом стоит винить
+                                        объектно-ориентированное программирование (ООП) и окружающую его культуру. ООП
+                                        может не помогать, а мешать вашим проектам!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-post__full" style="display:block;">
+                        <div class="news-post__full-block-minimized-wrapper">
+                            <div class="news-post__full-block-minimized"><img
+                                    src="http://final.lr.ru/img/post/r-led-185w-ms-black__500_1.jpg" alt=""></div>
+                            <div class="news-post__full-block-minimized">
+                                <div class="news-post__full-regullar-text">
+                                    <p>Первые снимки и&nbsp;сведения о&nbsp;перекроенной модели&nbsp;<a class="c-link"
+                                            href="https://www.drive2.ru/e/Bw4LAEAAApI">Buick Regal</a>&nbsp;поступили
+                                        из&nbsp;минпромторга Китая. Естественно, на&nbsp;фотографиях представлен седан,
+                                        так как в&nbsp;Поднебесной Regal продаётся именно в&nbsp;таком кузове.
+                                        Но&nbsp;наверняка похожие перемены в&nbsp;оптике и&nbsp;бамперах претерпят
+                                        родственные универсал&nbsp;<a class="c-link"
+                                            href="https://www.drive2.ru/e/BoYnwEAAAgc">Regal
+                                            TourX</a>&nbsp;и&nbsp;хэтчбек&nbsp;<a class="c-link"
+                                            href="https://www.drive2.ru/e/BoDdwEAAA6Q">Regal Sportback</a>, которые
+                                        присутствуют на&nbsp;рынке США (седана там нет). Похожее преобразование ждёт
+                                        и&nbsp;семейство&nbsp;<a class="c-link"
+                                            href="https://www.drive2.ru/e/Bw6lQEAAAk4">Opel
+                                            Insignia</a>&nbsp;(собственно Regal является клоном Инсигнии). Хотя компания
+                                        Opel давно перешла от&nbsp;GM к&nbsp;PSA, кооперация с&nbsp;бывшим владельцем
+                                        по&nbsp;данной модели сохраняется.</p>
+                                    <p>У&nbsp;китайской модели Regal есть два турбомотора: 1.5 (170 л.с., 252 Н•м)
+                                        и&nbsp;2.0 (261 л.с., 350 Н•м), оба совмещены с&nbsp;девятиступенчатым
+                                        «автоматом». До&nbsp;декабря 2018-го ещё выпускался&nbsp;<a class="c-link"
+                                            href="https://www.drive2.ru/e/BnhnwEAAAWU">гибрид</a>&nbsp;на&nbsp;базе
+                                        агрегата 1.8, дополненного парой электромоторов (комбинированная отдача — 185
+                                        л.с., 380 Н•м). Может быть, после обновления такой вариант вернётся
+                                        в&nbsp;программу. Пока от&nbsp;китайских СМИ известно следующее: мотор 2.0
+                                        у&nbsp;модели сохранится, но&nbsp;будет развивать 230 сил, а&nbsp;вот 1.5 будет
+                                        заменён на&nbsp;наддувный 1.3 (158 «лошадок»). В&nbsp;США вряд&nbsp;ли задуманы
+                                        перестановки моторов. Базовая легковушка там оснащена агрегатом 2.0 (253 л.с.,
+                                        353 Н•м), а&nbsp;версия GS — двигателем V6 3.6 (314 л.с., 382 Н•м). Последняя
+                                        отличается от&nbsp;GS в&nbsp;Китае, который довольствуется турбочетвёркой 2.0
+                                        на&nbsp;261 силу.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-post__full" style="display:block;">
+                        <div class="news-post__full-block-minimized-wrapper">
+                            <div class="news-post__full-block-minimized">
+                                <div class="news-post__full-slider">
+                                    <div class="news-post__full-slider-wrapper">
+                                        <div class="news-post__full-slides">
+        
+                                        <span class="news-post__full-slide">
+                                            <div class="news-post__full-video">
+                                                <a class="news-post__full-video-link">
+                                                    <img class="news-post__full-video-media" src="https://i.ytimg.com/vi/611H5T202oA/maxresdefault.jpg" alt="">
+                                                    <div class="news-post__full-video-button">
+                                                        <svg width="68" height="50" viewBox="0 0 68 50">
+                                                            <path class="news-post__full-button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+                                                            <path class="news-post__full-button-icon" d="M 45,24 27,14 27,34"></path>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </span>
+        
+                                            <span class="news-post__full-slide">
+                                                <img src="img/news/news-post/post-full/new-news-max-2.jpg" alt="">
+                                            </span>
+                                            <span class="news-post__full-slide">
+                                                <img src="img/news/news-post/post-full/new-news-max-3.jpg" alt="">
+                                            </span>
+        
+                                        </div>
+                                    </div>
+        
+                                    <div class="news-post__full-slider-control">
+                                        <a class="news-post__full-slider-control-prev"></a>
+                                        <a class="news-post__full-slider-control-next"></a>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <div class="news-post__full-block-minimized">
+                                <div class="news-post__full-slider">
+                                    <div class="news-post__full-slider-wrapper">
+                                        <div class="news-post__full-slides">
+        
+                                        <span class="news-post__full-slide">
+                                            <div class="news-post__full-video">
+                                                <a class="news-post__full-video-link">
+                                                    <img class="news-post__full-video-media" src="https://i.ytimg.com/vi/611H5T202oA/maxresdefault.jpg" alt="">
+                                                    <div class="news-post__full-video-button">
+                                                        <svg width="68" height="50" viewBox="0 0 68 50">
+                                                            <path class="news-post__full-button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+                                                            <path class="news-post__full-button-icon" d="M 45,24 27,14 27,34"></path>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </span>
+        
+                                            <span class="news-post__full-slide">
+                                                <img src="img/news/news-post/post-full/new-news-max-2.jpg" alt="">
+                                            </span>
+                                            <span class="news-post__full-slide">
+                                                <img src="img/news/news-post/post-full/new-news-max-3.jpg" alt="">
+                                            </span>
+        
+                                        </div>
+                                    </div>
+        
+                                    <div class="news-post__full-slider-control">
+                                        <a class="news-post__full-slider-control-prev"></a>
+                                        <a class="news-post__full-slider-control-next"></a>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-post__full-panel">
+                        <div class="news-post__full-bar">
+                            <div class="news-post__full-date">Oct 1, 2019</div>
+                            <div class="news-post__full-btns">
+                                <a href="#" class="news-post__full-btn news-post__full-btn--ask">
+                                    <div class="news-post__full-btn--ask-tip" style="visibility: hidden; opacity: 0;">
+                                        Задать вопрос</div>
+                                </a>
+                                <a href="#" class="news-post__full-btn news-post__full-btn--share">
+                                    <div class="news-post__full-btn--share-tip">Поделиться</div>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#" class="news-post__full-close" style="display: none;">Свернуть</a>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Modal ask -->
+           <div class="modal-ask">
+                <form class="modal-ask__form ask-form">
+
+                    <div class="modal-ask__form-close"></div>
+
+                    <div class="ask-form__title">
+                        Задать вопрос
+                    </div>
+        
+                    <div class="ask-form__info ask-info">
+        
+                        <div class="ask-info__input">
+                            <input type="text" required name="name" id="name-field" placeholder="Ваше имя" class="ask-info__input--name">
+                        </div>
+        
+                        <div class="ask-info__input">
+                            <input type="email" required name="email" id="email-field" placeholder="Ваш email" class="ask-info__input--mail">
+                        </div>
+                    </div>
+        
+                    <div class="ask-form__id-news">
+                        # id новости
+                    </div>
+        
+                    <div class="ask-form__field ask-field">
+                        <textarea name="comment" required id="ask-field" class="ask-field__text" placeholder="Задайте нам ваш вопрос"></textarea>
+                    </div>
+        
+                    
+                    <button type="submit" class="ask-form__btn">Отправить</button>
+                    
+                </form>
+           </div>
+          
+           <!-- Modal share -->
+           <div class="modal-share">
+               <div class="modal-share__form social-form">
+
+                    <div class="modal-share__form-close"></div>
+
+                    <div class="social-form__title">Поделиться</div>
+
+                    <ul class="social-form__networks networks-inner">
+                        <li class="networks-inner__item"><a href="#" class="networks-inner__item--vk"></a></li>
+                        <li class="networks-inner__item"><a href="#" class="networks-inner__item--fb"></a></li>
+                        <li class="networks-inner__item"><a href="#" class="networks-inner__item--tw"></a></li>
+                        <li class="networks-inner__item"><a href="#" class="networks-inner__item--ok"></a></li>
+                        <li class="networks-inner__item"><a href="#" class="networks-inner__item--wp"></a></li>
+                        <li class="networks-inner__item"><a href="#" class="networks-inner__item--tg"></a></li>
+                    </ul>
+
+                    <div class="social-form__link link-field">
+                        <div class="link-field__output">lr.ru/news/something/lalala</div>
+                        <div class="link-field__btn">Копировать</div>
+                    </div>
+               </div>
+           </div>
+
+        </main>
+
+        <footer class="footer">
+
+            <!-- footer preambula -->
+            <div class="footer__preambula">
+                <p>Преамбула футера с какой-то очень интересной информацией</p>
+            </div>
+
+            <!-- footer social -->
+            <ul class="footer__social-list">
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--utube" href="https://www.youtube.com/"></a>
+                </li>
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--vk" href="https://vk.com/"></a>
+                </li>
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--fbook" href="https://www.facebook.com/"></a>
+                </li>
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--insta" href="https://www.instagram.com/"></a>
+                </li>
+
+            </ul>
+
+            <!-- footer contain container -->
+            <div class="footer-contain">
+
+                <!-- footer contacts -->
+                <div class="footer__contacts footer-contacts">
+
+                    <img class="footer-contacts__logo" src="img/footer/footer-logo.png" alt="">
+                    <div class="footer-contacts__tel">
+                        <a class="footer-contacts__tel--icon-number" href="callto:+74956496060">+7 (495) 649 60 60</a>
+                        <a class="footer-contacts__tel--" href="callto:+74956496060">+7 (495) 649 60 60</a>
+                    </div>
+
+                </div>
+
+                <!-- footer panel -->
+                <div class="footer__panel footer-panel">
+
+                    <!-- footer panel list -->
+                    <ul class="footer-panel__list">
+
+                        <li class="footer-panel__item">
+                            <a class="footer-panel__item--contact" href="#">Контакты</a>
+                        </li>
+
+                        <li class="footer-panel__item">
+                            <a class="footer-panel__item--map" href="#">Схема проезда</a>
+                        </li>
+
+                        <li class="footer-panel__item">
+                            <a class="footer-panel__item--clock" href="#">Часы работы</a>
+                        </li>
+
+                    </ul>
+
+                    <!-- footer panel buttons -->
+                    <div class="footer-panel__buttons">
+                        
+                        <a class="footer-panel__button footer-panel__button--call" href="#">
+                            звонок
+                        </a>
+
+                        <a class="footer-panel__button footer-panel__button--chat" href="#">
+                            онлайн чат
+                        </a>
+
+                        <a class="footer-panel__button footer-panel__button--review" href="#">
+                            отзывы и пожелания
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- footer information block -->
+            <div class="footer__information">
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">какая-то информация о магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">какая-то информация об еще одном магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+            </div>
+
+            <div class="footer__information-separator"></div>
+
+            <!-- footer information block -->
+            <div class="footer__information">
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">какая-то очень длинная информация о магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">информация о магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+
+            </div>
+            
+            <!-- footer copyright -->
+            <div class="footer__copyright">
+                <p>© Copyright 2013-2021. All rights is reserved</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

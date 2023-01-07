@@ -1,0 +1,1590 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LR.RU &ndash; News</title>
+
+    <link rel="preload" href="font/opensans.woff2" as="font" crossorigin>
+    <link rel="preload" href="font/opensansbold.woff2" as="font" crossorigin>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page-body">
+    <div class="page-body__container">
+   
+        <header class="header">
+
+            <!-- header mobile -->
+            <div class="header-mobile">
+
+                <!-- logo mobile -->
+                <a href="index.html" class="header-mobile__logo">
+                    <img src="img/header-logo.svg" alt="">
+                </a>
+
+                <!-- search panel mobile -->
+                <div class="header-mobile__search-panel search-panel-mobile">
+
+                    <div class="search-panel-mobile__user-location">
+                        Мы доставляем в ваш город: <span>Москва</span>
+                    </div>
+
+                    <form class="search-panel-mobile__search search-mobile">
+                        <input class="search-mobile__input" type="text" placeholder="Поиск по артикулу или наименованию...">
+                        <button class="search-mobile__setting"></button>
+                        <button class="search-mobile__submit" type="submit"></button>
+                    </form>
+
+                </div>
+
+                <!-- right panel mobile -->
+                <div class="header-mobile__right-panel right-panel">
+
+                    <div class="right-panel__info">
+                        +7 495 649 60 60
+                    </div>
+
+                    <div class="right-panel__user user-mobile">
+
+                        <a href="#" class="user-mobile__favorites">
+                            <img src="img/favorites-icon.svg" alt="">
+                            <span>7</span>
+                        </a>
+    
+                        <a href="#" class="user-mobile__shopping-cart">
+                            <img src="img/shopping-cart-icon.svg" alt="">
+                            <span>12</span>
+                        </a>
+    
+                        <div class="user-mobile__wrapper user-wrapper">
+
+                            <div class="user-wrapper__hidden-btn">
+                                <a class="hidden-btn__icon" >
+                                  <span class="hb-line line-1"></span>
+                                  <span class="hb-line line-2"></span>
+                                  <span class="hb-line line-3"></span>
+                                </a>     
+                            </div>
+                            
+
+                            <!-- hidden menu -->
+                            <div class="user-wrapper__hidden-menu hidden-menu">
+
+                                <ul class="hidden-menu__links">
+                                    <li class="hidden-menu__link hidden-menu__link--enter"><a href="#">Вход</a></li>
+                                    <li class="hidden-menu__link"><a href="#">Faq</a></li>
+                                    <li class="hidden-menu__link"><a href="#">Контакты</a></li>
+                                </ul>
+
+                                <a href="#" class="hidden-menu__call-btn">
+                                    позвонить
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- header desktop -->
+            <div class="header-desktop">
+
+                <!-- logo desktop -->
+                <a href="index.html" class="header-desktop__logo">
+                    <img src="img/header-logo.svg" alt="">
+                </a>
+
+                <!-- search panel desktop -->
+                <div class="header-desktop__search-panel search-panel">
+
+                    <div class="search-panel__user-location">
+                        Мы доставляем в ваш город: <span>Москва</span>
+                    </div>
+
+                    <form class="search-panel__search search">
+                        <input class="search__input" type="text" placeholder="Поиск по артикулу или наименованию...">
+                        <button class="search__setting"></button>
+                        <button class="search__submit" type="submit"></button>
+                    </form>
+
+                </div>
+
+                <!-- user desktop -->
+                <div class="header-desktop__user user">
+
+                    <a class="user__favorites">
+                        <img src="img/favorites-icon.svg" alt="">
+                        <p>Избранное</p>
+                        <span>7</span>
+                    </a>
+
+                    <a class="user__shopping-cart">
+                        <img src="img/shopping-cart-icon.svg" alt="">
+                        <p>Корзина</p>
+                        <span>12</span>
+                    </a>
+
+                    <a class="user__enter">
+                        <img src="img/enter-icon.svg" alt="">
+                        <p>Вход</p>
+                        <!-- <span></span> -->
+                    </a>
+
+                </div>
+
+                <!-- contacts desktop -->
+                <div class="header-desktop__contacts contacts">
+
+                    <div class="contacts__links">
+
+                        <a href="#" class="contacts__link">FAQ</a>
+                        <a href="#" class="contacts__link">Контакты</a>
+
+                    </div>
+
+                    <div class="contacts__numbers">
+
+                        <a href="#" class="contacts__number">+7 (495) 649 60 60</a>
+                        <a href="#" class="contacts__number">+7 (495) 649 60 60</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- header modal Contact Us -->
+            <div class="header-contact-us">
+                <div class="header-contact-us__blur"></div>
+                <div class="header-contact-us__wrapper">
+                    <div class="header-contact-us__close"></div>
+
+                    <div class="header-contact-us__title">
+                        Связаться с нами
+                    </div>
+
+                    <div class="header-contact-us__subtitle">
+                        По телефону:
+                    </div>
+
+                    <ul class="header-contact-us__numbers">
+                        <li class="header-contact-us__number">
+                            <a href="tel:+74956496060">+7 495 649 60 60</a>
+                        </li>
+                        <li class="header-contact-us__number">
+                            <a href="tel:+74956496060">+7 495 649 60 60</a>
+                        </li>
+                    </ul>
+
+                    <div class="header-contact-us__subtitle">
+                        В мессенджерах:
+                    </div>
+
+                    <ul class="header-contact-us__app-links">
+                        <li class="header-contact-us__app-link header-contact-us__app-link--whatsapp">
+                            <a href=""></a>
+                        </li>
+                        <li class="header-contact-us__app-link header-contact-us__app-link--telegram">
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+            
+        <nav class="navigation">
+            <ul class="navigation__catalog-links">
+                <li class="navigation__catalog-link--groups">
+                    <a href="">Группы товаров</a>
+                </li>
+                <li class="navigation__catalog-link--car">
+                    <a href="">Модели авто</a>
+                </li>
+            </ul>
+
+            <div class="navigation__arrow-left"></div>
+            <div class="navigation__arrow-right"></div>
+
+            <ul class="navigation__nav-list">
+                <li class="navigation__nav-item">
+                    <a href="">Скидка дня</a>
+                    <span style="background-color: #E93333;">777</span>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="">Новые поступления</a>
+                    <span style="background-color: #01B047;">42</span>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="news.html">Новости</a>
+                    <span>7</span>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="offers-catalog.html">Каталог товаров</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <main class="page-body__main">
+
+       
+            <article class="news-post">
+
+                <!-- news post SHORT -->
+                <div class="news-post__short" >
+
+                    <div class="news-post__short-picture">
+                        <img src="img/news/news-post/news-picture1.png" alt="">
+                    </div>
+
+                    <div class="news-post__short-container">
+
+                        <div class="news-post__short-info">
+
+                            <div class="news-post__short-title"><a href="single-news-post.html">новые усовершенствованные фары Land Rover Defender</a> </div>
+                            <div class="news-post__short-text">Недостатки штатных фар Land Rover Defender общеизвестны: прежде всего это недостаточная яркость и четкость, присущая фарам с галогеновыми лампами. Негерметичность штатных фар часто приводит к их выходу из строя при преодолении водных преград, вода, попадающая внутрь фары вызывает коррозию и запотевание внутренностей фары.  новыми лампами. Негерметичность штатных фар часто приводит к их выходу из строя при преодолении водных преград, вода и другое.</div>
+    
+                        </div>
+    
+                        <div class="news-post__short-panel">
+    
+                            <div class="news-post__short-bar">
+    
+                                <div class="news-post__short-date">10 Апреля 2021</div>
+    
+                                <div class="news-post__short-btns">
+                                    <a href="#" class="news-post__short-btn news-post__short-btn--ask ">
+                                        <div class="news-post__short-btn--ask-tip">Задать вопрос</div>
+                                    </a>
+                                    <a href="#" class="news-post__short-btn news-post__short-btn--share">
+                                        <div class="news-post__short-btn--share-tip">Поделиться</div>
+                                    </a>
+                                </div>
+    
+                            </div>
+    
+                            <a href="#" class="news-post__short-open">Pазвернуть</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- news post FULL -->
+                <div class="news-post__full">
+
+
+                    <!-- Minimezed half-width block wrapper & 2 minimized block inside him -->
+                    <div class="news-post__full-block-minimized-wrapper">
+                        <div class="news-post__full-block-minimized">
+                            <div class="news-post__full-regullar-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Aut natus placeat, perferendis libero recusandae deserunt quia, ipsa repudiandae ab sequi quod, aliquam sit! Repellendus ipsa labore voluptates ipsum beatae, nostrum ratione delectus nobis cum distinctio, nulla perspiciatis rerum laborum neque voluptate nesciunt praesentium impedit harum modi nam!
+                                Culpa, dicta officiis? Vero magnam quidem voluptatem molestiae temporibus maxime tenetur? Neque atque excepturi amet aut, veritatis, saepe blanditiis, eius sit ipsam quia quos necessitatibus quae voluptatibus voluptas. Facilis in odit quam perferendis, nostrum quisquam nemo veniam at, porro perspiciatis quos ipsam nesciunt similique debitis explicabo quibusdam dolores sequi hic! Nesciunt, dicta minima reiciendis ratione in tempore, veniam alias sapiente eos atque suscipit. Dolorum vero eveniet dicta perspiciatis odit sit, eligendi dolore quibusdam ut in obcaecati quos ducimus vitae alias molestias asperiores saepe eaque delectus temporibus possimus distinctio id, at sint ipsum? Corporis modi quae et doloremque est labore consequuntur incidunt rem doloribus!
+                            </div>
+                        </div>
+                        
+                        <div class="news-post__full-block-minimized">
+
+                            <div class="news-post__full-slider">
+
+                                <div class="news-post__full-slider-wrapper">
+                                    <div class="news-post__full-slides">
+
+                                        <span class="news-post__full-slide">
+                                            <div class="news-post__full-video">
+                                                <a class="news-post__full-video-link" href="#">
+                                                    <img class="news-post__full-video-media" src="https://i.ytimg.com/vi/PYTisEDwnRA/maxresdefault.jpg" alt="">
+                                                    <div class="news-post__full-video-button">
+                                                        <svg width="68" height="50" viewBox="0 0 68 50">
+                                                            <path class="news-post__full-button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z">
+
+                                                            </path>
+                                                            <path class="news-post__full-button-icon" d="M 45,24 27,14 27,34"></path>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </span>
+                                        <span class="news-post__full-slide">
+                                            <img src="img/news/news-post/post-full/new-news-min-2.jpg" alt="">
+                                        </span>
+                                        <span class="news-post__full-slide">
+                                            <div class="news-post__full-video">
+                                                <a class="news-post__full-video-link" href="#">
+                                                    <img class="news-post__full-video-media" src="https://i.ytimg.com/vi/84DfZx2JVVY/maxresdefault.jpg" alt="">
+                                                    <div class="news-post__full-video-button">
+                                                        <svg width="68" height="50" viewBox="0 0 68 50">
+                                                            <path class="news-post__full-button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z">
+
+                                                            </path>
+                                                            <path class="news-post__full-button-icon" d="M 45,24 27,14 27,34"></path>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </span>
+                                        <span class="news-post__full-slide">
+                                            <img src="img/news/news-post/post-full/new-news-min-3.jpg" alt="">
+                                        </span>
+
+                                    </div>
+                                </div>
+
+                                <div class="news-post__full-slider-control">
+                                    <a class="news-post__full-slider-control-prev"></a>
+                                    <a class="news-post__full-slider-control-next"></a>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                                       
+                    <!-- Full width block -->
+                    <div class="news-post__full-block-minimized-wrapper">
+
+                        <!--  Slider  -->
+                        <section class="slider" data-timer="3000">
+                            <div class="slider__wrap">
+                                <div class="slider__item fade">
+                                 <div class="slider__item-video">
+                                    <a href="#" class="slider__item-video-link">
+                                        <img class="slider__item-video-media" src="https://i.ytimg.com/vi/6dRzEElhnNk/maxresdefault.jpg" alt="">
+                                        <div class="slider__item-video-button">
+                                            <svg width="68" height="50" viewBox="0 0 68 50">
+                                                <path class="slider__item-video-button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+                                                <path class="slider__item-video-button-icon" d="M 45,24 27,14 27,34"></path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                 </div>
+                                </div>
+
+                                <div class="slider__item fade">
+                                    <picture>
+                                        <source media="(min-width: 1140px)" srcset="img/sliderMainPage/main-slider-pic2-2000.jpg">
+                                        <source media="(min-width: 768px)" srcset="img/sliderMainPage/main-slider-pic2-1140.jpg">
+                                        <img src="img/sliderMainPage/main-slider-pic2-768.jpg" alt="">
+                                    </picture>
+                                    <div class="slider__item-info  ">
+                                        <a href="#">
+                                            <div class="slider-title">Range Rover Velar - люксовый 5-дверный внедорожник класса «K2» </div>
+                                            <p class="slider-text">Чистые линии, отражающие уверенность и яркую индивидуальность. Range Rover Velar отличается по-настоящему прогрессивным дизайном. Изящный, элегантный автомобиль с выразительной внешностью и притягательным современным дизайном. Range Rover Velar приковывает к себе взгляды, куда бы вы ни отправились.</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="slider__item fade">
+                                    <picture>
+                                        <source media="(min-width: 1140px)" srcset="img/sliderMainPage/main-slider-pic3-2000.jpg">
+                                        <source media="(min-width: 768px)" srcset="img/sliderMainPage/main-slider-pic3-1140.jpg">
+                                        <img src="img/sliderMainPage/main-slider-pic3-768.jpg" alt="">
+                                    </picture>
+                                    <div class="slider__item-info  ">
+                                        <a href="#">
+                                            <div class="slider-title">Range Rover Velar - люксовый 5-дверный внедорожник класса «K2» </div>
+                                            <p class="slider-text">Чистые линии, отражающие уверенность и яркую индивидуальность. Range Rover Velar отличается по-настоящему прогрессивным дизайном. Изящный, элегантный автомобиль с выразительной внешностью и притягательным современным дизайном. Range Rover Velar приковывает к себе взгляды, куда бы вы ни отправились.</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="slider__item fade">
+                                    <picture>
+                                        <source media="(min-width: 1140px)" srcset="img/sliderMainPage/main-slider-pic2-2000.jpg">
+                                        <source media="(min-width: 768px)" srcset="img/sliderMainPage/main-slider-pic2-1140.jpg">
+                                        <img src="img/sliderMainPage/main-slider-pic2-768.jpg" alt="">
+                                    </picture>
+                                    <div class="slider__item-info  ">
+                                        <a href="#">
+                                            <div class="slider-title">Range Rover Velar - люксовый 5-дверный внедорожник класса «K2» </div>
+                                            <p class="slider-text">Чистые линии, отражающие уверенность и яркую индивидуальность. Range Rover Velar отличается по-настоящему прогрессивным дизайном. Изящный, элегантный автомобиль с выразительной внешностью и притягательным современным дизайном. Range Rover Velar приковывает к себе взгляды, куда бы вы ни отправились.</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                            </div>
+
+                            <div class="slider__dots">
+                                <div class="dot dot-active"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                
+                            </div>
+                        
+                        </section>
+                
+
+                    </div>
+                    <!-- Minimezed half-width block wrapper & 2 minimized block inside him -->
+                    <div class="news-post__full-block-minimized-wrapper">
+
+                        <div class="news-post__full-block-minimized">
+
+                            <div class="news-post__full-regullar-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Aut natus placeat, perferendis libero recusandae deserunt quia, ipsa repudiandae ab sequi quod, aliquam sit! Repellendus ipsa labore voluptates ipsum beatae, nostrum ratione delectus nobis cum distinctio, nulla perspiciatis rerum laborum neque voluptate nesciunt praesentium impedit harum modi nam!
+                                Culpa, dicta officiis? Vero magnam quidem voluptatem molestiae temporibus maxime tenetur? Neque atque excepturi amet aut, veritatis, saepe blanditiis, eius sit ipsam quia quos necessitatibus quae voluptatibus voluptas. Facilis in odit quam perferendis, nostrum quisquam nemo veniam at, porro perspiciatis quos ipsam nesciunt similique debitis explicabo quibusdam dolores sequi hic! Nesciunt, dicta minima reiciendis ratione in tempore, veniam alias sapiente eos atque suscipit. Dolorum vero eveniet dicta perspiciatis odit sit, eligendi dolore quibusdam ut in obcaecati quos ducimus vitae alias molestias asperiores saepe eaque delectus temporibus possimus distinctio id, at sint ipsum? Corporis modi quae et doloremque est labore consequuntur incidunt rem doloribus!
+                            </div>
+
+                        </div>
+                        
+                        <div class="news-post__full-block-minimized">
+
+                            <div class="news-post__full-regullar-text">
+                                <p>Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности позволяет оценить значение новых предложений. Товарищи! сложившаяся структура организации представляет собой интересный эксперимент проверки направлений прогрессивного развития. С другой стороны рамки и место обучения кадров способствует подготовки и реализации модели развития.</p>
+                                <p>Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</p>                            
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Full panel -->
+                    <div class="news-post__full-panel">
+
+                        <div class="news-post__full-bar">
+
+                            <div class="news-post__full-date">10 Апреля 2021</div>
+
+                            <div class="news-post__full-btns">
+
+                                <a href="#" class="news-post__full-btn news-post__full-btn--ask">
+                                    <div class="news-post__full-btn--ask-tip">Задать вопрос</div>
+                                </a>
+                                <a href="#" class="news-post__full-btn news-post__full-btn--share">
+                                    <div class="news-post__full-btn--share-tip">Поделиться</div>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <a href="#" class="news-post__full-close">Свернуть</a>
+                    </div>
+
+                </div>
+               
+
+            </article>
+
+            <article class="news-post">
+
+                <!-- news post SHORT -->
+                <div class="news-post__short" >
+
+                    <div class="news-post__short-picture">
+                        <img src="img/news/news-post/news-picture2.png" alt="">
+                    </div>
+
+                    <div class="news-post__short-container">
+
+                        <div class="news-post__short-info">
+
+                            <div class="news-post__short-title"><a href="single-news-post.html">В Россию пришли Evoque Bronze и Discovery Sport Urban</a> </div>
+                            <div class="news-post__short-text">
+                                Стартовал приём заказов на специальные издания Range Rover Evoque Bronze Collection и Land Rover Discovery Sport Urban Edition. Оценены они минимум в 4 530 000 и 4 656 000 рублей соответственно.
+                                 Evoque можно выбрать с дизелем 2.0 (199 л.с., 430 Н•м) или двухлитровым турбомотором (200 л.с., 320 Н•м) , а Discovery Sport — с таким же дизелем либо с бензиновым мотором на 249 л.с. и 365 Н•м. Все машины комплектуются девятиступенчатым «автоматом».                            
+                            </div>
+    
+                        </div>
+    
+                        <div class="news-post__short-panel">
+    
+                            <div class="news-post__short-bar">
+    
+                                <div class="news-post__short-date">10 Апреля 2021</div>
+    
+                                <div class="news-post__short-btns">
+                                    <a href="#" class="news-post__short-btn news-post__short-btn--ask">
+                                        <div class="news-post__short-btn--ask-tip">Задать вопрос</div>
+                                    </a>
+                                    <a href="#" class="news-post__short-btn news-post__short-btn--share">
+                                        <div class="news-post__short-btn--share-tip">Поделиться</div>
+                                    </a>
+                                </div>
+    
+                            </div>
+    
+                            <a href="#" class="news-post__short-open">Pазвернуть</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- news post FULL -->
+                <div class="news-post__full">
+                   
+                    <!-- Full width block -->
+                    <div class="news-post__full-block">
+
+                        <div class="news-post__full-slider">
+                            <div class="news-post__full-slider-wrapper">
+                                <div class="news-post__full-slides">
+
+                                <span class="news-post__full-slide">
+                                    <div class="news-post__full-video">
+                                        <a class="news-post__full-video-link">
+                                            <img class="news-post__full-video-media" src="https://i.ytimg.com/vi/611H5T202oA/maxresdefault.jpg" alt="">
+                                            <div class="news-post__full-video-button">
+                                                <svg width="68" height="50" viewBox="0 0 68 50">
+                                                    <path class="news-post__full-button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+                                                    <path class="news-post__full-button-icon" d="M 45,24 27,14 27,34"></path>
+                                                </svg>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </span>
+
+                                    <span class="news-post__full-slide">
+                                        <img src="img/news/news-post/post-full/new-news-max-2.jpg" alt="">
+                                    </span>
+                                    <span class="news-post__full-slide">
+                                        <img src="img/news/news-post/post-full/new-news-max-3.jpg" alt="">
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <div class="news-post__full-slider-control">
+                                <a class="news-post__full-slider-control-prev"></a>
+                                <a class="news-post__full-slider-control-next"></a>
+                            </div>
+                           
+                        </div>
+
+                    </div>
+
+                    <!-- Minimezed half-width block wrapper & 2 minimized block inside him -->
+                    <div class="news-post__full-block-minimized-wrapper">
+
+                        <div class="news-post__full-block-minimized">
+
+                            <div class="news-post__full-block-minimized">
+
+                                <div class="news-post__full-regullar-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Aut natus placeat, perferendis libero recusandae deserunt quia, ipsa repudiandae ab sequi quod, aliquam sit! Repellendus ipsa labore voluptates ipsum beatae, nostrum ratione delectus nobis cum distinctio, nulla perspiciatis rerum laborum neque voluptate nesciunt praesentium impedit harum modi nam!
+                                    Culpa, dicta officiis? Vero magnam quidem voluptatem molestiae temporibus maxime tenetur? Neque atque excepturi amet aut, veritatis, saepe blanditiis, eius sit ipsam quia quos necessitatibus quae voluptatibus voluptas. Facilis in odit quam perferendis, nostrum quisquam nemo veniam at, porro perspiciatis quos ipsam nesciunt similique debitis explicabo quibusdam dolores sequi hic! Nesciunt, dicta minima reiciendis ratione in tempore, veniam alias sapiente eos atque suscipit. Dolorum vero eveniet dicta perspiciatis odit sit, eligendi dolore quibusdam ut in obcaecati quos ducimus vitae alias molestias asperiores saepe eaque delectus temporibus possimus distinctio id, at sint ipsum? Corporis modi quae et doloremque est labore consequuntur incidunt rem doloribus!
+                                </div>
+    
+                            </div>
+
+
+                        </div>
+                        
+                        <div class="news-post__full-block-minimized"">
+
+                            <div class="news-post__full-slider">
+
+                                <div class="news-post__full-slider-wrapper">
+                                    <div class="news-post__full-slides">
+
+                                    <span class="news-post__full-slide">
+                                        <div class="news-post__full-video">
+                                            <a class="news-post__full-video-link">
+                                                <img class="news-post__full-video-media" src="https://i.ytimg.com/vi/84DfZx2JVVY/maxresdefault.jpg" alt="">
+                                                <div class="news-post__full-video-button">
+                                                    <svg width="68" height="50" viewBox="0 0 68 50">
+                                                        <path class="news-post__full-button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+                                                        <path class="news-post__full-button-icon" d="M 45,24 27,14 27,34"></path>
+                                                    </svg>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </span>
+
+                                        <span class="news-post__full-slide">
+                                            <img src="img/news/news-post/post-full/new-news-min-1.jpg" alt="">
+                                        </span>
+                                        <span class="news-post__full-slide">
+                                            <img src="img/news/news-post/post-full/new-news-min-2.jpg" alt="">
+                                        </span>
+                                        <span class="news-post__full-slide">
+                                            <img src="img/news/news-post/post-full/new-news-min-3.jpg" alt="">
+                                        </span>
+
+                                    </div>
+                                </div>
+
+                                <div class="news-post__full-slider-control">
+                                    <a class="news-post__full-slider-control-prev"></a>
+                                    <a class="news-post__full-slider-control-next"></a>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <!-- Minimezed half-width block wrapper & 2 minimized block inside him -->
+                    <div class="news-post__full-block-minimized-wrapper">
+
+                        <div class="news-post__full-block-minimized">
+
+                            <div class="news-post__full-regullar-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Aut natus placeat, perferendis libero recusandae deserunt quia, ipsa repudiandae ab sequi quod, aliquam sit! Repellendus ipsa labore voluptates ipsum beatae, nostrum ratione delectus nobis cum distinctio, nulla perspiciatis rerum laborum neque voluptate nesciunt praesentium impedit harum modi nam!
+                                Culpa, dicta officiis? Vero magnam quidem voluptatem molestiae temporibus maxime tenetur? Neque atque excepturi amet aut, veritatis, saepe blanditiis, eius sit ipsam quia quos necessitatibus quae voluptatibus voluptas. Facilis in odit quam perferendis, nostrum quisquam nemo veniam at, porro perspiciatis quos ipsam nesciunt similique debitis explicabo quibusdam dolores sequi hic! Nesciunt, dicta minima reiciendis ratione in tempore, veniam alias sapiente eos atque suscipit. Dolorum vero eveniet dicta perspiciatis odit sit, eligendi dolore quibusdam ut in obcaecati quos ducimus vitae alias molestias asperiores saepe eaque delectus temporibus possimus distinctio id, at sint ipsum? Corporis modi quae et doloremque est labore consequuntur incidunt rem doloribus!
+                            </div>
+
+                        </div>
+                        
+                        <div class="news-post__full-block-minimized">
+
+                            <div class="news-post__full-regullar-text">
+                                <p>Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности позволяет оценить значение новых предложений. Товарищи! сложившаяся структура организации представляет собой интересный эксперимент проверки направлений прогрессивного развития. С другой стороны рамки и место обучения кадров способствует подготовки и реализации модели развития.</p>
+                                <p>Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</p>                            
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Full panel -->
+                    <div class="news-post__full-panel">
+
+                        <div class="news-post__full-bar">
+
+                            <div class="news-post__full-date">10 Апреля 2021</div>
+
+                            <div class="news-post__full-btns">
+
+                                <a href="#" class="news-post__full-btn news-post__full-btn--ask">
+                                    <div class="news-post__full-btn--ask-tip">Задать вопрос</div>
+                                </a>
+                                <a href="#" class="news-post__full-btn news-post__full-btn--share">
+                                    <div class="news-post__full-btn--share-tip">Поделиться</div>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <a href="#" class="news-post__full-close">Свернуть</a>
+                    </div>
+
+                </div>
+
+         
+  
+               
+
+            </article>
+
+            <article class="news-post">
+
+                <!-- news post SHORT -->
+                <div class="news-post__short" >
+
+                    <div class="news-post__short-picture">
+                        <img src="img/news/news-post/news-picture1.png" alt="">
+                    </div>
+
+                    <div class="news-post__short-container">
+
+                        <div class="news-post__short-info">
+
+                            <div class="news-post__short-title"><a href="single-news-post.html">новые усовершенствованные фары Land Rover Defender</a> </div>
+                            <div class="news-post__short-text">Недостатки штатных фар Land Rover Defender общеизвестны: прежде всего это недостаточная яркость и четкость, присущая фарам с галогеновыми лампами. Негерметичность штатных фар часто приводит к их выходу из строя при преодолении водных преград, вода, попадающая внутрь фары вызывает коррозию и запотевание внутренностей фары.  новыми лампами. Негерметичность штатных фар часто приводит к их выходу из строя при преодолении водных преград, вода и другое.</div>
+    
+                        </div>
+    
+                        <div class="news-post__short-panel">
+    
+                            <div class="news-post__short-bar">
+    
+                                <div class="news-post__short-date">10 Апреля 2021</div>
+    
+                                <div class="news-post__short-btns">
+                                    <a href="#" class="news-post__short-btn news-post__short-btn--ask ">
+                                        <div class="news-post__short-btn--ask-tip">Задать вопрос</div>
+                                    </a>
+                                    <a href="#" class="news-post__short-btn news-post__short-btn--share">
+                                        <div class="news-post__short-btn--share-tip">Поделиться</div>
+                                    </a>
+                                </div>
+    
+                            </div>
+    
+                            <a href="#" class="news-post__short-open">Pазвернуть</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- news post FULL -->
+                <div class="news-post__full">
+
+
+                    <!-- Minimezed half-width block wrapper & 2 minimized block inside him -->
+                    <div class="news-post__full-block-minimized-wrapper">
+                        <div class="news-post__full-block-minimized">
+                            <div class="news-post__full-regullar-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Aut natus placeat, perferendis libero recusandae deserunt quia, ipsa repudiandae ab sequi quod, aliquam sit! Repellendus ipsa labore voluptates ipsum beatae, nostrum ratione delectus nobis cum distinctio, nulla perspiciatis rerum laborum neque voluptate nesciunt praesentium impedit harum modi nam!
+                                Culpa, dicta officiis? Vero magnam quidem voluptatem molestiae temporibus maxime tenetur? Neque atque excepturi amet aut, veritatis, saepe blanditiis, eius sit ipsam quia quos necessitatibus quae voluptatibus voluptas. Facilis in odit quam perferendis, nostrum quisquam nemo veniam at, porro perspiciatis quos ipsam nesciunt similique debitis explicabo quibusdam dolores sequi hic! Nesciunt, dicta minima reiciendis ratione in tempore, veniam alias sapiente eos atque suscipit. Dolorum vero eveniet dicta perspiciatis odit sit, eligendi dolore quibusdam ut in obcaecati quos ducimus vitae alias molestias asperiores saepe eaque delectus temporibus possimus distinctio id, at sint ipsum? Corporis modi quae et doloremque est labore consequuntur incidunt rem doloribus!
+                            </div>
+                        </div>
+                        
+                        <div class="news-post__full-block-minimized">
+
+                            <div class="news-post__full-slider">
+
+                                <div class="news-post__full-slider-wrapper">
+                                    <div class="news-post__full-slides">
+
+                                        <span class="news-post__full-slide">
+                                            <div class="news-post__full-video">
+                                                <a class="news-post__full-video-link" href="#">
+                                                    <img class="news-post__full-video-media" src="https://i.ytimg.com/vi/PYTisEDwnRA/maxresdefault.jpg" alt="">
+                                                    <div class="news-post__full-video-button">
+                                                        <svg width="68" height="50" viewBox="0 0 68 50">
+                                                            <path class="news-post__full-button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z">
+
+                                                            </path>
+                                                            <path class="news-post__full-button-icon" d="M 45,24 27,14 27,34"></path>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </span>
+                                        <span class="news-post__full-slide">
+                                            <img src="img/news/news-post/post-full/new-news-min-2.jpg" alt="">
+                                        </span>
+                                        <span class="news-post__full-slide">
+                                            <div class="news-post__full-video">
+                                                <a class="news-post__full-video-link" href="#">
+                                                    <img class="news-post__full-video-media" src="https://i.ytimg.com/vi/84DfZx2JVVY/maxresdefault.jpg" alt="">
+                                                    <div class="news-post__full-video-button">
+                                                        <svg width="68" height="50" viewBox="0 0 68 50">
+                                                            <path class="news-post__full-button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z">
+
+                                                            </path>
+                                                            <path class="news-post__full-button-icon" d="M 45,24 27,14 27,34"></path>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </span>
+                                        <span class="news-post__full-slide">
+                                            <img src="img/news/news-post/post-full/new-news-min-3.jpg" alt="">
+                                        </span>
+
+                                    </div>
+                                </div>
+
+                                <div class="news-post__full-slider-control">
+                                    <a class="news-post__full-slider-control-prev"></a>
+                                    <a class="news-post__full-slider-control-next"></a>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                                       
+                    <!-- Full width block -->
+                    <div class="news-post__full-block-minimized-wrapper">
+
+                        <!--  Slider  -->
+                        <section class="slider" data-timer="3000">
+                            <div class="slider__wrap">
+                                <div class="slider__item fade">
+                                    <div class="slider__item-video">
+                                        <a href="#" class="slider__item-video-link">
+                                            <img class="slider__item-video-media" src="https://i.ytimg.com/vi/6dRzEElhnNk/maxresdefault.jpg" alt="">
+                                            <div class="slider__item-video-button">
+                                                <svg width="68" height="50" viewBox="0 0 68 50">
+                                                    <path class="slider__item-video-button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+                                                    <path class="slider__item-video-button-icon" d="M 45,24 27,14 27,34"></path>
+                                                </svg>
+                                            </div>
+                                        </a>
+                                     </div>
+                                </div>
+
+                                <div class="slider__item fade">
+                                    <picture>
+                                        <source media="(min-width: 1140px)" srcset="img/sliderMainPage/main-slider-pic2-2000.jpg">
+                                        <source media="(min-width: 768px)" srcset="img/sliderMainPage/main-slider-pic2-1140.jpg">
+                                        <img src="img/sliderMainPage/main-slider-pic2-768.jpg" alt="">
+                                    </picture>
+                                    <div class="slider__item-info  ">
+                                        <a href="#">
+                                            <div class="slider-title">Range Rover Velar - люксовый 5-дверный внедорожник класса «K2» </div>
+                                            <p class="slider-text">Чистые линии, отражающие уверенность и яркую индивидуальность. Range Rover Velar отличается по-настоящему прогрессивным дизайном. Изящный, элегантный автомобиль с выразительной внешностью и притягательным современным дизайном. Range Rover Velar приковывает к себе взгляды, куда бы вы ни отправились.</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="slider__item fade">
+                                    <picture>
+                                        <source media="(min-width: 1140px)" srcset="img/sliderMainPage/main-slider-pic3-2000.jpg">
+                                        <source media="(min-width: 768px)" srcset="img/sliderMainPage/main-slider-pic3-1140.jpg">
+                                        <img src="img/sliderMainPage/main-slider-pic3-768.jpg" alt="">
+                                    </picture>
+                                    <div class="slider__item-info  ">
+                                        <a href="#">
+                                            <div class="slider-title">Range Rover Velar - люксовый 5-дверный внедорожник класса «K2» </div>
+                                            <p class="slider-text">Чистые линии, отражающие уверенность и яркую индивидуальность. Range Rover Velar отличается по-настоящему прогрессивным дизайном. Изящный, элегантный автомобиль с выразительной внешностью и притягательным современным дизайном. Range Rover Velar приковывает к себе взгляды, куда бы вы ни отправились.</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="slider__item fade">
+                                    <picture>
+                                        <source media="(min-width: 1140px)" srcset="img/sliderMainPage/main-slider-pic2-2000.jpg">
+                                        <source media="(min-width: 768px)" srcset="img/sliderMainPage/main-slider-pic2-1140.jpg">
+                                        <img src="img/sliderMainPage/main-slider-pic2-768.jpg" alt="">
+                                    </picture>
+                                    <div class="slider__item-info  ">
+                                        <a href="#">
+                                            <div class="slider-title">Range Rover Velar - люксовый 5-дверный внедорожник класса «K2» </div>
+                                            <p class="slider-text">Чистые линии, отражающие уверенность и яркую индивидуальность. Range Rover Velar отличается по-настоящему прогрессивным дизайном. Изящный, элегантный автомобиль с выразительной внешностью и притягательным современным дизайном. Range Rover Velar приковывает к себе взгляды, куда бы вы ни отправились.</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                            </div>
+
+                            <div class="slider__dots">
+                                <div class="dot dot-active"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                
+                            </div>
+                        
+                        </section>
+                
+
+                    </div>
+                    <!-- Minimezed half-width block wrapper & 2 minimized block inside him -->
+                    <div class="news-post__full-block-minimized-wrapper">
+
+                        <div class="news-post__full-block-minimized">
+
+                            <div class="news-post__full-regullar-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Aut natus placeat, perferendis libero recusandae deserunt quia, ipsa repudiandae ab sequi quod, aliquam sit! Repellendus ipsa labore voluptates ipsum beatae, nostrum ratione delectus nobis cum distinctio, nulla perspiciatis rerum laborum neque voluptate nesciunt praesentium impedit harum modi nam!
+                                Culpa, dicta officiis? Vero magnam quidem voluptatem molestiae temporibus maxime tenetur? Neque atque excepturi amet aut, veritatis, saepe blanditiis, eius sit ipsam quia quos necessitatibus quae voluptatibus voluptas. Facilis in odit quam perferendis, nostrum quisquam nemo veniam at, porro perspiciatis quos ipsam nesciunt similique debitis explicabo quibusdam dolores sequi hic! Nesciunt, dicta minima reiciendis ratione in tempore, veniam alias sapiente eos atque suscipit. Dolorum vero eveniet dicta perspiciatis odit sit, eligendi dolore quibusdam ut in obcaecati quos ducimus vitae alias molestias asperiores saepe eaque delectus temporibus possimus distinctio id, at sint ipsum? Corporis modi quae et doloremque est labore consequuntur incidunt rem doloribus!
+                            </div>
+
+                        </div>
+                        
+                        <div class="news-post__full-block-minimized">
+
+                            <div class="news-post__full-regullar-text">
+                                <p>Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности позволяет оценить значение новых предложений. Товарищи! сложившаяся структура организации представляет собой интересный эксперимент проверки направлений прогрессивного развития. С другой стороны рамки и место обучения кадров способствует подготовки и реализации модели развития.</p>
+                                <p>Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</p>                            
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Full panel -->
+                    <div class="news-post__full-panel">
+
+                        <div class="news-post__full-bar">
+
+                            <div class="news-post__full-date">10 Апреля 2021</div>
+
+                            <div class="news-post__full-btns">
+
+                                <a href="#" class="news-post__full-btn news-post__full-btn--ask">
+                                    <div class="news-post__full-btn--ask-tip">Задать вопрос</div>
+                                </a>
+                                <a href="#" class="news-post__full-btn news-post__full-btn--share">
+                                    <div class="news-post__full-btn--share-tip">Поделиться</div>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <a href="#" class="news-post__full-close">Свернуть</a>
+                    </div>
+
+                </div>
+               
+
+            </article>
+
+            <article class="news-post">
+
+                <!-- news post SHORT -->
+                <div class="news-post__short" >
+
+                    <div class="news-post__short-picture">
+                        <img src="img/news/news-post/post-full/newspost-min2.png" alt="">
+                    </div>
+
+                    <div class="news-post__short-container">
+
+                        <div class="news-post__short-info">
+
+                            <div class="news-post__short-title"><a href="single-news-post.html">новые усовершенствованные фары Land Rover Defender</a> </div>
+                            <div class="news-post__short-text">Недостатки штатных фар Land Rover Defender общеизвестны: прежде всего это недостаточная яркость и четкость, присущая фарам с галогеновыми лампами. Негерметичность штатных фар часто приводит к их выходу из строя при преодолении водных преград, вода, попадающая внутрь фары вызывает коррозию и запотевание внутренностей фары.  новыми лампами. Негерметичность штатных фар часто приводит к их выходу из строя при преодолении водных преград, вода и другое.</div>
+    
+                        </div>
+    
+                        <div class="news-post__short-panel">
+    
+                            <div class="news-post__short-bar">
+    
+                                <div class="news-post__short-date">10 Апреля 2021</div>
+    
+                                <div class="news-post__short-btns">
+                                    <a href="#" class="news-post__short-btn news-post__short-btn--ask">
+                                        <div class="news-post__short-btn--ask-tip">Задать вопрос</div>
+                                    </a>
+                                    <a href="#" class="news-post__short-btn news-post__short-btn--share">
+                                        <div class="news-post__short-btn--share-tip">Поделиться</div>
+                                    </a>
+                                </div>
+    
+                            </div>
+    
+                            <a href="#" class="news-post__short-open">Pазвернуть</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- news post FULL -->
+                <div class="news-post__full" >
+
+                <!-- Full width block -->
+                <div class="news-post__full-block">
+
+    
+                    <div class="news-post__full-slider">
+
+                        <div class="news-post__full-slider-wrapper">
+                            <div class="news-post__full-slides">
+                                <span class="news-post__full-slide">
+                                    <img src="img/news/news-post/post-full/full-post-full-1.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="news-post__full-slider-control">
+                            <a class="news-post__full-slider-control-prev"></a>
+                            <a class="news-post__full-slider-control-next"></a>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                   
+
+
+                <!-- Minimezed half-width block wrapper & 2 minimized block inside him -->
+                <div class="news-post__full-block-minimized-wrapper">
+
+                    <div class="news-post__full-block-minimized">
+
+                        <div class="news-post__full-regullar-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Aut natus placeat, perferendis libero recusandae deserunt quia, ipsa repudiandae ab sequi quod, aliquam sit! Repellendus ipsa labore voluptates ipsum beatae, nostrum ratione delectus nobis cum distinctio, nulla perspiciatis rerum laborum neque voluptate nesciunt praesentium impedit harum modi nam!
+                            Culpa, dicta officiis? Vero magnam quidem voluptatem molestiae temporibus maxime tenetur? Neque atque excepturi amet aut, veritatis, saepe blanditiis, eius sit ipsam quia quos necessitatibus quae voluptatibus voluptas. Facilis in odit quam perferendis, nostrum quisquam nemo veniam at, porro perspiciatis quos ipsam nesciunt similique debitis explicabo quibusdam dolores sequi hic! Nesciunt, dicta minima reiciendis ratione in tempore, veniam alias sapiente eos atque suscipit. Dolorum vero eveniet dicta perspiciatis odit sit, eligendi dolore quibusdam ut in obcaecati quos ducimus vitae alias molestias asperiores saepe eaque delectus temporibus possimus distinctio id, at sint ipsum? Corporis modi quae et doloremque est labore consequuntur incidunt rem doloribus!
+                        </div>
+
+                    </div>
+                    
+                    <div class="news-post__full-block-minimized">
+
+                        <div class="news-post__full-regullar-text">
+                            <p>Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности позволяет оценить значение новых предложений. Товарищи! сложившаяся структура организации представляет собой интересный эксперимент проверки направлений прогрессивного развития. С другой стороны рамки и место обучения кадров способствует подготовки и реализации модели развития.</p>
+                            <p>Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</p>                            
+                            <p>Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</p>                            
+                        </div>
+
+                    </div>
+                </div>
+
+                    <!-- Full panel -->
+                    <div class="news-post__full-panel">
+
+                        <div class="news-post__full-bar">
+
+                            <div class="news-post__full-date">10 Апреля 2021</div>
+
+                            <div class="news-post__full-btns">
+
+                                <a href="#" class="news-post__full-btn news-post__full-btn--ask">
+                                    <div class="news-post__full-btn--ask-tip">Задать вопрос</div>
+                                </a>
+                                <a href="#" class="news-post__full-btn news-post__full-btn--share">
+                                    <div class="news-post__full-btn--share-tip">Поделиться</div>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <a href="#" class="news-post__full-close">Свернуть</a>
+                    </div>
+
+                </div>
+
+         
+  
+               
+
+            </article>
+
+            <article class="news-post">
+
+                <!-- news post SHORT -->
+                <div class="news-post__short" >
+
+                    <div class="news-post__short-picture">
+                        <img src="img/news/news-post/post-full/newspost-min3.png" alt="">
+                    </div>
+
+                    <div class="news-post__short-container">
+
+                        <div class="news-post__short-info">
+
+                            <div class="news-post__short-title"><a href="single-news-post.html">новые усовершенствованные фары Land Rover Defender</a> </div>
+                            <div class="news-post__short-text">Недостатки штатных фар Land Rover Defender общеизвестны: прежде всего это недостаточная яркость и четкость, присущая фарам с галогеновыми лампами. Негерметичность штатных фар часто приводит к их выходу из строя при преодолении водных преград, вода, попадающая внутрь фары вызывает коррозию и запотевание внутренностей фары.  новыми лампами. Негерметичность штатных фар часто приводит к их выходу из строя при преодолении водных преград, вода и другое.</div>
+    
+                        </div>
+    
+                        <div class="news-post__short-panel">
+    
+                            <div class="news-post__short-bar">
+    
+                                <div class="news-post__short-date">10 Апреля 2021</div>
+    
+                                <div class="news-post__short-btns">
+                                    <a href="#" class="news-post__short-btn news-post__short-btn--ask">
+                                        <div class="news-post__short-btn--ask-tip">Задать вопрос</div>
+                                    </a>
+                                    <a href="#" class="news-post__short-btn news-post__short-btn--share">
+                                        <div class="news-post__short-btn--share-tip">Поделиться</div>
+                                    </a>
+                                </div>
+    
+                            </div>
+    
+                            <a href="#" class="news-post__short-open">Pазвернуть</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- news post FULL -->
+                <div class="news-post__full" >
+
+                <!-- Full width block -->
+                <div class="news-post__full-block">
+
+    
+                    <div class="news-post__full-slider">
+
+                        <div class="news-post__full-slider-wrapper">
+                            <div class="news-post__full-slides">
+                                <span class="news-post__full-slide">
+                                    <img src="img/news/news-post/post-full/full-post-full-1.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="news-post__full-slider-control">
+                            <a class="news-post__full-slider-control-prev"></a>
+                            <a class="news-post__full-slider-control-next"></a>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                   
+
+
+                <!-- Minimezed half-width block wrapper & 2 minimized block inside him -->
+                <div class="news-post__full-block-minimized-wrapper">
+
+                    <div class="news-post__full-block-minimized">
+
+                        <div class="news-post__full-regullar-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Aut natus placeat, perferendis libero recusandae deserunt quia, ipsa repudiandae ab sequi quod, aliquam sit! Repellendus ipsa labore voluptates ipsum beatae, nostrum ratione delectus nobis cum distinctio, nulla perspiciatis rerum laborum neque voluptate nesciunt praesentium impedit harum modi nam!
+                            Culpa, dicta officiis? Vero magnam quidem voluptatem molestiae temporibus maxime tenetur? Neque atque excepturi amet aut, veritatis, saepe blanditiis, eius sit ipsam quia quos necessitatibus quae voluptatibus voluptas. Facilis in odit quam perferendis, nostrum quisquam nemo veniam at, porro perspiciatis quos ipsam nesciunt similique debitis explicabo quibusdam dolores sequi hic! Nesciunt, dicta minima reiciendis ratione in tempore, veniam alias sapiente eos atque suscipit. Dolorum vero eveniet dicta perspiciatis odit sit, eligendi dolore quibusdam ut in obcaecati quos ducimus vitae alias molestias asperiores saepe eaque delectus temporibus possimus distinctio id, at sint ipsum? Corporis modi quae et doloremque est labore consequuntur incidunt rem doloribus!
+                        </div>
+
+                    </div>
+                    
+                    <div class="news-post__full-block-minimized">
+
+                        <div class="news-post__full-regullar-text">
+                            <p>Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности позволяет оценить значение новых предложений. Товарищи! сложившаяся структура организации представляет собой интересный эксперимент проверки направлений прогрессивного развития. С другой стороны рамки и место обучения кадров способствует подготовки и реализации модели развития.</p>
+                            <p>Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</p>                            
+                            <p>Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</p>                            
+                        </div>
+
+                    </div>
+                </div>
+
+                    <!-- Full panel -->
+                    <div class="news-post__full-panel">
+
+                        <div class="news-post__full-bar">
+
+                            <div class="news-post__full-date">10 Апреля 2021</div>
+
+                            <div class="news-post__full-btns">
+
+                                <a href="#" class="news-post__full-btn news-post__full-btn--ask">
+                                    <div class="news-post__full-btn--ask-tip">Задать вопрос</div>
+                                </a>
+                                <a href="#" class="news-post__full-btn news-post__full-btn--share">
+                                    <div class="news-post__full-btn--share-tip">Поделиться</div>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <a href="#" class="news-post__full-close">Свернуть</a>
+                    </div>
+
+                </div>
+
+         
+  
+               
+
+            </article>
+
+            <article class="news-post">
+
+                <!-- news post SHORT -->
+                <div class="news-post__short" >
+
+                    <div class="news-post__short-picture">
+                        <img src="img/news/news-post/news-picture2.png" alt="">
+                    </div>
+
+                    <div class="news-post__short-container">
+
+                        <div class="news-post__short-info">
+
+                            <div class="news-post__short-title"><a href="single-news-post.html">новые усовершенствованные фары Land Rover Defender</a> </div>
+                            <div class="news-post__short-text">Недостатки штатных фар Land Rover Defender общеизвестны: прежде всего это недостаточная яркость и четкость, присущая фарам с галогеновыми лампами. Негерметичность штатных фар часто приводит к их выходу из строя при преодолении водных преград, вода, попадающая внутрь фары вызывает коррозию и запотевание внутренностей фары.  новыми лампами. Негерметичность штатных фар часто приводит к их выходу из строя при преодолении водных преград, вода и другое.</div>
+    
+                        </div>
+    
+                        <div class="news-post__short-panel">
+    
+                            <div class="news-post__short-bar">
+    
+                                <div class="news-post__short-date">10 Апреля 2021</div>
+    
+                                <div class="news-post__short-btns">
+                                    <a href="#" class="news-post__short-btn news-post__short-btn--ask">
+                                        <div class="news-post__short-btn--ask-tip">Задать вопрос</div>
+                                    </a>
+                                    <a href="#" class="news-post__short-btn news-post__short-btn--share">
+                                        <div class="news-post__short-btn--share-tip">Поделиться</div>
+                                    </a>
+                                </div>
+    
+                            </div>
+    
+                            <a href="#" class="news-post__short-open">Pазвернуть</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- news post FULL -->
+                <div class="news-post__full" >
+
+                <!-- Full width block -->
+                <div class="news-post__full-block">
+
+    
+                    <div class="news-post__full-slider">
+
+                        <div class="news-post__full-slider-wrapper">
+                            <div class="news-post__full-slides">
+                                <span class="news-post__full-slide">
+                                    <img src="img/news/news-post/post-full/full-post-full-1.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="news-post__full-slider-control">
+                            <a class="news-post__full-slider-control-prev"></a>
+                            <a class="news-post__full-slider-control-next"></a>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                   
+
+
+                <!-- Minimezed half-width block wrapper & 2 minimized block inside him -->
+                <div class="news-post__full-block-minimized-wrapper">
+
+                    <div class="news-post__full-block-minimized">
+
+                        <div class="news-post__full-regullar-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Aut natus placeat, perferendis libero recusandae deserunt quia, ipsa repudiandae ab sequi quod, aliquam sit! Repellendus ipsa labore voluptates ipsum beatae, nostrum ratione delectus nobis cum distinctio, nulla perspiciatis rerum laborum neque voluptate nesciunt praesentium impedit harum modi nam!
+                            Culpa, dicta officiis? Vero magnam quidem voluptatem molestiae temporibus maxime tenetur? Neque atque excepturi amet aut, veritatis, saepe blanditiis, eius sit ipsam quia quos necessitatibus quae voluptatibus voluptas. Facilis in odit quam perferendis, nostrum quisquam nemo veniam at, porro perspiciatis quos ipsam nesciunt similique debitis explicabo quibusdam dolores sequi hic! Nesciunt, dicta minima reiciendis ratione in tempore, veniam alias sapiente eos atque suscipit. Dolorum vero eveniet dicta perspiciatis odit sit, eligendi dolore quibusdam ut in obcaecati quos ducimus vitae alias molestias asperiores saepe eaque delectus temporibus possimus distinctio id, at sint ipsum? Corporis modi quae et doloremque est labore consequuntur incidunt rem doloribus!
+                        </div>
+
+                    </div>
+                    
+                    <div class="news-post__full-block-minimized">
+
+                        <div class="news-post__full-regullar-text">
+                            <p>Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности позволяет оценить значение новых предложений. Товарищи! сложившаяся структура организации представляет собой интересный эксперимент проверки направлений прогрессивного развития. С другой стороны рамки и место обучения кадров способствует подготовки и реализации модели развития.</p>
+                            <p>Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</p>                            
+                            <p>Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</p>                            
+                        </div>
+
+                    </div>
+                </div>
+
+                    <!-- Full panel -->
+                    <div class="news-post__full-panel">
+
+                        <div class="news-post__full-bar">
+
+                            <div class="news-post__full-date">10 Апреля 2021</div>
+
+                            <div class="news-post__full-btns">
+
+                                <a href="#" class="news-post__full-btn news-post__full-btn--ask">
+                                    <div class="news-post__full-btn--ask-tip">Задать вопрос</div>
+                                </a>
+                                <a href="#" class="news-post__full-btn news-post__full-btn--share">
+                                    <div class="news-post__full-btn--share-tip">Поделиться</div>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <a href="#" class="news-post__full-close">Свернуть</a>
+                    </div>
+
+                </div>
+
+         
+  
+               
+
+            </article>
+
+
+
+            <!-- Show more button-->
+           <button class="show-more"><img src="img/news/show-more-icon.svg" alt="" class="show-more__icon">Показать еще</button>
+
+
+            <!-- Share modal -->
+            <div class="modal-share ">
+
+                <div class="modal-share__blur"></div>
+
+                <div class="modal-share__wrapper">
+
+                    <div class="modal-share__close"></div>
+
+                    <div class="modal-share__title">Поделиться</div>
+                    <ul class="modal-share__links">
+                        <li class="modal-share__link modal-share__link--vk"><a href=""></a></li>
+                        <li class="modal-share__link modal-share__link--facebook"><a href=""></a></li>
+                        <li class="modal-share__link modal-share__link--twitter"><a href=""></a></li>
+                        <li class="modal-share__link modal-share__link--ok"><a href=""></a></li>
+                        <li class="modal-share__link modal-share__link--whatsapp"><a href=""></a></li>
+                        <li class="modal-share__link modal-share__link--telegram"><a href=""></a></li>
+                    </ul>
+                    <div class="modal-share__id-field">
+                        <div class="modal-share__output">https://final.lr.ru/dep/rangeroverl32220022009/shop/KAT0002883/CAB000040PMABARS
+                            <!-- <input type="text" value="https://final.lr.ru/dep/rangeroverl32220022009/shop/KAT0002883/CAB000040PMABARS" readonly> -->
+                        </div>
+                        <div class="modal-share__btn">Копировать</div>
+                        <div class="modal-share__copy-tip">Ссылка скопирована! <span>&#x2713;</span></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Ask modal -->
+            <div class="modal-ask">
+
+                <div class="modal-ask__blur"></div>
+
+                <form class="modal-ask__form-wrapper">
+
+                    <div class="modal-ask__close"></div>
+
+                    <div class="modal-ask__title">Задать вопрос</div>
+
+                    <div class="modal-ask__input-wrapper">
+
+                        <input type="text" class="modal-ask__input" placeholder="Ваше имя">
+                        <input type="mail" class="modal-ask__input" placeholder="Ваш email">
+
+                    </div>
+            
+                    <div class="modal-ask__id"># ID новости</div>
+                    <textarea name="" id="" class="modal-ask__field" placeholder="Задайте нам ваш вопрос"></textarea>
+
+                    <div class="modal-ask__btn">Отправить</div>
+
+                </form>
+
+            </div>
+           
+        </main>
+
+        <footer class="footer">
+
+            <!-- footer preambula -->
+            <div class="footer__preambula">
+                <p>Преамбула футера с какой-то очень интересной информацией</p>
+            </div>
+
+            <!-- footer social -->
+            <ul class="footer__social-list">
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--utube" href="https://www.youtube.com/"></a>
+                </li>
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--vk" href="https://vk.com/"></a>
+                </li>
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--fbook" href="https://www.facebook.com/"></a>
+                </li>
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--insta" href="https://www.instagram.com/"></a>
+                </li>
+
+            </ul>
+
+            <!-- footer contain container -->
+            <div class="footer-contain">
+
+                <!-- footer contacts -->
+                <div class="footer__contacts footer-contacts">
+
+                    <img class="footer-contacts__logo" src="img/footer/footer-logo.png" alt="">
+                    <div class="footer-contacts__tel">
+                        <a class="footer-contacts__tel--icon-number" href="callto:+74956496060">+7 (495) 649 60 60</a>
+                        <a class="footer-contacts__tel--" href="callto:+74956496060">+7 (495) 649 60 60</a>
+                    </div>
+
+                </div>
+
+                <!-- footer panel -->
+                <div class="footer__panel footer-panel">
+
+                    <!-- footer panel list -->
+                    <ul class="footer-panel__list">
+
+                        <li class="footer-panel__item">
+                            <a class="footer-panel__item--contact" href="#">Контакты</a>
+                        </li>
+
+                        <li class="footer-panel__item">
+                            <a class="footer-panel__item--map" href="#">Схема проезда</a>
+                        </li>
+
+                        <li class="footer-panel__item">
+                            <a class="footer-panel__item--clock" href="#">Часы работы</a>
+                        </li>
+
+                    </ul>
+
+                    <!-- footer panel buttons -->
+                    <div class="footer-panel__buttons">
+                        
+                        <a class="footer-panel__button footer-panel__button--call" href="#">
+                            звонок
+                        </a>
+
+                        <a class="footer-panel__button footer-panel__button--chat" href="#">
+                            онлайн чат
+                        </a>
+
+                        <a class="footer-panel__button footer-panel__button--review" href="#">
+                            отзывы и пожелания
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- footer information block -->
+            <div class="footer__information">
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">какая-то информация о магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">какая-то информация об еще одном магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+            </div>
+
+            <div class="footer__information-separator"></div>
+
+            <!-- footer information block -->
+            <div class="footer__information">
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">какая-то очень длинная информация о магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">информация о магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+
+            </div>
+            
+            <!-- footer copyright -->
+            <div class="footer__copyright">
+                <p>© Copyright 2013-2021. All rights is reserved</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="//www.youtube.com/player_api"></script>
+
+</body>
+</html>

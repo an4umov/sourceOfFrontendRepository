@@ -1,0 +1,24 @@
+.watch-all-btn {
+    position: relative;
+    display: block;
+    width: 195px;
+    background-image: url("../img/buttons/btn-arrow--orange.svg");
+    background-repeat: no-repeat;
+    background-size: 9px;
+    background-position: 84% 56%;
+    color: #F67B1E;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.2s;
+    align-self: flex-end;
+    
+    &:hover{
+        background-image: url("../img/buttons/btn-arrow--orange.svg");
+        background-repeat: no-repeat;
+        background-size: 9px;
+        background-position: 86% 56%;
+        transition: 0.2s;
+
+    }
+}

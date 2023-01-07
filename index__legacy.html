@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LR.RU &ndash; Legacy</title>
+
+    <link rel="preload" href="font/open-sans-v18-latin-300.woff2" as="font" crossorigin> 
+    <link rel="preload" href="font/open-sans-v18-latin-800.woff2" as="font" crossorigin>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="header-top__phantom" style="width:100%;height:53px;"></div>
+        <div class="header-top" style="position: fixed;">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span16 for-logo">
+                        <div class="logo"><a href="https://lr.ru" title="Главная"></a></div>
+                        <div class="left-side">
+                            <div class="phone">
+                                <a href="tel:+74956496060">7 (495) 649 60 60</a> 
+                            </div>
+                        </div>
+                        <div class="right-side">
+
+                            <ul class="separator-list">
+                                <li class="separator-list__item j-hover">
+                                    <a class="separator-list__link" href="#">Другие телефоны</a>
+                                    <ul class="separator-list-sub separator-list-sub_right j-hover__item">
+                                        <li class="separator-list-sub__item">
+                                            <span class="separator-list-sub__nolink"><span class="big"><a href="tel:+74953696060">7 (495) 369 60 60</a></span></span>
+                                        </li>
+                                        <li class="separator-list-sub__item">
+                                            <span class="separator-list-sub__nolink"><span class="big"><b><a href="tel:+74956490202">7 (495) 649 02 02</a></b></span></span>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="separator-list__item"><a class="separator-list__link"
+                                        href="/page/view/article/url/contacts">Контакты</a></li>
+                            </ul>
+                            <ul class="separator-list">
+                                <li id="header-basket-widget" class="in-basket icon separator-list__item"> <span>Корзина
+                                        пуста</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span16 for-logo">
+                        <ul class="menu">
+                            <li class="current">
+                                <a href="https://lr.ru">Главная</a>
+                            </li>
+                            <li>
+                                <a href="/shop">Интернет-Магазин</a>
+                            </li>
+                            <li>
+                                <a href="/news">Лента Новостей</a>
+                            </li>
+                            <li>
+                                <a href="/MyLandRover">Статьи</a>
+                            </li>
+                        </ul>
+                        <div class="search-wrap">
+                            <form method="get" action="/search">
+                                <div class="search">
+                                    <div class="jq-selectbox-wrapper" style="position: relative"><select name="type"
+                                            id="type" style="position: absolute; opacity: 0; height: 30px;">
+                                            <option value="catalog" selected="selected">В каталоге</option>
+                                            <option value="articles">В статьях</option>
+                                        </select>
+                                        <div id="type-styler" class="jq-selectbox jqselect"
+                                            style="display: inline-block; position: relative; z-index: 100; width: 74px;">
+                                            <div class="jq-selectbox__select" style="width: 68.0008px;">
+                                                <div class="jq-selectbox__select-text">В каталоге</div>
+                                                <div class="jq-selectbox__trigger">
+                                                    <div class="jq-selectbox__trigger-arrow"></div>
+                                                </div>
+                                            </div>
+                                            <div class="jq-selectbox__dropdown"
+                                                style="position: absolute; overflow: hidden auto; display: none;">
+                                                <ul style="list-style: none">
+                                                    <li class="selected sel"
+                                                        style="display: block; white-space: normal;">В каталоге</li>
+                                                    <li class="" style="display: block; white-space: normal;">В статьях
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--<input id="type_query" name="type" type="hidden" />-->
+                                    <input id="query" name="query" type="text" placeholder="Поиск">
+
+                                    <button type="submit">Найти</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hello block | Paralax-block -->
+    <section class="hello-block" style="background-color: #0076A3;">
+        <ul id="hello-block-viewport" class="hello-block-viewport" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+            <li class="layer" data-depth="0.30" style="position: relative; display: block; height: 100%; width: 100%; left: 0px; top: 0px; transform: translate3d(0.0150167%, 0.0642857%, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                <div class="background"></div>
+            </li>
+            <li style="z-index: 90; position: absolute; display: block; height: 100%; width: 100%; left: 0px; top: 0px; transform: translate3d(0.0250278%, 0.107143%, 0px); transform-style: preserve-3d; backface-visibility: hidden;" class="layer" data-depth="0.50">
+                <div class="desk-background"></div>
+            </li>
+        </ul>
+    </section>
+
+    <section id="content">
+        <div class="container">
+
+            <div class="row-fluid">
+                <aside class="sidebar span4">
+                    <div id="float-menu-block">
+                        <div class="widget">
+                            <!--Использовать в боковом меню тег <nav> на всех страницах-->
+                            <nav>
+                                <ul class="menu" id="yw0">
+                                    <li style="color: #0083C4 !important" class=""><a style="color: #0083C4 !important"
+                                            href="/page/1">Новости</a></li>
+                                    <li style="color: #468000 !important" class=""><a style="color: #468000 !important"
+                                            href="/page/4">Уголок Покупателя</a></li>
+                                    <li style="color: #F67B1E !important" class=""><a style="color: #F67B1E !important"
+                                            href="/page/3">Акции </a></li>
+                                    <li style="color: #F67B1E !important" class=""><a style="color: #F67B1E !important"
+                                            href="/page/19">Распродажа</a></li>
+                                    <li style="color: #0076A3 !important" class=""><a style="color: #0076A3 !important"
+                                            href="/page/6">Автосервис</a></li>
+                                    <li style="color: #3DBCD4 !important" class=""><a style="color: #3DBCD4 !important"
+                                            href="/offroad">DEFENDER СТУДИЯ</a></li>
+                                    <li style="color: #3DBCD4 !important" class=""><a style="color: #3DBCD4 !important"
+                                            href="/page/20">Центр Рестайлинга</a></li>
+                                    <li style="color: #3DBCD4 !important" class=""><a style="color: #3DBCD4 !important"
+                                            href="/page/21">Охранные системы</a></li>
+                                    <li style="color: #3DBCD4 !important" class=""><a style="color: #3DBCD4 !important"
+                                            href="/page/25">Уход и эстетика</a></li>
+                                    <li style="color: #0076A3 !important" class=""><a style="color: #0076A3 !important"
+                                            href="/page/5">Отдел запчастей</a></li>
+                                    <li style="color: #0076A3 !important" class=""><a style="color: #0076A3 !important"
+                                            href="/page/7">Автосалон</a></li>
+                                    <li style="color: #6BAC57 !important" class=""><a style="color: #6BAC57 !important"
+                                            href="/page/10">Работа в LR.RU</a></li>
+                                    <li style="color: #468000 !important" class=""><a style="color: #468000 !important"
+                                            href="/about">О компании</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </aside>
+                <div class="content-block span12">
+                    <div>
+                        <div id="yw1"></div>
+                    </div>
+
+                    <div class="banners-block">
+                        <div class="row-fluid">
+
+                        </div>
+                    </div>
+
+                    <div class="row-fluid">
+
+                        <div class="span8">
+                            <div class="category-title">Акции</div>
+    
+    <article class="post-prev" itemscope="" itemtype="http://schema.org/Article">
+        <div class="title" itemprop="name"><a href="/page/article/zamena_kompressora_pnevmopodveski">Компрессоры
+                пневмоподвески - продажи и замена</a></div>
+        <!--div class="published">Автор: <a itemprop="author" href="#">admin</a>,  дата 10.12.13<meta itemprop="datePublished" content="2013-12-22"></div-->
+        <div class="featured-image"><img itemprop="thumbnailUrl"
+                src="img/legacy/news-pic__legacy.png"
+                alt="Image alt"></div>
+        <div class="post-content">
+            <div class="fadeout"></div>
+            <p>Компрессоры пневмоподвески на все модели Land Rover&nbsp; - в наличиии!</p>
+        </div>
+        <div class="read-more"><a itemprop="url" class="button"
+                href="/page/article/zamena_kompressora_pnevmopodveski">Читать далее</a></div>
+        <div class="tags">
+            <span>Теги:</span> <a href="/page/tag/Акции">Акции</a>, <a href="/page/tag/Автосервис">Автосервис</a>, <a
+                href="/page/tag/Новости">Новости</a>, <a href="/page/tag/Land+Rover+Discovery+3">Land Rover Discovery
+                3</a>, <a href="/page/tag/Land+Rover+Discovery+4">Land Rover Discovery 4</a> </div>
+    </article>
+    <article class="post-prev" itemscope="" itemtype="http://schema.org/Article">
+        <div class="title" itemprop="name"><a
+                href="/page/article/restajling_zadnih_fonarej_range_rover_sport_2006_2013">Рестайлинг задних фонарей
+                Range Rover Sport 2006-2013 </a></div>
+        <!--div class="published">Автор: <a itemprop="author" href="#">admin</a>,  дата 10.12.13<meta itemprop="datePublished" content="2013-12-22"></div-->
+        <div class="featured-image"><img itemprop="thumbnailUrl"
+                src="img/legacy/news-pic__legacy.png"
+                alt="Image alt"></div>
+        <div class="post-content">
+            <div class="fadeout"></div>
+            <p>Вторая молодость. Обновляем задние фонари на Ренж Ровер Спорт (2006-2013 модельный год).</p>
+        </div>
+        <div class="read-more"><a itemprop="url" class="button"
+                href="/page/article/restajling_zadnih_fonarej_range_rover_sport_2006_2013">Читать далее</a></div>
+        <div class="tags">
+            <span>Теги:</span> <a href="/page/tag/Акции">Акции</a>, <a
+                href="/page/tag/RANGE+ROVER+SPORT+2010-2013">RANGE ROVER SPORT 2010-2013</a>, <a
+                href="/page/tag/RANGE+ROVER+SPORT+2005-2009">RANGE ROVER SPORT 2005-2009</a>, <a
+                href="/page/tag/Новые+публикации">Новые публикации</a>, <a href="/page/tag/Рестайлинг">Рестайлинг</a>
+        </div>
+    </article>
+    <article class="post-prev" itemscope="" itemtype="http://schema.org/Article">
+        <div class="title" itemprop="name"><a href="/page/article/kometa_light">Дизайнерские фонари для Range Rover
+                Sport</a></div>
+        <!--div class="published">Автор: <a itemprop="author" href="#">admin</a>,  дата 10.12.13<meta itemprop="datePublished" content="2013-12-22"></div-->
+        <div class="featured-image"><img itemprop="thumbnailUrl"
+                src="img/legacy/news-pic__legacy.png"
+                alt="Image alt"></div>
+        <div class="post-content">
+            <div class="fadeout"></div>
+            <p>Отличная идея для рестайлинга задних фонарей Range Rover Sport. Уникальный дизайн освежит экстерьер
+                машины и сделает его запоминающимся и уникальным.</p>
+        </div>
+        <div class="read-more"><a itemprop="url" class="button" href="/page/article/kometa_light">Читать далее</a></div>
+        <div class="tags">
+            <span>Теги:</span> <a href="/page/tag/Акции">Акции</a>, <a href="/page/tag/Новости">Новости</a>, <a
+                href="/page/tag/Рестайлинг">Рестайлинг</a> </div>
+    </article>
+    <div class="category-title">Распродажи</div>
+
+    <article class="post-prev" itemscope="" itemtype="http://schema.org/Article">
+        <div class="title" itemprop="name"><a href="/page/article/sale_lamps">Дополнительный свет - грандиозная
+                распродажа</a></div>
+        <!--div class="published">Автор: <a itemprop="author" href="#">admin</a>,  дата 10.12.13<meta itemprop="datePublished" content="2013-12-22"></div-->
+        <div class="featured-image"><img itemprop="thumbnailUrl"
+                src="img/legacy/news-pic__legacy.png"
+                alt="Image alt"></div>
+        <div class="post-content">
+            <div class="fadeout"></div>
+            <p>Мы распродаем остатки светодиодных, ксеноновых и галогеновых фар со скидкой 50-70% от существующих
+                рыночных цен!</p>
+        </div>
+        <div class="read-more"><a itemprop="url" class="button" href="/page/article/sale_lamps">Читать далее</a></div>
+        <div class="tags">
+            <span>Теги:</span> <a href="/page/tag/Land+Rover+Defender">Land Rover Defender</a>, <a
+                href="/page/tag/OFF+ROAD+студия">OFF ROAD студия</a>, <a href="/page/tag/Распродажи">Распродажи</a>
+        </div>
+    </article>
+    <article class="post-prev" itemscope="" itemtype="http://schema.org/Article">
+        <div class="title" itemprop="name"><a href="/page/article/brizgoviki_land_rover_discovery_3_4">Брызговики для
+                Discovery 3 и Discovery 4. Лучшие цены!</a></div>
+        <!--div class="published">Автор: <a itemprop="author" href="#">admin</a>,  дата 10.12.13<meta itemprop="datePublished" content="2013-12-22"></div-->
+        <div class="featured-image"><img itemprop="thumbnailUrl"
+                src="img/legacy/news-pic__legacy.png"
+                alt="Image alt"></div>
+        <div class="post-content">
+            <div class="fadeout"></div>
+            <p>Мы предлагаем брызговики для Land Rover Discovery отличного качества по самым низким ценам!&nbsp;
+                Доступны брызговики парами и поштучно.</p>
+        </div>
+        <div class="read-more"><a itemprop="url" class="button"
+                href="/page/article/brizgoviki_land_rover_discovery_3_4">Читать далее</a></div>
+        <div class="tags">
+            <span>Теги:</span> <a href="/page/tag/Land+Rover+Discovery+3">Land Rover Discovery 3</a>, <a
+                href="/page/tag/Land+Rover+Discovery+4">Land Rover Discovery 4</a>, <a
+                href="/page/tag/Распродажи">Распродажи</a>, <a href="/page/tag/Рестайлинг">Рестайлинг</a> </div>
+    </article>
+    <article class="post-prev" itemscope="" itemtype="http://schema.org/Article">
+        <div class="title" itemprop="name"><a href="/page/article/discovery3_pnevmo">Пневмокомпрессоры подвески
+                Discovery 3 и 4. Выбираем правильно</a></div>
+        <!--div class="published">Автор: <a itemprop="author" href="#">admin</a>,  дата 10.12.13<meta itemprop="datePublished" content="2013-12-22"></div-->
+        <div class="featured-image"><img itemprop="thumbnailUrl"
+                src="img/legacy/news-pic__legacy.png"
+                alt="Image alt"></div>
+        <div class="post-content">
+            <div class="fadeout"></div>
+            <p>Вышел из строя компрессор подвески Discovery 3,4 / Rover Range Rover Sport ? Мы расскажем, как правильно
+                подобрать замену и не переплатить лишнего...</p>
+        </div>
+        <div class="read-more"><a itemprop="url" class="button" href="/page/article/discovery3_pnevmo">Читать далее</a>
+        </div>
+        <div class="tags">
+            <span>Теги:</span> <a href="/page/tag/Land+Rover+Discovery+3">Land Rover Discovery 3</a>, <a
+                href="/page/tag/Land+Rover+Discovery+4">Land Rover Discovery 4</a>, <a
+                href="/page/tag/Распродажи">Распродажи</a> </div>
+    </article>
+    <article class="post-prev" itemscope="" itemtype="http://schema.org/Article">
+        <div class="title" itemprop="name"><a href="/page/article/Freelander_2_porogi">Пороги и брызговики Freelander
+                2</a></div>
+        <!--div class="published">Автор: <a itemprop="author" href="#">admin</a>,  дата 10.12.13<meta itemprop="datePublished" content="2013-12-22"></div-->
+        <div class="featured-image"><img itemprop="thumbnailUrl"
+                src="img/legacy/news-pic__legacy.png"
+                alt="Image alt"></div>
+        <div class="post-content">
+            <div class="fadeout"></div>
+            <p>Мы продолжаем распродажу порогов и брызговиков для Land Rover Freelander 2. Очень низкие цены при
+                отличном качестве!</p>
+        </div>
+        <div class="read-more"><a itemprop="url" class="button" href="/page/article/Freelander_2_porogi">Читать
+                далее</a></div>
+        <div class="tags">
+            <span>Теги:</span> <a href="/page/tag/Распродажи">Распродажи</a>, <a
+                href="/page/tag/Рестайлинг">Рестайлинг</a> </div>
+    </article>
+    </div>
+
+
+    <div class="span8">
+        <div class="category-title">Новости</div>
+
+        <article class="post-prev" itemscope="" itemtype="http://schema.org/Article">
+            <div class="title" itemprop="name"><a href="/page/article/porogi_land_rover_discovery_3_4">Пороги Discovery
+                    3,4 по супер-цене</a></div>
+            <!--div class="published">Автор: <a itemprop="author" href="#">admin</a>,  дата 10.12.13<meta itemprop="datePublished" content="2013-12-22"></div-->
+            <div class="featured-image"><img itemprop="thumbnailUrl"
+                    src="img/legacy/news-pic__legacy.png"
+                    alt="Image alt"></div>
+            <div class="post-content">
+                <div class="fadeout"></div>
+                <p>Мы предлагаем пороги для Discovery отличного качества, полностью соответствующие оригинальным, по
+                    отличной цене.</p>
+            </div>
+            <div class="read-more"><a itemprop="url" class="button"
+                    href="/page/article/porogi_land_rover_discovery_3_4">Читать далее</a></div>
+            <div class="tags">
+                <span>Теги:</span> <a href="/page/tag/Новости">Новости</a>, <a
+                    href="/page/tag/Land+Rover+Discovery+3">Land Rover Discovery 3</a>, <a
+                    href="/page/tag/Land+Rover+Discovery+4">Land Rover Discovery 4</a>, <a
+                    href="/page/tag/Рестайлинг">Рестайлинг</a> </div>
+        </article>
+        <article class="post-prev" itemscope="" itemtype="http://schema.org/Article">
+            <div class="title" itemprop="name"><a href="/page/article/otdelka_bagazhnoj_dveri_range_rover_sport">Отделка
+                    багажной двери Range Rover Sport</a></div>
+            <!--div class="published">Автор: <a itemprop="author" href="#">admin</a>,  дата 10.12.13<meta itemprop="datePublished" content="2013-12-22"></div-->
+            <div class="featured-image"><img itemprop="thumbnailUrl"
+                    src="img/legacy/news-pic__legacy.png"
+                    alt="Image alt"></div>
+            <div class="post-content">
+                <div class="fadeout"></div>
+                <p>Тюнинг багажной двери Range Rover Sport (2006-2010) - отделка как у Автобиографии!</p>
+            </div>
+            <div class="read-more"><a itemprop="url" class="button"
+                    href="/page/article/otdelka_bagazhnoj_dveri_range_rover_sport">Читать далее</a></div>
+            <div class="tags">
+                <span>Теги:</span> <a href="/page/tag/Новости">Новости</a>, <a
+                    href="/page/tag/RANGE+ROVER+2002-2009">RANGE ROVER 2002-2009</a>, <a
+                    href="/page/tag/RANGE+ROVER+SPORT+2010-2013">RANGE ROVER SPORT 2010-2013</a>, <a
+                    href="/page/tag/Рестайлинг">Рестайлинг</a> </div>
+        </article>
+        <article class="post-prev" itemscope="" itemtype="http://schema.org/Article">
+            <div class="title" itemprop="name"><a
+                    href="/page/article/kolesny_e_diski_dlya_defender___ogromny_j_vy_bor_v_lr_ru">Колесные диски для
+                    Defender - огромный выбор в LR.RU</a></div>
+            <!--div class="published">Автор: <a itemprop="author" href="#">admin</a>,  дата 10.12.13<meta itemprop="datePublished" content="2013-12-22"></div-->
+            <div class="featured-image"><img itemprop="thumbnailUrl"
+                    src="img/legacy/news-pic__legacy.png"
+                    alt="Image alt"></div>
+            <div class="post-content">
+                <div class="fadeout"></div>
+                <p>Хорошие колеса - половина джипа. Как правило, энтузиасты Defender имеют несколько комплектов колес -
+                    для города, для зимы, для бездорожья. Наш ассортимент дисков удовлетворит любую потребность...<br>
+                    &nbsp;</p>
+            </div>
+            <div class="read-more"><a itemprop="url" class="button"
+                    href="/page/article/kolesny_e_diski_dlya_defender___ogromny_j_vy_bor_v_lr_ru">Читать далее</a></div>
+            <div class="tags">
+                <span>Теги:</span> <a href="/page/tag/Новости">Новости</a>, <a href="/page/tag/Land+Rover+Defender">Land
+                    Rover Defender</a>, <a href="/page/tag/OFF+ROAD+студия">OFF ROAD студия</a> </div>
+        </article>
+        <article class="post-prev" itemscope="" itemtype="http://schema.org/Article">
+            <div class="title" itemprop="name"><a href="/page/article/nakladki_porogov">Ремонт порогов на все модели
+                    Land Rover</a></div>
+            <!--div class="published">Автор: <a itemprop="author" href="#">admin</a>,  дата 10.12.13<meta itemprop="datePublished" content="2013-12-22"></div-->
+            <div class="featured-image"><img itemprop="thumbnailUrl"
+                    src="img/legacy/news-pic__legacy.png"
+                    alt="Image alt"></div>
+            <div class="post-content">
+                <div class="fadeout"></div>
+                <p>В нашей компании Вы можете не только купить новые пороги для всех моделей Land Rover, но и
+                    отремонтировать старые!</p>
+            </div>
+            <div class="read-more"><a itemprop="url" class="button" href="/page/article/nakladki_porogov">Читать
+                    далее</a></div>
+            <div class="tags">
+                <span>Теги:</span> <a href="/page/tag/Автосервис">Автосервис</a>, <a
+                    href="/page/tag/Новости">Новости</a>, <a href="/page/tag/Отдел+запчастей">Отдел запчастей</a>, <a
+                    href="/page/tag/Рестайлинг">Рестайлинг</a> </div>
+        </article>
+        <article class="post-prev" itemscope="" itemtype="http://schema.org/Article">
+            <div class="title" itemprop="name"><a href="/page/article/diski_land_rover">Диски колес Range Rover, Range
+                    Rover Sport, Discovery - хиты сезона!</a></div>
+            <!--div class="published">Автор: <a itemprop="author" href="#">admin</a>,  дата 10.12.13<meta itemprop="datePublished" content="2013-12-22"></div-->
+            <div class="featured-image"><img itemprop="thumbnailUrl"
+                    src="img/legacy/news-pic__legacy.png"
+                    alt="Image alt"></div>
+            <div class="post-content">
+                <div class="fadeout"></div>
+                <p>Предлагаем Вам стильные диски колес самых модных дизайнов последних серий и при этом очень доступные
+                    по цене!</p>
+            </div>
+            <div class="read-more"><a itemprop="url" class="button" href="/page/article/diski_land_rover">Читать
+                    далее</a></div>
+            <div class="tags">
+                <span>Теги:</span> <a href="/page/tag/Новости">Новости</a>, <a
+                    href="/page/tag/Land+Rover+Discovery+3">Land Rover Discovery 3</a>, <a
+                    href="/page/tag/Land+Rover+Discovery+4">Land Rover Discovery 4</a>, <a
+                    href="/page/tag/RANGE+ROVER+2002-2009">RANGE ROVER 2002-2009</a>, <a
+                    href="/page/tag/RANGE+ROVER+2010-2013">RANGE ROVER 2010-2013</a>, <a
+                    href="/page/tag/RANGE+ROVER+SPORT+2010-2013">RANGE ROVER SPORT 2010-2013</a>, <a
+                    href="/page/tag/RANGE+ROVER+SPORT+2005-2009">RANGE ROVER SPORT 2005-2009</a>, <a
+                    href="/page/tag/RANGE+ROVER+NEW+2013">RANGE ROVER NEW 2013</a>, <a
+                    href="/page/tag/Рестайлинг">Рестайлинг</a>, <a href="/page/tag/RANGE+ROVER+SPORT+L494+NEW">RANGE
+                    ROVER SPORT L494 NEW</a>, <a href="/page/tag/Колеса">Колеса</a>, <a
+                    href="/page/tag/диски">диски</a>, <a href="/page/tag/шины">шины</a> </div>
+        </article>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    </div><!-- content -->
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row-fluid">
+                <div style="padding: 5px; font-family:Arial, Helvetica, sans-serif;font-size:12px;">Информация о технических характеристиках, описании, комплекте поставки, внешнем виде, ценах, производителях и т.п., публикуемая на сайте,  носит ознакомительный характер, не является публичной офертой, определяемой положениями статьи 437 ГК РФ и может быть изменена без предварительного уведомления. Подробная информация предоставляется по запросу, отправляемому по электронной почте или через форму (корзину заказа) на сайте.</div>
+                <div style="background:#fbd5b5;padding:5px;font-size:14px;line-height:16px;margin:10px 0;font-family: 'Roboto', sans-serif;font-weight:700;color:#555555">Товары и услуги предлагающиеся на данном сайте, реализуются партнерами, НЕ ЯВЛЯЮЩИМИСЯ ОФИЦИАЛЬНЫМИ ДИЛЕРАМИ Land Rover.</div>
+            </div>
+            <div class="row-fluid">
+                <div class="span5">
+                    <div class="footer-info-container">
+                        <p itemscope="" itemtype="http://schema.org/Organization">© 2013-2021 <span itemprop="name">LR.ru</span>, Все права защищены<br><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Москва</span>, <span itemprop="streetAddress">ул. Дорогобужская, дом 14 строение 17</span></span><br><span itemprop="telephone">+7 495 649 6060</span><br>Товарные знаки являются собственностью правообладателей</p>
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="widget">
+                        <div class="title">Мы в социальных сетях</div>
+                        <div class="widget-body">
+                            <div class="in-social" style="text-align: left;">
+                                <a target="_blank" class="in-social__fb in-social__icon in-social__icon_large" href="https://www.facebook.com/LR.RU.COMPANY" rel="publisher"></a>
+                                <a target="_blank" class="in-social__tw in-social__icon in-social__icon_large" href="https://twitter.com/6496060"></a>
+                                <a target="_blank" class="in-social__yt in-social__icon in-social__icon_large" href="https://www.youtube.com/channel/UCsF_AKlfub1kVrdZRxARxIA"></a>
+                                <a target="_blank" class="in-social__gplus in-social__icon in-social__icon_large" href="https://plus.google.com/107595439639429244926" rel="publisher"></a><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="widget">
+                        <div class="title">Подписка на наши новости</div>
+                        <div class="widget-body">
+                            <div class="subscribe">
+                                <form id="SubscribeForm" action="/subscribe" method="post">							<input type="submit" name="yt0" value="Подписаться">							</form>						</div>
+                        </div>
+                    </div>
+                    <a style="font-size: 12px;" href="/page/view/article/url/requisites">Реквизиты</a><br>
+                    <a style="font-size: 12px;" href="/page/view/article/url/guarantee">Гарантии и возврат</a><br>
+                    <a style="font-size: 12px;" href="/page/view/article/url/privacy">Политика конфиденциальности</a><br>
+                    <a style="font-size: 12px;" href="/page/article/delivery_and_payment">Доставка и оплата</a>
+                </div>
+                <div class="span4">
+                    <div class="footer_feedback widget">
+                        <div class="title">Отзывы, пожелания, предложения</div>
+    
+                        <a href="/page/view/feedback">Прямая связь с руководством компании</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

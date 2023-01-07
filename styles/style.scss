@@ -1,0 +1,43 @@
+//===== common
+@import "variables";
+@import "mixins";
+@import "global/*";
+
+//===== header
+@import "blocks/page-header.scss";
+@import "blocks/navigation.scss";
+
+@import "blocks/page-main";
+@import "blocks/page-body";
+@import "blocks/promotion";
+@import "blocks/departaments";
+@import "blocks/optional";
+@import "blocks/slider";
+@import "blocks/footer";
+@import "blocks/special-slider";
+@import "blocks/special-catalog";
+@import "blocks/buttons";   
+@import "blocks/news";
+@import "blocks/news-post";
+@import "blocks/single-news-post";
+@import "blocks/single-offer-vendor-page";
+@import "blocks/breadcrumbs";
+@import "blocks/catalog__model-auto";
+@import "blocks/catalog__departament";
+@import "blocks/modal";
+@import "blocks/shop-catalog";
+@import "blocks/unique-page-title";
+@import "blocks/font";
+@import "blocks/cart";
+@import "blocks/cart-customer";
+@import "blocks/cart-payment";
+@import "blocks/cart-delivery";
+@import "blocks/cart-confirmation";
+@import "blocks/sticky-header";
+@import "blocks/empty-cart";
+@import "blocks/404";
+@import "blocks/500";
+@import "blocks/pagination";
+@import "blocks/offers-catalog";
+
+

@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LR.RU &ndash; Cart</title>
+
+    <link rel="preload" href="font/open-sans-v18-latin-300.woff2" as="font" crossorigin> 
+    <link rel="preload" href="font/open-sans-v18-latin-800.woff2" as="font" crossorigin>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+    <body class="page-body">
+        <div class="page-body__container">
+
+            <!-- Header cart -->
+            <header class="header-cart">
+
+                <!-- header cart mobile -->
+                <div class="header-cart-mobile">
+
+                    <!-- logo -->
+                    <a href="index.html" class="header-cart-mobile__logo">
+                        <img src="img/header-logo.svg" alt="">
+                    </a>
+
+                    <div class="header-cart-mobile__inner">
+
+                        <!-- info -->
+                        <div class="header-cart-mobile__info">
+
+                            <!-- location -->
+                            <div class="header-cart-mobile__user-location">
+                                Мы доставляем в ваш город: <span>Москва</span>
+                            </div>
+
+                            <!-- phone -->
+                            <div class="header-cart-mobile__phone">
+                                +7 495 649 60 60
+                            </div>
+
+                        </div>
+
+                        <!-- panel -->
+                        <div class="header-cart-mobile__panel">
+
+                            <!-- navigation -->
+                            <ul class="header-cart-mobile__nav-list">
+
+                                <li class="header-cart-mobile__nav-item header-cart-mobile__nav-item--current"><a href="#">корзина</a></li>
+                                <li class="header-cart-mobile__nav-item"><a href="#">покупатель</a></li>
+                                <li class="header-cart-mobile__nav-item"><a href="#">получение</a></li>
+                                <li class="header-cart-mobile__nav-item"><a href="#">оплата</a></li>
+                                <li class="header-cart-mobile__nav-item"><a href="#">отправить</a></li>
+
+                            </ul>
+
+                            <!-- user -->
+                            <div class="header-cart-mobile__user">
+
+                                <a href="" class="header-cart-mobile__favorites">
+                                    <img src="img/favorites-icon.svg" alt="">
+                                    <span>7</span>
+                                </a>
+
+                                <a href="" class="header-cart-mobile__shopping-cart">
+                                    <img src="img/shopping-cart-icon.svg" alt="">
+                                    <span>12</span>
+                                </a>
+
+                                <div class="header-cart-mobile__hamburger">
+
+                                    <div class="header-cart-mobile__hamburger-btn">
+                                        <a class="header-cart-mobile__hamburger-btn-icon" >
+                                            <span class="hb-line-1"></span>
+                                            <span class="hb-line-2"></span>
+                                            <span class="hb-line-3"></span>
+                                        </a>
+                                    </div>
+
+                                    <div class="header-cart-mobile__hamburger-menu" style="display: none;">
+
+                                        <div class="header-cart-mobile__hamburger-enter"><a href="#">Вход</a></div>
+
+                                        <ul class="header-cart-mobile__hamburger-links">
+
+                                            <li class="header-cart-mobile__hamburger-link"><a href="#">Faq</a></li>
+                                            <li class="header-cart-mobile__hamburger-link"><a href="#">Контакты</a></li>
+
+                                        </ul>
+
+                                        <a href="#" class="header-cart-mobile__hamburger-call-btn">позвонить</a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- header cart desktop -->
+                <div class="header-cart-desktop">
+                    
+                    <!-- logo -->
+                    <a href="index.html" class="header-cart-desktop__logo">
+                        <img src="img/header-logo.svg" alt="">
+                    </a>
+
+                    <div class="header-cart-desktop__inner">
+
+                        <!-- info -->
+                        <div class="header-cart-desktop__info">
+
+                            <!-- location -->
+                            <div class="header-cart-desktop__user-location">
+                                Мы доставляем в ваш город: <span>Москва</span>
+                            </div>
+
+                            <div class="header-cart-desktop__info-wrapper">
+
+                                <!-- phone -->
+                                <ul class="header-cart-desktop__phone">
+                                    <li class="header-cart-desktop__number"><a>+7 (495) 649 60 60</a></li>
+                                    <li class="header-cart-desktop__number"><a>+7 (495) 649 60 60</a></li>
+                                </ul>
+
+                                <!-- links -->
+                                <ul class="header-cart-desktop__links">
+                                    <li class="header-cart-desktop__link"><a href="#">FAQ</a></li>
+                                    <li class="header-cart-desktop__link"><a href="#">Контакты</a></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                        <!-- panel -->
+                        <div class="header-cart-desktop__panel">
+
+                            <!-- navigation -->
+                            <ul class="header-cart-desktop__nav-list">
+                                <li class="header-cart-desktop__nav-item"><a href="cart.html">корзина</a></li>
+                                <li class="header-cart-desktop__nav-item header-cart-desktop__nav-item--current"><a href="cart-customer.html">покупатель</a></li>
+                                <li class="header-cart-desktop__nav-item"><a href="cart-delivery.html">получение</a></li>
+                                <li class="header-cart-desktop__nav-item"><a href="cart-payment.html">оплата</a></li>
+                                <li class="header-cart-desktop__nav-item"><a href="cart-confirmation.html">отправить</a></li>
+                            </ul>
+
+                            <!-- user -->
+                            <div class="header-cart-desktop__user">
+
+                                <a href="" class="header-cart-desktop__favorites">
+                                    <img src="img/favorites-icon.svg" alt="">
+                                    <span>7</span>
+                                    <p>Избранное</p>
+                                </a>
+
+                                <a href="" class="header-cart-desktop__shopping-cart">
+                                    <img src="img/shopping-cart-icon.svg" alt="">
+                                    <span>12</span>
+                                    <p>Корзина</p>
+                                </a>
+
+                                <a href="" class="header-cart-desktop__enter">
+                                    <img src="img/enter-icon.svg" alt="">
+                                    <p>Вход</p>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </header>
+
+            <!-- personal data autocomplete banner - ADDITION for Cart-personal section -->
+            <div class="personal-data-autocomplete">
+
+                <div class="personal-data-autocomplete__inner">
+
+                    <div class="personal-data-autocomplete__picture">
+                        <img src="img/personal-data-autocomplete-pic.svg">
+                    </div>
+                    
+
+                    <div class="personal-data-autocomplete__description-inner">
+
+                        <div class="personal-data-autocomplete__description">Данные заполнены АВТОМАТИЧЕСКИ НА ОСНОВАНИИ ПРОФИЛЯ ВАШЕГО ЛИЧНОГО КАБИНЕТА.</div>
+                        <div class="personal-data-autocomplete__description">в личном кабинете вы можете <a>изменить свои данные</a></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Cart-personal section -->
+            <section class="cart-customer">
+
+                <div class="cart-customer__title-inner">
+                    <div class="cart-customer__enter">Уже покупали у нас ранее? <a href="#">Войдите в личный кабинет</a></div>
+                    <h1 class="cart-customer__title">данные покупателя</h1>
+                </div>
+
+                <ul class="cart-customer-primary-data__inner">
+
+                    <li class="cart-customer-primary-data__input">
+                        <label class="cart-customer-primary-data__input-title" for="email">E-MAIL</label>
+                        <input class="cart-customer-primary-data__input-field" type="email" id="email" placeholder="Введите email">
+                    </li>
+
+                    <li class="cart-customer-primary-data__input">
+                        <label class="cart-customer-primary-data__input-title" for="phone">Телефон</label>
+                        <input class="cart-customer-primary-data__input-field" type="tel" id="phone" placeholder="Введите номер телефона">
+                    </li>
+
+                    <li class="cart-customer-primary-data__input">
+                        <label class="cart-customer-primary-data__input-title" for="name">Ваше имя</label>
+                        <input class="cart-customer-primary-data__input-field" type="name" id="name" placeholder="Как к Вам обращаться?">
+                    </li>
+
+                </ul>
+
+                <!-- tabs -->
+                <div class="cart-customer__tabs">
+
+                    <input class="cart-customer__tab-input" id="cart-customer-tab-1" type="radio" name="customer-tab" checked>
+                    <label class="cart-customer__tab-label" for="cart-customer-tab-1">покупатель - физичеcкое лицо</label>
+            
+                    <input class="cart-customer__tab-input" id="cart-customer-tab-2" type="radio" name="customer-tab">
+                    <label class="cart-customer__tab-label" for="cart-customer-tab-2">покупатель - юридическое лицо или ип</label>
+            
+
+                    <div class="cart-customer__tabcontent-inner">
+
+
+                        <!-- tabcontent 1 -->
+                        <div class="cart-customer__tabcontent-1">
+                            <div class="cart-customer-next-step-btn__inner">
+                                <a class="cart-customer__next-step-btn cart-customer-next-step-btn" onclick="cartFormSubmit('shop_order_form_1')">
+                                    <div class="cart-customer-next-step-btn__text">далее к выбору способов доставки</div>
+                                    <div class="cart-customer-next-step-btn__icon"></div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <!-- tabcontent 2 -->
+                        <div class="cart-customer__tabcontent-2">
+
+                            <!-- radio btns -->
+                            <div class="cart-customer__radio-btns">
+
+                                <input class="cart-customer__radio-btn-input" id="cart-customer-radio-btn-1" type="radio" name="radio-btn-group" checked>
+                                <label class="cart-customer__radio-btn-label" for="cart-customer-radio-btn-1">Индивидуальный предприниматель</label>
+                        
+                                <input class="cart-customer__radio-btn-input" id="cart-customer-radio-btn-2" type="radio" name="radio-btn-group">
+                                <label class="cart-customer__radio-btn-label" for="cart-customer-radio-btn-2">Фирма, юридическое лицо</label>
+                                
+
+                                <div class="cart-customer__radio-btn-content-inner">
+
+                                    <!-- radio btn content 1 -->
+                                    <div class="cart-customer__radio-btn-content-1">
+
+                                        <!-- form organisation data -->
+                                        <form class="cart-customer__organisation-data cart-customer-organisation-data">
+
+                                            <ul class="cart-customer-organisation-data__inner">
+                            
+                                                <li class="cart-customer-organisation-data__input">
+                                                    <label class="cart-customer-organisation-data__input-title">ИНН</label>
+                                                    <input class="cart-customer-organisation-data__input-field" placeholder="Введите ИНН">
+                                                </li>
+                            
+                                                <li class="cart-customer-organisation-data__input">
+                                                    <label class="cart-customer-organisation-data__input-title">КПП</label>
+                                                    <input class="cart-customer-organisation-data__input-field" placeholder="Введите КПП">
+                                                </li>
+
+                                                <li class="cart-customer-organisation-data__input">
+                                                    <label class="cart-customer-organisation-data__input-title">Юр. адрес</label>
+                                                    <input class="cart-customer-organisation-data__input-field" placeholder="Введите юридический адрес">
+                                                </li>
+                            
+                                            </ul>
+                            
+                                        </form>
+
+                                        <input class="cart-customer__radio-btn-input" id="cart-customer-radio-btn-3" type="radio" checked>
+                                        <label class="cart-customer__radio-btn-label" for="cart-customer-radio-btn-3">Оплата по безналичному расчету</label>
+
+                                        <!-- payment details data -->
+                                        <form class="cart-customer__payment-details-data cart-customer-payment-details-data">
+
+                                            <ul class="cart-customer-payment-details-data__inner">
+                            
+                                                <li class="cart-customer-payment-details-data__input">
+                                                    <label class="cart-customer-payment-details-data__input-title">БИК</label>
+                                                    <p class="cart-customer-payment-details-data__input-hint">Введите БИК, и мы найдем Ваш банк</p>
+                                                    <input class="cart-customer-payment-details-data__input-field" placeholder="Введите БИК">
+                                                </li>
+                            
+                                                <li class="cart-customer-payment-details-data__input">
+                                                    <label class="cart-customer-payment-details-data__input-title">Банк</label>
+                                                    <input class="cart-customer-payment-details-data__input-field" placeholder="Введите наименование банка">
+                                                </li>
+
+                                                <li class="cart-customer-payment-details-data__input">
+                                                    <label class="cart-customer-payment-details-data__input-title">Кор. счет</label>
+                                                    <input class="cart-customer-payment-details-data__input-field" placeholder="Введите корреспондентский счет">
+                                                </li>
+
+                                                <li class="cart-customer-payment-details-data__input">
+                                                    <label class="cart-customer-payment-details-data__input-title">Расч. счет</label>
+                                                    <input class="cart-customer-payment-details-data__input-field" placeholder="Введите расчетный счет">
+                                                </li>
+
+                                                <li class="cart-customer-payment-details-data__input">
+                                                    <label class="cart-customer-payment-details-data__input-title">Комментарий</label>
+                                                    <textarea class="cart-customer-payment-details-data__input-textarea" name="" id="" placeholder="Ваш комментарий"></textarea>
+                                                </li>
+                            
+                                            </ul>
+                            
+                                        </form>
+
+                                        <div class="cart-customer-next-step-btn__inner">
+                                            <a href="cart-payment.html" class="cart-customer__next-step-btn cart-customer-next-step-btn">
+                                                <div class="cart-customer-next-step-btn__text">далее к выбору способов доставки</div>
+                                                <div class="cart-customer-next-step-btn__icon"></div>
+                                            </a>
+                                        </div>
+
+                                    </div>  
+                                    
+                                    <!-- radio btn  content 2 -->
+                                    <div class="cart-customer__radio-btn-content-2">
+
+                                        <!-- form organisation data -->
+                                        <form class="cart-customer__organisation-data cart-customer-organisation-data">
+
+                                            <ul class="cart-customer-organisation-data__inner">
+                            
+                                                <li class="cart-customer-organisation-data__input">
+                                                    <label class="cart-customer-organisation-data__input-title">ИНН</label>
+                                                    <p class="cart-customer-organisation-data__input-hint">Введите ИНН, и мы найдем Вашу организацию</p>
+                                                    <input class="cart-customer-organisation-data__input-field" placeholder="Введите ИНН">
+                                                </li>
+                            
+                                                <li class="cart-customer-organisation-data__input">
+                                                    <label class="cart-customer-organisation-data__input-title">КПП</label>
+                                                    <input class="cart-customer-organisation-data__input-field" placeholder="Введите КПП">
+                                                </li>
+                            
+                                                <li class="cart-customer-organisation-data__input">
+                                                    <label class="cart-customer-organisation-data__input-title">Наименование организации</label>
+                                                    <input class="cart-customer-organisation-data__input-field" placeholder="Введите наименование организации">
+                                                </li>
+
+                                                <li class="cart-customer-organisation-data__input">
+                                                    <label class="cart-customer-organisation-data__input-title">Юр. адрес</label>
+                                                    <input class="cart-customer-organisation-data__input-field" placeholder="Введите юридический адрес">
+                                                </li>
+                            
+                                            </ul>
+                            
+                                        </form>
+
+                                        <input class="cart-customer__radio-btn-input" id="cart-customer-radio-btn-3" type="radio" checked>
+                                        <label class="cart-customer__radio-btn-label" for="cart-customer-radio-btn-3">Оплата по безналичному расчету</label>
+
+                                        <!-- payment details data -->
+                                        <form class="cart-customer__payment-details-data cart-customer-payment-details-data">
+
+                                            <ul class="cart-customer-payment-details-data__inner">
+                            
+                                                <li class="cart-customer-payment-details-data__input">
+                                                    <label class="cart-customer-payment-details-data__input-title">БИК</label>
+                                                    <p class="cart-customer-payment-details-data__input-hint">Введите БИК, и мы найдем Ваш банк</p>
+                                                    <input class="cart-customer-payment-details-data__input-field" placeholder="Введите БИК">
+                                                </li>
+                            
+                                                <li class="cart-customer-payment-details-data__input">
+                                                    <label class="cart-customer-payment-details-data__input-title">Банк</label>
+                                                    <input class="cart-customer-payment-details-data__input-field" placeholder="Введите наименование банка">
+                                                </li>
+
+                                                <li class="cart-customer-payment-details-data__input">
+                                                    <label class="cart-customer-payment-details-data__input-title">Кор. счет</label>
+                                                    <input class="cart-customer-payment-details-data__input-field" placeholder="Введите корреспондентский счет">
+                                                </li>
+
+                                                <li class="cart-customer-payment-details-data__input">
+                                                    <label class="cart-customer-payment-details-data__input-title">Расч. счет</label>
+                                                    <input class="cart-customer-payment-details-data__input-field" placeholder="Введите расчетный счет">
+                                                </li>
+
+                                                <li class="cart-customer-payment-details-data__input">
+                                                    <label class="cart-customer-payment-details-data__input-title">Комментарий</label>
+                                                    <textarea class="cart-customer-payment-details-data__input-textarea" name="" id="" placeholder="Ваш комментарий"></textarea>
+                                                </li>
+                            
+                                            </ul>
+                            
+                                        </form>
+
+                                        <div class="cart-customer-next-step-btn__inner">
+                                            <a href="cart-payment.html" class="cart-customer__next-step-btn cart-customer-next-step-btn">
+                                                <div class="cart-customer-next-step-btn__text">далее к выбору способов доставки</div>
+                                                <div class="cart-customer-next-step-btn__icon"></div>
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+        
+                </div>
+
+            </section>
+
+            <!-- recommended banner of installation service - ADDITION for CART section -->
+            <div class="recommended-installation-service">
+
+                <div class="recommended-installation-service__inner">
+
+                    <div class="recommended-installation-service__picture"></div>
+
+                    <div class="recommended-installation-service__description-inner">
+
+                        <div class="recommended-installation-service__title">ТРЕБУЕТСЯ УСЛУГА ПО УСТАНОВКЕ ПРИОБРЕТЕННЫХ ДЕТАЛЕЙ?</div>
+    
+                        <div class="recommended-installation-service__text">Наш Сервисный центр и Магазин запчастей работают каждый день с 9.00 до 20.00 ПН-СБ <br>
+                            У нас две зоны ожидания, одна напротив телевизоров, транслирующих он-лайн картинку сервиса, а опднявшись по лестнице, вы окажетесь в приватной зоне на балконе шоурума. Здесь вы можете отдохнуть и даже вздремнуть. Бесплатный WiFi, несколько сортов чая и зерновой кофе. 
+                            
+                        </div>
+
+                        <div class="recommended-installation-service__btn-inner">
+
+                            <a href="#" class="recommended-installation-service__btn">установить детали</a>
+                            <a href="#" class="recommended-installation-service__link">Подробнее о сервисе</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <footer class="footer">
+
+                <!-- footer preambula -->
+                <div class="footer__preambula">
+                    <p>Преамбула футера с какой-то очень интересной информацией</p>
+                </div>
+
+                <!-- footer social -->
+                <ul class="footer__social-list">
+
+                    <li class="footer__social-item">
+                        <a class="footer__social-item--utube" href="https://www.youtube.com/"></a>
+                    </li>
+
+                    <li class="footer__social-item">
+                        <a class="footer__social-item--vk" href="https://vk.com/"></a>
+                    </li>
+
+                    <li class="footer__social-item">
+                        <a class="footer__social-item--fbook" href="https://www.facebook.com/"></a>
+                    </li>
+
+                    <li class="footer__social-item">
+                        <a class="footer__social-item--insta" href="https://www.instagram.com/"></a>
+                    </li>
+
+                </ul>
+
+                <!-- footer contain container -->
+                <div class="footer-contain">
+
+                    <!-- footer contacts -->
+                    <div class="footer__contacts footer-contacts">
+
+                        <img class="footer-contacts__logo" src="img/footer/footer-logo.png" alt="">
+                        <div class="footer-contacts__tel">
+                            <a class="footer-contacts__tel--icon-number" href="callto:+74956496060">+7 (495) 649 60 60</a>
+                            <a class="footer-contacts__tel--" href="callto:+74956496060">+7 (495) 649 60 60</a>
+                        </div>
+
+                    </div>
+
+                    <!-- footer panel -->
+                    <div class="footer__panel footer-panel">
+
+                        <!-- footer panel list -->
+                        <ul class="footer-panel__list">
+
+                            <li class="footer-panel__item">
+                                <a class="footer-panel__item--contact" href="#">Контакты</a>
+                            </li>
+
+                            <li class="footer-panel__item">
+                                <a class="footer-panel__item--map" href="#">Схема проезда</a>
+                            </li>
+
+                            <li class="footer-panel__item">
+                                <a class="footer-panel__item--clock" href="#">Часы работы</a>
+                            </li>
+
+                        </ul>
+
+                        <!-- footer panel buttons -->
+                        <div class="footer-panel__buttons">
+                            
+                            <a class="footer-panel__button footer-panel__button--call" href="#">
+                                звонок
+                            </a>
+
+                            <a class="footer-panel__button footer-panel__button--chat" href="#">
+                                онлайн чат
+                            </a>
+
+                            <a class="footer-panel__button footer-panel__button--review" href="#">
+                                отзывы и пожелания
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- footer information block -->
+                <div class="footer__information">
+
+                    <!-- footer information list -->
+                    <ul class="footer__information-list">
+
+                        <div class="footer__information-title">какая-то информация о магазине</div>
+        
+                        <li class="footer__information-item">
+                            <a href="#">О Компании</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Сотрудничество</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Реквизиты</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Оптовикам</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Вакансии</a>
+                        </li>
+        
+                    </ul>
+
+                    <!-- footer information list -->
+                    <ul class="footer__information-list">
+
+                        <div class="footer__information-title">какая-то информация об еще одном магазине</div>
+        
+                        <li class="footer__information-item">
+                            <a href="#">О Компании</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Сотрудничество</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Реквизиты</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Оптовикам</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Вакансии</a>
+                        </li>
+        
+                    </ul>
+                </div>
+
+                <div class="footer__information-separator"></div>
+
+                <!-- footer information block -->
+                <div class="footer__information">
+
+                    <!-- footer information list -->
+                    <ul class="footer__information-list">
+
+                        <div class="footer__information-title">какая-то очень длинная информация о магазине</div>
+        
+                        <li class="footer__information-item">
+                            <a href="#">О Компании</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Сотрудничество</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Реквизиты</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Оптовикам</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Вакансии</a>
+                        </li>
+        
+                    </ul>
+
+                    <!-- footer information list -->
+                    <ul class="footer__information-list">
+
+                        <div class="footer__information-title">информация о магазине</div>
+        
+                        <li class="footer__information-item">
+                            <a href="#">О Компании</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Сотрудничество</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Реквизиты</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Оптовикам</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Вакансии</a>
+                        </li>
+        
+                    </ul>
+
+                </div>
+                
+                <!-- footer copyright -->
+                <div class="footer__copyright">
+                    <p>© Copyright 2013-2021. All rights is reserved</p>
+                </div>
+            </footer>
+        </div>  
+        <script src="js/script.js"></script>
+    </body>
+</html>

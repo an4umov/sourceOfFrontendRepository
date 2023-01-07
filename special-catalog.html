@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LR.RU &ndash; Home</title>
+
+    <link rel="preload" href="font/opensans.woff2" as="font" crossorigin>
+    <link rel="preload" href="font/opensansbold.woff2" as="font" crossorigin>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page-body">
+    <div class="page-body__container">
+        
+        <header class="header">
+
+            <!-- header mobile -->
+            <div class="header-mobile">
+
+                <!-- logo mobile -->
+                <a href="index.html" class="header-mobile__logo">
+                    <img src="img/header-logo.svg" alt="">
+                </a>
+
+                <!-- search panel mobile -->
+                <div class="header-mobile__search-panel search-panel-mobile">
+
+                    <div class="search-panel-mobile__user-location">
+                        Мы доставляем в ваш город: <span>Москва</span>
+                    </div>
+
+                    <form class="search-panel-mobile__search search-mobile">
+                        <input class="search-mobile__input" type="text" placeholder="Поиск по артикулу или наименованию...">
+                        <button class="search-mobile__setting"></button>
+                        <button class="search-mobile__submit" type="submit"></button>
+                    </form>
+
+                </div>
+
+                <!-- right panel mobile -->
+                <div class="header-mobile__right-panel right-panel">
+
+                    <div class="right-panel__info">
+                        +7 495 649 60 60
+                    </div>
+
+                    <div class="right-panel__user user-mobile">
+
+                        <a href="#" class="user-mobile__favorites">
+                            <img src="img/favorites-icon.svg" alt="">
+                            <span>7</span>
+                        </a>
+    
+                        <a href="#" class="user-mobile__shopping-cart">
+                            <img src="img/shopping-cart-icon.svg" alt="">
+                            <span>12</span>
+                        </a>
+    
+                        <div class="user-mobile__wrapper user-wrapper">
+
+                            <div class="user-wrapper__hidden-btn">
+                                <a class="hidden-btn__icon" >
+                                  <span class="hb-line line-1"></span>
+                                  <span class="hb-line line-2"></span>
+                                  <span class="hb-line line-3"></span>
+                                </a>     
+                            </div>
+                            
+
+                            <!-- hidden menu -->
+                            <div class="user-wrapper__hidden-menu hidden-menu">
+
+                                <ul class="hidden-menu__links">
+                                    <li class="hidden-menu__link hidden-menu__link--enter"><a href="#">Вход</a></li>
+                                    <li class="hidden-menu__link"><a href="#">Faq</a></li>
+                                    <li class="hidden-menu__link"><a href="#">Контакты</a></li>
+                                </ul>
+
+                                <a href="#" class="hidden-menu__call-btn">
+                                    позвонить
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- header desktop -->
+            <div class="header-desktop">
+
+                <!-- logo desktop -->
+                <a href="index.html" class="header-desktop__logo">
+                    <img src="img/header-logo.svg" alt="">
+                </a>
+
+                <!-- search panel desktop -->
+                <div class="header-desktop__search-panel search-panel">
+
+                    <div class="search-panel__user-location">
+                        Мы доставляем в ваш город: <span>Москва</span>
+                    </div>
+
+                    <form class="search-panel__search search">
+                        <input class="search__input" type="text" placeholder="Поиск по артикулу или наименованию...">
+                        <button class="search__setting"></button>
+                        <button class="search__submit" type="submit"></button>
+                    </form>
+
+                </div>
+
+                <!-- user desktop -->
+                <div class="header-desktop__user user">
+
+                    <a class="user__favorites">
+                        <img src="img/favorites-icon.svg" alt="">
+                        <p>Избранное</p>
+                        <span>7</span>
+                    </a>
+
+                    <a class="user__shopping-cart">
+                        <img src="img/shopping-cart-icon.svg" alt="">
+                        <p>Корзина</p>
+                        <span>12</span>
+                    </a>
+
+                    <a class="user__enter">
+                        <img src="img/enter-icon.svg" alt="">
+                        <p>Вход</p>
+                        <!-- <span></span> -->
+                    </a>
+
+                </div>
+
+                <!-- contacts desktop -->
+                <div class="header-desktop__contacts contacts">
+
+                    <div class="contacts__links">
+
+                        <a href="#" class="contacts__link">FAQ</a>
+                        <a href="#" class="contacts__link">Контакты</a>
+
+                    </div>
+
+                    <div class="contacts__numbers">
+
+                        <a href="#" class="contacts__number">+7 (495) 649 60 60</a>
+                        <a href="#" class="contacts__number">+7 (495) 649 60 60</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- header modal Contact Us -->
+            <div class="header-contact-us">
+                <div class="header-contact-us__blur"></div>
+                <div class="header-contact-us__wrapper">
+                    <div class="header-contact-us__close"></div>
+
+                    <div class="header-contact-us__title">
+                        Связаться с нами
+                    </div>
+
+                    <div class="header-contact-us__subtitle">
+                        По телефону:
+                    </div>
+
+                    <ul class="header-contact-us__numbers">
+                        <li class="header-contact-us__number">
+                            <a href="tel:+74956496060">+7 495 649 60 60</a>
+                        </li>
+                        <li class="header-contact-us__number">
+                            <a href="tel:+74956496060">+7 495 649 60 60</a>
+                        </li>
+                    </ul>
+
+                    <div class="header-contact-us__subtitle">
+                        В мессенджерах:
+                    </div>
+
+                    <ul class="header-contact-us__app-links">
+                        <li class="header-contact-us__app-link header-contact-us__app-link--whatsapp">
+                            <a href=""></a>
+                        </li>
+                        <li class="header-contact-us__app-link header-contact-us__app-link--telegram">
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+                
+        <nav class="navigation">
+
+            <ul class="navigation__catalog-links">
+                <li class="navigation__catalog-link--groups">
+                    <a href="">Группы товаров</a>
+                </li>
+                <li class="navigation__catalog-link--car">
+                    <a href="">Модели авто</a>
+                </li>
+            </ul>
+
+            <div class="navigation__arrow-left"></div>
+            <div class="navigation__arrow-right"></div>
+
+            <ul class="navigation__nav-list">
+                <li class="navigation__nav-item">
+                    <a href="">Скидка дня</a>
+                    <span style="background-color: #E93333;">777</span>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="">Новые поступления</a>
+                    <span style="background-color: #01B047;">42</span>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="news.html">Новости</a>
+                    <span>7</span>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="">Блог</a>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="">Галлерея</a>
+                </li>
+                <li class="navigation__nav-item">
+                    <a href="offers-catalog.html">Каталог товаров</a>
+                </li>
+            </ul>
+
+        </nav>
+        
+        <main class="page-body__main">
+
+            <section class="special-catalog">
+
+                <div class="special-catalog__title"><h2>Спецпредложения</h2></div>
+
+                <div class="special-catalog__container special-offer-catalog">
+
+                    <article class="special-offer-catalog__card">
+
+                        <a href="#" class="special-offer-catalog__card-link"></a>
+
+                        <div class="special-offer-catalog__stock" style="background-color: #0062bb;">
+                            Внимание на акцию!
+                        </div>
+
+                        <a href="" class="special-offer-catalog__card-photo">
+                            <img src="img/product-card.jpg" width="180px" alt="">
+                        </a>
+
+                        <div class="special-offer-catalog__card-departament">
+                            <p> Land rover - запчасти и обслуживание</p>
+                        </div>
+
+                        <div class="special-offer-catalog__card-descr">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nulla.
+                            </p>
+                        </div>
+                    
+                        <div class="special-offer-catalog__card-bottom">
+                            <div class="special-offer-catalog__card-price">
+                                <span>Цена от:</span>
+                                <div class="catalog-rub">11 420</div>
+                            </div>
+
+                            <div class="special-offer-catalog__card-buttons">
+
+                                <div class="special-offer-catalog__card-favorite-wrapper">
+
+                                    <div class="special-offer-catalog__card-favorite--default">
+                                        <div class="special-offer-catalog__card-favorite-default-tip">Добавить в избранное</div>
+                                    </div>
+
+                                    <div class="special-offer-catalog__card-favorite--active">
+                                        <div class="special-offer-catalog__card-favorite-active-tip">Удалить из избранного</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="special-offer-catalog__card">
+
+                        <a href="#" class="special-offer-catalog__card-link"></a>
+
+                        <div class="special-offer-catalog__stock" style="background-color: #01B047;">
+                            В наличии!
+                        </div>
+
+                        <a href="" class="special-offer-catalog__card-photo">
+                            <img src="img/product-card.jpg" width="180px" alt="">
+                        </a>
+
+                        <div class="special-offer-catalog__card-departament">
+                            <p> Land rover - запчасти и обслуживание</p>
+                        </div>
+
+                        <div class="special-offer-catalog__card-descr">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nulla.
+                            </p>
+                        </div>
+                    
+                        <div class="special-offer-catalog__card-bottom">
+                            <div class="special-offer-catalog__card-price">
+                                <span>Цена от:</span>
+                                <div class="catalog-rub">6 700</div>
+                            </div>
+
+                            <div class="special-offer-catalog__card-buttons">
+
+                                <div class="special-offer-catalog__card-favorite-wrapper">
+
+                                    <div class="special-offer-catalog__card-favorite--default">
+                                        <div class="special-offer-catalog__card-favorite-default-tip">Добавить в избранное</div>
+                                    </div>
+
+                                    <div class="special-offer-catalog__card-favorite--active special-offer-catalog__card-favorite--active-on">
+                                        <div class="special-offer-catalog__card-favorite-active-tip">Удалить из избранного</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="special-offer-catalog__card">
+
+                        <a href="#" class="special-offer-catalog__card-link"></a>
+
+                        <div class="special-offer-catalog__stock" style="background-color: #E93333;">
+                            Хит продаж!
+                        </div>
+
+                        <a href="" class="special-offer-catalog__card-photo">
+                            <img src="img/product-card.jpg" width="180px" alt="">
+                        </a>
+
+                        <div class="special-offer-catalog__card-departament">
+                            <p> Land rover - запчасти и обслуживание</p>
+                        </div>
+
+                        <div class="special-offer-catalog__card-descr">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nulla.
+                            </p>
+                        </div>
+                    
+                        <div class="special-offer-catalog__card-bottom">
+                            <div class="special-offer-catalog__card-price">
+                                <span>Цена от:</span>
+                                <div class="catalog-rub">580</div>
+                            </div>
+
+                            <div class="special-offer-catalog__card-buttons">
+
+                                <div class="special-offer-catalog__card-favorite-wrapper">
+
+                                    <div class="special-offer-catalog__card-favorite--default">
+                                        <div class="special-offer-catalog__card-favorite-default-tip">Добавить в избранное</div>
+                                    </div>
+
+                                    <div class="special-offer-catalog__card-favorite--active">
+                                        <div class="special-offer-catalog__card-favorite-active-tip">Удалить из избранного</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="special-offer-catalog__card">
+
+                        <a href="#" class="special-offer-catalog__card-link"></a>
+
+                        <div class="special-offer-catalog__stock" style="background-color: #F87818;">
+                            Спеши купить!
+                        </div>
+
+                        <a href="" class="special-offer-catalog__card-photo">
+                            <img src="img/product-card.jpg" width="180px" alt="">
+                        </a>
+
+                        <div class="special-offer-catalog__card-departament">
+                            <p> Land rover - запчасти и обслуживание</p>
+                        </div>
+
+                        <div class="special-offer-catalog__card-descr">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nulla. amet consectetur adipisicing elit.consectetur adipisicing
+                            </p>
+                        </div>
+                    
+                        <div class="special-offer-catalog__card-bottom">
+                            <div class="special-offer-catalog__card-price">
+                                <span>Цена от:</span>
+                                <div class="catalog-rub">998 999</div>
+                            </div>
+
+                            <div class="special-offer-catalog__card-buttons">
+
+                                <div class="special-offer-catalog__card-favorite-wrapper">
+
+                                    <div class="special-offer-catalog__card-favorite--default">
+                                        <div class="special-offer-catalog__card-favorite-default-tip">Добавить в избранное</div>
+                                    </div>
+
+                                    <div class="special-offer-catalog__card-favorite--active">
+                                        <div class="special-offer-catalog__card-favorite-active-tip">Удалить из избранного</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="special-offer-catalog__card">
+
+                        <a href="#" class="special-offer-catalog__card-link"></a>
+
+                        <div class="special-offer-catalog__stock" style="background-color: #E93333;">
+                            Лидер продаж!
+                        </div>
+
+                        <a href="" class="special-offer-catalog__card-photo">
+                            <img src="img/product-card.jpg" width="180px" alt="">
+                        </a>
+
+                        <div class="special-offer-catalog__card-departament">
+                            <p> Land rover - запчасти и обслуживание</p>
+                        </div>
+
+                        <div class="special-offer-catalog__card-descr">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nulla.
+                            </p>
+                        </div>
+                    
+                        <div class="special-offer-catalog__card-bottom">
+                            <div class="special-offer-catalog__card-price">
+                                <span>Цена от:</span>
+                                <div class="catalog-rub">4 444</div>
+                            </div>
+
+                            <div class="special-offer-catalog__card-buttons">
+
+                                <div class="special-offer-catalog__card-favorite-wrapper">
+
+                                    <div class="special-offer-catalog__card-favorite--default">
+                                        <div class="special-offer-catalog__card-favorite-default-tip">Добавить в избранное</div>
+                                    </div>
+
+                                    <div class="special-offer-catalog__card-favorite--active">
+                                        <div class="special-offer-catalog__card-favorite-active-tip">Удалить из избранного</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="special-offer-catalog__card">
+
+                        <a href="#" class="special-offer-catalog__card-link"></a>
+
+                        <div class="special-offer-catalog__stock" style="background-color: #F87818;">
+                            Хит продаж!
+                        </div>
+
+                        <a href="" class="special-offer-catalog__card-photo">
+                            <img src="img/product-card.jpg" width="180px" alt="">
+                        </a>
+
+                        <div class="special-offer-catalog__card-departament">
+                            <p> Land rover - запчасти и обслуживание</p>
+                        </div>
+
+                        <div class="special-offer-catalog__card-descr">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nulla.
+                            </p>
+                        </div>
+                    
+                        <div class="special-offer-catalog__card-bottom">
+                            <div class="special-offer-catalog__card-price">
+                                <span>Цена от:</span>
+                                <div class="catalog-rub">99 999</div>
+                            </div>
+
+                            <div class="special-offer-catalog__card-buttons">
+
+                                <div class="special-offer-catalog__card-favorite-wrapper">
+
+                                    <div class="special-offer-catalog__card-favorite--default">
+                                        <div class="special-offer-catalog__card-favorite-default-tip">Добавить в избранное</div>
+                                    </div>
+
+                                    <div class="special-offer-catalog__card-favorite--active">
+                                        <div class="special-offer-catalog__card-favorite-active-tip">Удалить из избранного</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="special-offer-catalog__card">
+
+                        <a href="#" class="special-offer-catalog__card-link"></a>
+
+                        <div class="special-offer-catalog__stock" style="background-color: #0062bb;">
+                            Внимание на акцию!
+                        </div>
+
+                        <a href="" class="special-offer-catalog__card-photo">
+                            <img src="img/product-card.jpg" width="180px" alt="">
+                        </a>
+
+                        <div class="special-offer-catalog__card-departament">
+                            <p> Land rover - запчасти и обслуживание</p>
+                        </div>
+
+                        <div class="special-offer-catalog__card-descr">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nulla.
+                            </p>
+                        </div>
+                    
+                        <div class="special-offer-catalog__card-bottom">
+                            <div class="special-offer-catalog__card-price">
+                                <span>Цена от:</span>
+                                <div class="catalog-rub">32 000</div>
+                            </div>
+
+                            <div class="special-offer-catalog__card-buttons">
+
+                                <div class="special-offer-catalog__card-favorite-wrapper">
+
+                                    <div class="special-offer-catalog__card-favorite--default">
+                                        <div class="special-offer-catalog__card-favorite-default-tip">Добавить в избранное</div>
+                                    </div>
+
+                                    <div class="special-offer-catalog__card-favorite--active">
+                                        <div class="special-offer-catalog__card-favorite-active-tip">Удалить из избранного</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="special-offer-catalog__card">
+
+                        <a href="#" class="special-offer-catalog__card-link"></a>
+
+                        <div class="special-offer-catalog__stock" style="background-color: #01B047;">
+                            В наличии!
+                        </div>
+
+                        <a href="" class="special-offer-catalog__card-photo">
+                            <img src="img/product-card.jpg" width="180px" alt="">
+                        </a>
+
+                        <div class="special-offer-catalog__card-departament">
+                            <p> Land rover - запчасти и обслуживание</p>
+                        </div>
+
+                        <div class="special-offer-catalog__card-descr">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nulla.
+                            </p>
+                        </div>
+                    
+                        <div class="special-offer-catalog__card-bottom">
+                            <div class="special-offer-catalog__card-price">
+                                <span>Цена от:</span>
+                                <div class="catalog-rub">110 110</div>
+                            </div>
+
+                            <div class="special-offer-catalog__card-buttons">
+
+                                <div class="special-offer-catalog__card-favorite-wrapper">
+
+                                    <div class="special-offer-catalog__card-favorite--default">
+                                        <div class="special-offer-catalog__card-favorite-default-tip">Добавить в избранное</div>
+                                    </div>
+
+                                    <div class="special-offer-catalog__card-favorite--active">
+                                        <div class="special-offer-catalog__card-favorite-active-tip">Удалить из избранного</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="special-offer-catalog__card">
+
+                        <a href="#" class="special-offer-catalog__card-link"></a>
+
+                        <div class="special-offer-catalog__stock" style="background-color: #0062bb;">
+                            Вот это акция!
+                        </div>
+
+                        <a href="" class="special-offer-catalog__card-photo">
+                            <img src="img/product-card.jpg" width="180px" alt="">
+                        </a>
+
+                        <div class="special-offer-catalog__card-departament">
+                            <p> Land rover - запчасти и обслуживание</p>
+                        </div>
+
+                        <div class="special-offer-catalog__card-descr">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nulla.
+                            </p>
+                        </div>
+                    
+                        <div class="special-offer-catalog__card-bottom">
+                            <div class="special-offer-catalog__card-price">
+                                <span>Цена от:</span>
+                                <div class="catalog-rub">320</div>
+                            </div>
+
+                            <div class="special-offer-catalog__card-buttons">
+
+                                <div class="special-offer-catalog__card-favorite-wrapper">
+
+                                    <div class="special-offer-catalog__card-favorite--default">
+                                        <div class="special-offer-catalog__card-favorite-default-tip">Добавить в избранное</div>
+                                    </div>
+
+                                    <div class="special-offer-catalog__card-favorite--active">
+                                        <div class="special-offer-catalog__card-favorite-active-tip">Удалить из избранного</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="special-offer-catalog__card">
+
+                        <a href="#" class="special-offer-catalog__card-link"></a>
+
+                        <div class="special-offer-catalog__stock" style="background-color: #01B047;">
+                            Доступно для заказа!
+                        </div>
+
+                        <a href="" class="special-offer-catalog__card-photo">
+                            <img src="img/product-card.jpg" width="180px" alt="">
+                        </a>
+
+                        <div class="special-offer-catalog__card-departament">
+                            <p> Land rover - запчасти и обслуживание</p>
+                        </div>
+
+                        <div class="special-offer-catalog__card-descr">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nulla.
+                            </p>
+                        </div>
+                    
+                        <div class="special-offer-catalog__card-bottom">
+                            <div class="special-offer-catalog__card-price">
+                                <span>Цена от:</span>
+                                <div class="catalog-rub">1 800 000</div>
+                            </div>
+
+                            <div class="special-offer-catalog__card-buttons">
+
+                                <div class="special-offer-catalog__card-favorite-wrapper">
+
+                                    <div class="special-offer-catalog__card-favorite--default">
+                                        <div class="special-offer-catalog__card-favorite-default-tip">Добавить в избранное</div>
+                                    </div>
+
+                                    <div class="special-offer-catalog__card-favorite--active">
+                                        <div class="special-offer-catalog__card-favorite-active-tip">Удалить из избранного</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+                
+
+            </section>
+             <!-- Show more button-->
+           <button class="show-more"><img src="img/news/show-more-icon.svg" alt="" class="show-more__icon">Показать еще</button>
+
+           
+            
+            
+        </main>
+
+        <footer class="footer">
+
+            <!-- footer preambula -->
+            <div class="footer__preambula">
+                <p>Преамбула футера с какой-то очень интересной информацией</p>
+            </div>
+
+            <!-- footer social -->
+            <ul class="footer__social-list">
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--utube" href="https://www.youtube.com/"></a>
+                </li>
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--vk" href="https://vk.com/"></a>
+                </li>
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--fbook" href="https://www.facebook.com/"></a>
+                </li>
+
+                <li class="footer__social-item">
+                    <a class="footer__social-item--insta" href="https://www.instagram.com/"></a>
+                </li>
+
+            </ul>
+
+            <!-- footer contain container -->
+            <div class="footer-contain">
+
+                <!-- footer contacts -->
+                <div class="footer__contacts footer-contacts">
+
+                    <img class="footer-contacts__logo" src="img/footer/footer-logo.png" alt="">
+                    <div class="footer-contacts__tel">
+                        <a class="footer-contacts__tel--icon-number" href="callto:+74956496060">+7 (495) 649 60 60</a>
+                        <a class="footer-contacts__tel--" href="callto:+74956496060">+7 (495) 649 60 60</a>
+                    </div>
+
+                </div>
+
+                <!-- footer panel -->
+                <div class="footer__panel footer-panel">
+
+                    <!-- footer panel list -->
+                    <ul class="footer-panel__list">
+
+                        <li class="footer-panel__item">
+                            <a class="footer-panel__item--contact" href="#">Контакты</a>
+                        </li>
+
+                        <li class="footer-panel__item">
+                            <a class="footer-panel__item--map" href="#">Схема проезда</a>
+                        </li>
+
+                        <li class="footer-panel__item">
+                            <a class="footer-panel__item--clock" href="#">Часы работы</a>
+                        </li>
+
+                    </ul>
+
+                    <!-- footer panel buttons -->
+                    <div class="footer-panel__buttons">
+                        
+                        <a class="footer-panel__button footer-panel__button--call" href="#">
+                            звонок
+                        </a>
+
+                        <a class="footer-panel__button footer-panel__button--chat" href="#">
+                            онлайн чат
+                        </a>
+
+                        <a class="footer-panel__button footer-panel__button--review" href="#">
+                            отзывы и пожелания
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- footer information block -->
+            <div class="footer__information">
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">какая-то информация о магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">какая-то информация об еще одном магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+            </div>
+
+            <div class="footer__information-separator"></div>
+
+            <!-- footer information block -->
+            <div class="footer__information">
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">какая-то очень длинная информация о магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+
+                <!-- footer information list -->
+                <ul class="footer__information-list">
+
+                    <div class="footer__information-title">информация о магазине</div>
+    
+                    <li class="footer__information-item">
+                        <a href="#">О Компании</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Сотрудничество</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Реквизиты</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Оптовикам</a>
+                    </li>
+    
+                    <li class="footer__information-item">
+                        <a href="#">Вакансии</a>
+                    </li>
+    
+                </ul>
+
+            </div>
+            
+            <!-- footer copyright -->
+            <div class="footer__copyright">
+                <p>© Copyright 2013-2021. All rights is reserved</p>
+            </div>
+        </footer>
+    </div>  
+    <script src="js/script.js"></script>
+</body>
+</html>

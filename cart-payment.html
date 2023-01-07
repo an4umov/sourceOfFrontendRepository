@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LR.RU &ndash; Cart</title>
+
+    <link rel="preload" href="font/open-sans-v18-latin-300.woff2" as="font" crossorigin> 
+    <link rel="preload" href="font/open-sans-v18-latin-800.woff2" as="font" crossorigin>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+    <body class="page-body">
+        <div class="page-body__container">
+
+            <!-- Header cart -->
+            <header class="header-cart">
+
+                <!-- header cart mobile -->
+                <div class="header-cart-mobile">
+
+                    <!-- logo -->
+                    <a href="index.html" class="header-cart-mobile__logo">
+                        <img src="img/header-logo.svg" alt="">
+                    </a>
+
+                    <div class="header-cart-mobile__inner">
+
+                        <!-- info -->
+                        <div class="header-cart-mobile__info">
+
+                            <!-- location -->
+                            <div class="header-cart-mobile__user-location">
+                                Мы доставляем в ваш город: <span>Москва</span>
+                            </div>
+
+                            <!-- phone -->
+                            <div class="header-cart-mobile__phone">
+                                +7 495 649 60 60
+                            </div>
+
+                        </div>
+
+                        <!-- panel -->
+                        <div class="header-cart-mobile__panel">
+
+                            <!-- navigation -->
+                            <ul class="header-cart-mobile__nav-list">
+
+                                <li class="header-cart-mobile__nav-item header-cart-mobile__nav-item--current"><a href="#">корзина</a></li>
+                                <li class="header-cart-mobile__nav-item"><a href="#">покупатель</a></li>
+                                <li class="header-cart-mobile__nav-item"><a href="#">получение</a></li>
+                                <li class="header-cart-mobile__nav-item"><a href="#">оплата</a></li>
+                                <li class="header-cart-mobile__nav-item"><a href="#">отправить</a></li>
+
+                            </ul>
+
+                            <!-- user -->
+                            <div class="header-cart-mobile__user">
+
+                                <a href="" class="header-cart-mobile__favorites">
+                                    <img src="img/favorites-icon.svg" alt="">
+                                    <span>7</span>
+                                </a>
+
+                                <a href="" class="header-cart-mobile__shopping-cart">
+                                    <img src="img/shopping-cart-icon.svg" alt="">
+                                    <span>12</span>
+                                </a>
+
+                                <div class="header-cart-mobile__hamburger">
+
+                                    <div class="header-cart-mobile__hamburger-btn">
+                                        <a class="header-cart-mobile__hamburger-btn-icon" >
+                                            <span class="hb-line-1"></span>
+                                            <span class="hb-line-2"></span>
+                                            <span class="hb-line-3"></span>
+                                        </a>
+                                    </div>
+
+                                    <div class="header-cart-mobile__hamburger-menu" style="display: none;">
+
+                                        <div class="header-cart-mobile__hamburger-enter"><a href="#">Вход</a></div>
+
+                                        <ul class="header-cart-mobile__hamburger-links">
+
+                                            <li class="header-cart-mobile__hamburger-link"><a href="#">Faq</a></li>
+                                            <li class="header-cart-mobile__hamburger-link"><a href="#">Контакты</a></li>
+
+                                        </ul>
+
+                                        <a href="#" class="header-cart-mobile__hamburger-call-btn">позвонить</a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- header cart desktop -->
+                <div class="header-cart-desktop">
+                    
+                    <!-- logo -->
+                    <a href="index.html" class="header-cart-desktop__logo">
+                        <img src="img/header-logo.svg" alt="">
+                    </a>
+
+                    <div class="header-cart-desktop__inner">
+
+                        <!-- info -->
+                        <div class="header-cart-desktop__info">
+
+                            <!-- location -->
+                            <div class="header-cart-desktop__user-location">
+                                Мы доставляем в ваш город: <span>Москва</span>
+                            </div>
+
+                            <div class="header-cart-desktop__info-wrapper">
+
+                                <!-- phone -->
+                                <ul class="header-cart-desktop__phone">
+                                    <li class="header-cart-desktop__number"><a>+7 (495) 649 60 60</a></li>
+                                    <li class="header-cart-desktop__number"><a>+7 (495) 649 60 60</a></li>
+                                </ul>
+
+                                <!-- links -->
+                                <ul class="header-cart-desktop__links">
+                                    <li class="header-cart-desktop__link"><a href="#">FAQ</a></li>
+                                    <li class="header-cart-desktop__link"><a href="#">Контакты</a></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                        <!-- panel -->
+                        <div class="header-cart-desktop__panel">
+                            <!-- navigation -->
+                            <ul class="header-cart-desktop__nav-list">
+                                <li class="header-cart-desktop__nav-item"><a href="cart.html">корзина</a></li>
+                                <li class="header-cart-desktop__nav-item"><a href="cart-customer.html">покупатель</a></li>
+                                <li class="header-cart-desktop__nav-item"><a href="cart-delivery.html">получение</a></li>
+                                <li class="header-cart-desktop__nav-item header-cart-desktop__nav-item--current"><a href="cart-payment.html">оплата</a></li>
+                                <li class="header-cart-desktop__nav-item"><a href="cart-confirmation.html">отправить</a></li>
+                            </ul>
+
+
+                            <!-- user -->
+                            <div class="header-cart-desktop__user">
+
+                                <a href="" class="header-cart-desktop__favorites">
+                                    <img src="img/favorites-icon.svg" alt="">
+                                    <span>7</span>
+                                    <p>Избранное</p>
+                                </a>
+
+                                <a href="" class="header-cart-desktop__shopping-cart">
+                                    <img src="img/shopping-cart-icon.svg" alt="">
+                                    <span>12</span>
+                                    <p>Корзина</p>
+                                </a>
+
+                                <a href="" class="header-cart-desktop__enter">
+                                    <img src="img/enter-icon.svg" alt="">
+                                    <p>Вход</p>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </header>
+
+            <!-- Cart payment section -->
+            <section class="cart-payment">
+
+                <!-- title -->
+                <h1 class="cart-payment__title">выберите способ оплаты</h1>
+
+                <!-- tabs -->
+                <div class="cart-payment__tabs">
+
+                    <input class="cart-payment__tab-input" id="cart-payment-tab-1" type="radio" name="tab-group" checked>
+                    <label class="cart-payment__tab-label" for="cart-payment-tab-1">банковской картой</label>
+            
+                    <input class="cart-payment__tab-input" id="cart-payment-tab-2" type="radio" name="tab-group">
+                    <label class="cart-payment__tab-label" for="cart-payment-tab-2">наличными</label>
+
+                    <input class="cart-payment__tab-input" id="cart-payment-tab-3" type="radio" name="tab-group">
+                    <label class="cart-payment__tab-label" for="cart-payment-tab-3">наличными - юр.лицо</label>
+            
+                    <input class="cart-payment__tab-input" id="cart-payment-tab-4" type="radio" name="tab-group">
+                    <label class="cart-payment__tab-label" for="cart-payment-tab-4">безналичными - юр.лицо</label>
+
+                    <!-- tabcontent -->
+                    <div class="cart-payment__tabcontent-inner">
+
+                        <!-- tabcontent 1 -->
+                        <div class="cart-payment__tabcontent-1">
+
+                            <div class="cart-payment__tabcontent-wrapper">
+
+                                <div class="cart-payment__option-inner">
+
+                                    <!-- comment form -->
+                                    <div class="cart-payment__option">
+    
+                                        <div class="cart-payment__option-info">
+                                            <label class="cart-payment__option-info-title">Мы рекомендуем</label>
+                                            <div class="cart-payment__option-info-wrapper">
+                                                <div class="cart-payment__option-info-pic">
+                                                    <img src="img/cart/cart-payment-wallet.svg" alt="">
+                                                </div>
+                                                <div class="cart-payment__option-info-text">
+                                                    Наличными и картой в магазине
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="cart-payment__select-btn">
+                                            <input type="radio" class="cart-payment__select-btn-radio" id="cart-payment__select-btn-card" name="select-payment" value="card">
+                                            <label for="cart-payment__select-btn-card">Выбрать этот способ оплаты</label>
+                                        </div>
+    
+                                    </div>
+    
+                                    <!-- info -->
+                                    <div class="cart-payment__info cart-payment-info">
+                                        <div class="cart-payment-info__description">
+                                            <p> 
+                                                Вы можете оплатить покупки при личном визите в наш магазин по адресу улица Пушкина, дом Колотушкина. Просить принять во внимание, что магазин работает с 9 до 21 часа кроме понедельника. 
+                                                Вы можете оплатить покупки при личном визите в наш магазин по адресу улица Пушкина, дом Колотушкина. Просить принять во внимание, что магазин работает с 9 до 21 часа кроме понедельника
+                                                Вы можете оплатить покупки при личном визите в наш магазин по адресу улица Пушкина, дом Колотушкина. Просить принять во внимание, что магазин работает с 9 до 21 часа кроме понедельника
+                                            </p>
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+                                <div class="cart-payment-next-step-btn__inner">
+    
+                                    <a href="cart-confirmation.html" class="cart-payment__next-step-btn cart-payment-next-step-btn">
+                                        <div class="cart-payment-next-step-btn__text">далее к подтверждению заказа</div>
+                                        <div class="cart-payment-next-step-btn__icon"></div>
+                                    </a>
+    
+                                </div>
+
+                            </div>
+                
+                        </div>
+
+                        <!-- tabcontent 2 -->
+                        <div class="cart-payment__tabcontent-2">
+                            
+                            <div class="cart-payment__tabcontent-wrapper">
+
+                                <div class="cart-payment__option-inner">
+
+                                    <!-- comment form -->
+                                    <div class="cart-payment__option">
+    
+                                        <div class="cart-payment__option-info">
+                                            <label class="cart-payment__option-info-title">Мы рекомендуем</label>
+                                            <div class="cart-payment__option-info-wrapper">
+                                                <div class="cart-payment__option-info-pic">
+                                                    <img src="img/cart/cart-payment-wallet.svg" alt="">
+                                                </div>
+                                                <div class="cart-payment__option-info-text">
+                                                    Наличными и картой в магазине
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="cart-payment__select-btn">
+                                            <input type="radio" class="cart-payment__select-btn-radio" id="cart-payment__select-btn-cash" name="select-payment" value="cash">
+                                            <label for="cart-payment__select-btn-cash">Выбрать этот способ оплаты</label>
+                                        </div>
+    
+                                    </div>
+    
+                                    <!-- info -->
+                                    <div class="cart-payment__info cart-payment-info">
+                                        <div class="cart-payment-info__description">
+                                            <p> 
+                                                Вы можете оплатить покупки при личном визите в наш магазин по адресу улица Пушкина, дом Колотушкина. Просить принять во внимание, что магазин работает с 9 до 21 часа кроме понедельника. 
+                                                Вы можете оплатить покупки при личном визите в наш магазин по адресу улица Пушкина, дом Колотушкина. Просить принять во внимание, что магазин работает с 9 до 21 часа кроме понедельника
+                                                Вы можете оплатить покупки при личном визите в наш магазин по адресу улица Пушкина, дом Колотушкина. Просить принять во внимание, что магазин работает с 9 до 21 часа кроме понедельника
+                                            </p>
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+                                <div class="cart-payment-next-step-btn__inner">
+    
+                                    <a href="cart-confirmation.html" class="cart-payment__next-step-btn cart-payment-next-step-btn">
+                                        <div class="cart-payment-next-step-btn__text">далее к подтверждению заказа</div>
+                                        <div class="cart-payment-next-step-btn__icon"></div>
+                                    </a>
+    
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- tabcontent 3 -->
+                        <div class="cart-payment__tabcontent-3">
+                            <div class="cart-payment__tabcontent-wrapper">
+
+                                <div class="cart-payment__option-inner">
+
+                                    <!-- comment form -->
+                                    <div class="cart-payment__option">
+    
+                                        <div class="cart-payment__option-info">
+                                            <label class="cart-payment__option-info-title">Мы рекомендуем</label>
+                                            <div class="cart-payment__option-info-wrapper">
+                                                <div class="cart-payment__option-info-pic">
+                                                    <img src="img/cart/cart-payment-wallet.svg" alt="">
+                                                </div>
+                                                <div class="cart-payment__option-info-text">
+                                                    Наличными и картой в магазине
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="cart-payment__select-btn">
+                                            <input type="radio" class="cart-payment__select-btn-radio" id="cart-payment__select-btn-cash-entity" name="select-payment" value="cash-entity">
+                                            <label for="cart-payment__select-btn-cash-entity">Выбрать этот способ оплаты</label>
+                                        </div>
+    
+                                    </div>
+
+                                    <!-- info -->
+                                    <div class="cart-payment__info cart-payment-info">
+                                        <div class="cart-payment-info__description">
+                                            <p> 
+                                                Вы можете оплатить покупки при личном визите в наш магазин по адресу улица Пушкина, дом Колотушкина. Просить принять во внимание, что магазин работает с 9 до 21 часа кроме понедельника. 
+                                                Вы можете оплатить покупки при личном визите в наш магазин по адресу улица Пушкина, дом Колотушкина. Просить принять во внимание, что магазин работает с 9 до 21 часа кроме понедельника
+                                                Вы можете оплатить покупки при личном визите в наш магазин по адресу улица Пушкина, дом Колотушкина. Просить принять во внимание, что магазин работает с 9 до 21 часа кроме понедельника
+                                            </p>
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+                                <div class="cart-payment-next-step-btn__inner">
+    
+                                    <a href="cart-confirmation.html" class="cart-payment__next-step-btn cart-payment-next-step-btn">
+                                        <div class="cart-payment-next-step-btn__text">далее к подтверждению заказа</div>
+                                        <div class="cart-payment-next-step-btn__icon"></div>
+                                    </a>
+    
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- tabcontent 4 -->
+                        <div class="cart-payment__tabcontent-4">
+                                  
+                            <!-- cart-payment-error banner -->
+                            <div class="cart-payment__payment-error cart-payment-error">
+
+                                <div class="cart-payment-error__inner">
+
+                                    <div class="cart-payment-error__picture">
+                                        <img src="img/cart/cart-payment-error-pic.svg" alt="">
+                                    </div>
+
+                                    <div class="cart-payment-error__description-inner">
+
+                                        <div class="cart-payment-error__description">выбранный вами способ оплаты недоступен</div>
+                                        <div class="cart-payment-error__description">для оплаты измените <a>способ получения</a></div>
+                                        <div class="cart-payment-error__description">или выберите другой способ оплаты</div>
+                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </section>
+
+
+            <footer class="footer">
+
+                <!-- footer preambula -->
+                <div class="footer__preambula">
+                    <p>Преамбула футера с какой-то очень интересной информацией</p>
+                </div>
+
+                <!-- footer social -->
+                <ul class="footer__social-list">
+
+                    <li class="footer__social-item">
+                        <a class="footer__social-item--utube" href="https://www.youtube.com/"></a>
+                    </li>
+
+                    <li class="footer__social-item">
+                        <a class="footer__social-item--vk" href="https://vk.com/"></a>
+                    </li>
+
+                    <li class="footer__social-item">
+                        <a class="footer__social-item--fbook" href="https://www.facebook.com/"></a>
+                    </li>
+
+                    <li class="footer__social-item">
+                        <a class="footer__social-item--insta" href="https://www.instagram.com/"></a>
+                    </li>
+
+                </ul>
+
+                <!-- footer contain container -->
+                <div class="footer-contain">
+
+                    <!-- footer contacts -->
+                    <div class="footer__contacts footer-contacts">
+
+                        <img class="footer-contacts__logo" src="img/footer/footer-logo.png" alt="">
+                        <div class="footer-contacts__tel">
+                            <a class="footer-contacts__tel--icon-number" href="callto:+74956496060">+7 (495) 649 60 60</a>
+                            <a class="footer-contacts__tel--" href="callto:+74956496060">+7 (495) 649 60 60</a>
+                        </div>
+
+                    </div>
+
+                    <!-- footer panel -->
+                    <div class="footer__panel footer-panel">
+
+                        <!-- footer panel list -->
+                        <ul class="footer-panel__list">
+
+                            <li class="footer-panel__item">
+                                <a class="footer-panel__item--contact" href="#">Контакты</a>
+                            </li>
+
+                            <li class="footer-panel__item">
+                                <a class="footer-panel__item--map" href="#">Схема проезда</a>
+                            </li>
+
+                            <li class="footer-panel__item">
+                                <a class="footer-panel__item--clock" href="#">Часы работы</a>
+                            </li>
+
+                        </ul>
+
+                        <!-- footer panel buttons -->
+                        <div class="footer-panel__buttons">
+                            
+                            <a class="footer-panel__button footer-panel__button--call" href="#">
+                                звонок
+                            </a>
+
+                            <a class="footer-panel__button footer-panel__button--chat" href="#">
+                                онлайн чат
+                            </a>
+
+                            <a class="footer-panel__button footer-panel__button--review" href="#">
+                                отзывы и пожелания
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- footer information block -->
+                <div class="footer__information">
+
+                    <!-- footer information list -->
+                    <ul class="footer__information-list">
+
+                        <div class="footer__information-title">какая-то информация о магазине</div>
+        
+                        <li class="footer__information-item">
+                            <a href="#">О Компании</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Сотрудничество</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Реквизиты</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Оптовикам</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Вакансии</a>
+                        </li>
+        
+                    </ul>
+
+                    <!-- footer information list -->
+                    <ul class="footer__information-list">
+
+                        <div class="footer__information-title">какая-то информация об еще одном магазине</div>
+        
+                        <li class="footer__information-item">
+                            <a href="#">О Компании</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Сотрудничество</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Реквизиты</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Оптовикам</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Вакансии</a>
+                        </li>
+        
+                    </ul>
+                </div>
+
+                <div class="footer__information-separator"></div>
+
+                <!-- footer information block -->
+                <div class="footer__information">
+
+                    <!-- footer information list -->
+                    <ul class="footer__information-list">
+
+                        <div class="footer__information-title">какая-то очень длинная информация о магазине</div>
+        
+                        <li class="footer__information-item">
+                            <a href="#">О Компании</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Сотрудничество</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Реквизиты</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Оптовикам</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Вакансии</a>
+                        </li>
+        
+                    </ul>
+
+                    <!-- footer information list -->
+                    <ul class="footer__information-list">
+
+                        <div class="footer__information-title">информация о магазине</div>
+        
+                        <li class="footer__information-item">
+                            <a href="#">О Компании</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Сотрудничество</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Реквизиты</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Оптовикам</a>
+                        </li>
+        
+                        <li class="footer__information-item">
+                            <a href="#">Вакансии</a>
+                        </li>
+        
+                    </ul>
+
+                </div>
+                
+                <!-- footer copyright -->
+                <div class="footer__copyright">
+                    <p>© Copyright 2013-2021. All rights is reserved</p>
+                </div>
+            </footer>
+        </div>  
+        <script src="js/script.js"></script>
+    </body>
+</html>
